@@ -1,19 +1,3 @@
-/*
- * Copyright 2011 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package com.google.android.apps.iosched.ui;
 
 import com.google.android.apps.iosched.R;
@@ -78,8 +62,15 @@ public class ScheduleFragment extends Fragment implements
     private static final int TIME_FLAGS = DateUtils.FORMAT_SHOW_DATE
             | DateUtils.FORMAT_SHOW_WEEKDAY | DateUtils.FORMAT_ABBREV_WEEKDAY;
 
-    private static final long TUE_START = ParserUtils.parseTime("2011-05-10T00:00:00.000-07:00");
-    private static final long WED_START = ParserUtils.parseTime("2011-05-11T00:00:00.000-07:00");
+//    private static final long TUE_START = ParserUtils.parseTime("2011-05-10T00:00:00.000-07:00");
+//    private static final long WED_START = ParserUtils.parseTime("2011-05-11T00:00:00.000-07:00");
+
+  private static final long TUE_START = ParserUtils.parseTime("2011-08-09T00:00:00.000-07:00");
+  private static final long WED_START = ParserUtils.parseTime("2011-08-10T00:00:00.000-07:00");
+  private static final long THU_START = ParserUtils.parseTime("2011-08-11T00:00:00.000-07:00");
+  private static final long SOME_SHIT = ParserUtils.parseTime("2011-05-11T00:00:00.000-07:00");
+
+
 
     private static final int DISABLED_BLOCK_ALPHA = 100;
 
@@ -177,6 +168,8 @@ public class ScheduleFragment extends Fragment implements
 
         setupDay(inflater, TUE_START);
         setupDay(inflater, WED_START);
+        setupDay(inflater, THU_START);
+        setupDay(inflater, SOME_SHIT);
 
         updateWorkspaceHeader(0);
         mWorkspace.setOnScrollListener(new Workspace.OnScrollListener() {
@@ -227,6 +220,7 @@ public class ScheduleFragment extends Fragment implements
 
         TimeZone.setDefault(UIUtils.CONFERENCE_TIME_ZONE);
         day.label = DateUtils.formatDateTime(getActivity(), startMillis, TIME_FLAGS);
+        
 
         mWorkspace.addView(day.rootView);
         mDays.add(day);
@@ -306,6 +300,7 @@ public class ScheduleFragment extends Fragment implements
 
                 final BlockView blockView = new BlockView(getActivity(), blockId, title, start, end,
                         containsStarred, column);
+                final BlockView blockViewTest = new BlockView(getActivity(), blockId, title, start, end, containsStarred, column);
 
                 final int sessionsCount = cursor.getInt(BlocksQuery.SESSIONS_COUNT);
                 if (sessionsCount > 0) {
@@ -329,6 +324,7 @@ public class ScheduleFragment extends Fragment implements
     public void onClick(View view) {
         if (view instanceof BlockView) {
             String title = ((BlockView)view).getText().toString();
+
             AnalyticsUtils.getInstance(getActivity()).trackEvent(
                     "Schedule", "Session Click", title, 0);
             final String blockId = ((BlockView) view).getBlockId();
