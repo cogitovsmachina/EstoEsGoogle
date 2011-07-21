@@ -446,7 +446,7 @@ public class SessionDetailFragment extends Fragment implements
             case R.id.menu_map:
                 intent = new Intent(getActivity().getApplicationContext(),
                         UIUtils.getMapActivityClass(getActivity()));
-                intent.putExtra(MapFragment.EXTRA_ROOM, mRoomId);
+                ////////////intent.putExtra(MapFragment.EXTRA_ROOM, mRoomId);
                 startActivity(intent);
                 return true;
 

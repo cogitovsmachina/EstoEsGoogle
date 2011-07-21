@@ -169,7 +169,7 @@ public class MapMultiPaneActivity extends BaseMultiPaneActivity implements
         View detailPopup = findViewById(R.id.map_detail_popup);
         if (show != (detailPopup.getVisibility() == View.VISIBLE)) {
             detailPopup.setVisibility(show ? View.VISIBLE : View.GONE);
-            mMapFragment.panLeft(show ? 0.25f : -0.25f);
+            //mMapFragment.panLeft(show ? 0.25f : -0.25f);
         }
     }
 

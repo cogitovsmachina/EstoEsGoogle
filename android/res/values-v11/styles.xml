@@ -36,8 +36,9 @@
         <item name="android:titleTextStyle">@style/ActionBarText</item>
     </style>
 
-    <style name="ActionBarText" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <style name="ActionBarText">
         <item name="android:textColor">@color/accent_1</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
     </style>
 </resources>

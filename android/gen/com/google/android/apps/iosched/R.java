@@ -459,16 +459,17 @@ containing a value of this type.
         public static final int list_item_track=0x7f030018;
         public static final int list_item_vendor=0x7f030019;
         public static final int list_item_vendor_oneline=0x7f03001a;
-        public static final int speaker_detail=0x7f03001b;
-        public static final int tab_indicator=0x7f03001c;
-        public static final int tab_session_links=0x7f03001d;
-        public static final int tab_session_notes=0x7f03001e;
-        public static final int tab_session_summary=0x7f03001f;
-        public static final int tabs_container=0x7f030020;
-        public static final int whats_on_countdown=0x7f030021;
-        public static final int whats_on_now_playing=0x7f030022;
-        public static final int whats_on_stream=0x7f030023;
-        public static final int whats_on_thank_you=0x7f030024;
+        public static final int new_map=0x7f03001b;
+        public static final int speaker_detail=0x7f03001c;
+        public static final int tab_indicator=0x7f03001d;
+        public static final int tab_session_links=0x7f03001e;
+        public static final int tab_session_notes=0x7f03001f;
+        public static final int tab_session_summary=0x7f030020;
+        public static final int tabs_container=0x7f030021;
+        public static final int whats_on_countdown=0x7f030022;
+        public static final int whats_on_now_playing=0x7f030023;
+        public static final int whats_on_stream=0x7f030024;
+        public static final int whats_on_thank_you=0x7f030025;
     }
     public static final class menu {
         public static final int default_menu_items=0x7f0d0000;
