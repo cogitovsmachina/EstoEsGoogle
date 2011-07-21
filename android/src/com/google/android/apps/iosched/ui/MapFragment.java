@@ -16,38 +16,36 @@
 
 package com.google.android.apps.iosched.ui;
 
-import com.google.android.apps.iosched.R;
-import com.google.android.apps.iosched.provider.ScheduleContract;
-import com.google.android.apps.iosched.provider.ScheduleContract.Rooms;
-import com.google.android.apps.iosched.util.AnalyticsUtils;
-import com.google.android.apps.iosched.util.ParserUtils;
-
-import android.content.Intent;
-import android.graphics.Bitmap;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebChromeClient;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
-import android.widget.Toast;
+
+import com.google.android.apps.iosched.R;
+import com.google.android.apps.iosched.util.AnalyticsUtils;
 
 /**
  * Shows a {@link WebView} with a map of the conference venue.
  */
 public class MapFragment extends Fragment {
+	
+	@Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        AnalyticsUtils.getInstance(getActivity()).trackPageView("/Map");
+    }
+	
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.new_map, container, false);
+    }
+    /*
     private static final String TAG = "MapFragment";
 
     /**
      * When specified, will automatically point the map to the requested room.
-     */
+     *
     public static final String EXTRA_ROOM = "com.google.android.iosched.extra.ROOM";
 
     private static final String MAP_JSI_NAME = "MAP_CONTAINER";
@@ -124,7 +122,7 @@ public class MapFragment extends Fragment {
     /**
      * Helper method to escape JavaScript strings. Useful when passing strings to a WebView via
      * "javascript:" calls.
-     */
+     *
     private static String escapeJsString(String s) {
         if (s == null) {
             return "";
@@ -139,7 +137,7 @@ public class MapFragment extends Fragment {
 
     /**
      * I/O Conference Map JavaScript interface.
-     */
+     *
     private interface MapJsi {
         void openContentInfo(String test);
         void onMapReady();
@@ -214,5 +212,5 @@ public class MapFragment extends Fragment {
 
             mMapInitialized = true;
         }
-    };
+    };*/
 }

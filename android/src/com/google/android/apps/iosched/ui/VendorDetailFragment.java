@@ -218,8 +218,8 @@ public class VendorDetailFragment extends Fragment implements
             // The room ID for the sandbox, in the map, is just the track ID
             final Intent intent = new Intent(getActivity().getApplicationContext(),
                     UIUtils.getMapActivityClass(getActivity()));
-            intent.putExtra(MapFragment.EXTRA_ROOM,
-                    ParserUtils.translateTrackIdAliasInverse(mTrackId));
+            /////////intent.putExtra(MapFragment.EXTRA_ROOM,
+            /////////        ParserUtils.translateTrackIdAliasInverse(mTrackId));
             startActivity(intent);
             return true;
         }

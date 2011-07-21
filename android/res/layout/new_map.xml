@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#fff"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:text="Aquí va el mapa!"
+	android:textSize="30dp"
+	android:textColor="#000"
+	android:gravity="center"/>
