@@ -36,6 +36,9 @@ public class ParserUtils {
     public static final String BLOCK_TYPE_FOOD = "food";
     public static final String BLOCK_TYPE_SESSION = "session";
     public static final String BLOCK_TYPE_OFFICE_HOURS = "officehours";
+    public static final String SOME_SHIT = "someshit";
+
+    
 
     
 

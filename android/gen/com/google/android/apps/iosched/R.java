@@ -516,6 +516,8 @@ containing a value of this type.
         public static final int eula_title=0x7f0a004e;
         public static final int moderator_header=0x7f0a003d;
         public static final int note_template=0x7f0a004d;
+        /**     <string name="notes_catch_market_subtitle">You can take notes for Google I/O sessions using the latest version of Catch Notes, available from Android Market.</string> 
+         */
         public static final int notes_catch_market_subtitle=0x7f0a0049;
         public static final int notes_catch_market_title=0x7f0a0048;
         public static final int notes_catch_new_title=0x7f0a004a;

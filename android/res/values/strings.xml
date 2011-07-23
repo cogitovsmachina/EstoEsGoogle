@@ -51,17 +51,17 @@
     <string name="all_sessions_title">All sessions</string>
     <string name="all_sessions_subtitle">Tap to filter sessions by track.</string>
 
-    <string name="empty_sessions">No sessions found</string>
-    <string name="empty_session_detail">No session details found</string>
+    <string name="empty_sessions">No se encontraron sesiones</string>
+    <string name="empty_session_detail">No hay detalles de sesión</string>
     <string name="empty_vendors">No sandbox results found</string>
-    <string name="empty_search">No search results found</string>
-    <string name="empty_links">No links available</string>
+    <string name="empty_search">No hay resultados de la búsqueda</string>
+    <string name="empty_links">No hay links disponibles</string>
 
-    <string name="session_summary">Summary</string>
-    <string name="session_notes">Notes</string>
+    <string name="session_summary">Resumen</string>
+    <string name="session_notes">Notas</string>
     <string name="session_links">Links</string>
-    <string name="session_requirements">Requirements</string>
-    <string name="session_speakers">Speakers</string>
+    <string name="session_requirements">Requisitos</string>
+    <string name="session_speakers">Conferencistas</string>
 
     <string name="tag_stream">Realtime stream for</string>
     
@@ -89,7 +89,7 @@
     <string name="dialog_moderator_message">The official Google Moderator app is available in Market, would you like to install it or continue using a normal browser?</string>
 
     <string name="dialog_moderator_web">Use Browser</string>
-    <string name="dialog_moderator_market">Visit Market</string>
+    <string name="dialog_moderator_market">Visita Android Market</string>
 
     <plurals name="whats_on_countdown_title">
         <item quantity="zero"><xliff:g id="remaining_time">%2$s</xliff:g>\nuntil Google I/O</item>
@@ -106,9 +106,10 @@
     <string name="toast_now_not_visible">Press this button during Google I/O to show the current time.</string>
 
     <!-- Notes integration -->
-    <string name="notes_catch_powered_by">Notes are powered by <a href="http://www.catch.com/">Catch.com</a>.</string>
-    <string name="notes_catch_market_title">Install Catch Notes</string>
-    <string name="notes_catch_market_subtitle">You can take notes for Google I/O sessions using the latest version of Catch Notes, available from Android Market.</string>
+    <string name="notes_catch_powered_by">Notas es desarrollado por <a href="http://www.catch.com/">Catch.com</a>.</string>
+    <string name="notes_catch_market_title">Descarga Catch Notes</string>
+ <!--    <string name="notes_catch_market_subtitle">You can take notes for Google I/O sessions using the latest version of Catch Notes, available from Android Market.</string> -->
+    <string name="notes_catch_market_subtitle">Puedes descargar Catch Notes para las sesiones de Esto Es Google utilizando la última versión de Catch Notes, disponible en Android Market. </string>
     <string name="notes_catch_new_title">Create a new note</string>
     <string name="notes_catch_view_title">View track notes</string>
     <string name="toast_notes_error_invoking">Error invoking Catch Notes.</string>

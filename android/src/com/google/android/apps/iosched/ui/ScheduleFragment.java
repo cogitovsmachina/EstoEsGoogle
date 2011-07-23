@@ -112,6 +112,7 @@ public class ScheduleFragment extends Fragment implements
         map.put(ParserUtils.BLOCK_TYPE_FOOD, 0);
         map.put(ParserUtils.BLOCK_TYPE_SESSION, 1);
         map.put(ParserUtils.BLOCK_TYPE_OFFICE_HOURS, 2);
+        map.put(ParserUtils.SOME_SHIT, 3);
         return map;
     }
 
@@ -169,6 +170,7 @@ public class ScheduleFragment extends Fragment implements
         setupDay(inflater, TUE_START);
         setupDay(inflater, WED_START);
         setupDay(inflater, THU_START);
+        setupDay(inflater, SOME_SHIT);
         setupDay(inflater, SOME_SHIT);
 
         updateWorkspaceHeader(0);
