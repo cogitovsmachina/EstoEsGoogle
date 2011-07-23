@@ -62,10 +62,10 @@
                 android:layout_height="fill_parent" />
         </LinearLayout>
 
-        <fragment android:name="com.google.android.apps.iosched.ui.WhatsOnFragment"
+        <!-- <fragment android:name="com.google.android.apps.iosched.ui.WhatsOnFragment"
             android:id="@+id/fragment_whats_on"
             android:layout_width="fill_parent"
-            android:layout_height="@dimen/whats_on_height" />
+            android:layout_height="@dimen/whats_on_height" /> -->
     </LinearLayout>
 
 </LinearLayout>

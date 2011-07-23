@@ -84,15 +84,15 @@ public class TagStreamFragment extends Fragment {
             public void run() {
                 mWebView.getSettings().setJavaScriptEnabled(true);
                 mWebView.getSettings().setJavaScriptCanOpenWindowsAutomatically(false);
-                try {
-                    mWebView.loadUrl(
-                            "http://www.google.com/search?tbs="
-                            + "mbl%3A1&hl=en&source=hp&biw=1170&bih=668&q="
-                            + URLEncoder.encode(mSearchString, "UTF-8")
-                            + "&btnG=Search");
-                } catch (UnsupportedEncodingException e) {
+                //try {
+                    mWebView.loadUrl("http://www.estoesgoogle.com/index.php");
+                            //"http://www.google.com/search?tbs="
+                            //+ "mbl%3A1&hl=en&source=hp&biw=1170&bih=668&q="
+                            //+ URLEncoder.encode(mSearchString, "UTF-8")
+                            //+ "&btnG=Search");
+                /*} catch (UnsupportedEncodingException e) {
                     Log.e(TAG, "Could not construct the realtime search URL", e);
-                }
+                }*/
             }
         });
 

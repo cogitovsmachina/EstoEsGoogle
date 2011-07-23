@@ -1,19 +1,3 @@
-/*
- * Copyright 2011 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package com.google.android.apps.iosched.util;
 
 import com.google.android.apps.iosched.io.XmlHandler;
@@ -32,6 +16,8 @@ import android.content.ContentResolver;
 import android.database.Cursor;
 import android.net.Uri;
 import android.text.format.Time;
+import android.util.Log;
+import android.widget.Toast;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -50,6 +36,8 @@ public class ParserUtils {
     public static final String BLOCK_TYPE_FOOD = "food";
     public static final String BLOCK_TYPE_SESSION = "session";
     public static final String BLOCK_TYPE_OFFICE_HOURS = "officehours";
+
+    
 
     // TODO: factor this out into a separate data file.
     public static final Set<String> LOCAL_TRACK_IDS = Sets.newHashSet(
@@ -137,6 +125,7 @@ public class ParserUtils {
         // okay for now since the database replaces on conflict.
         final ContentProviderOperation.Builder builder = ContentProviderOperation
                 .newInsert(Blocks.CONTENT_URI);
+
         final String blockId = Blocks.generateBlockId(startTime, endTime);
         builder.withValue(Blocks.BLOCK_ID, blockId);
         builder.withValue(Blocks.BLOCK_TITLE, title);

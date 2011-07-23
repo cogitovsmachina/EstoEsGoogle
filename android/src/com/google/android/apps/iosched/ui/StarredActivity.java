@@ -60,7 +60,6 @@ public class StarredActivity extends BaseMultiPaneActivity {
         mTabHost.setup();
 
         setupSessionsTab();
-        setupVendorsTab();
     }
 
     @Override
@@ -102,37 +101,6 @@ public class StarredActivity extends BaseMultiPaneActivity {
         mTabHost.addTab(mTabHost.newTabSpec(TAG_SESSIONS)
                 .setIndicator(buildIndicator(R.string.starred_sessions))
                 .setContent(R.id.fragment_sessions));
-    }
-
-    /**
-     * Build and add "vendors" tab.
-     */
-    private void setupVendorsTab() {
-        // TODO: this is very inefficient and messy, clean it up
-        FrameLayout fragmentContainer = new FrameLayout(this);
-        fragmentContainer.setId(R.id.fragment_vendors);
-        fragmentContainer.setLayoutParams(
-                new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT,
-                        ViewGroup.LayoutParams.FILL_PARENT));
-        ((ViewGroup) findViewById(android.R.id.tabcontent)).addView(fragmentContainer);
-
-        final Intent intent = new Intent(Intent.ACTION_VIEW, Vendors.CONTENT_STARRED_URI);
-
-        final FragmentManager fm = getSupportFragmentManager();
-
-        mVendorsFragment = (VendorsFragment) fm.findFragmentByTag("vendors");
-        if (mVendorsFragment == null) {
-            mVendorsFragment = new VendorsFragment();
-            mVendorsFragment.setArguments(intentToFragmentArguments(intent));
-            fm.beginTransaction()
-                    .add(R.id.fragment_vendors, mVendorsFragment, "vendors")
-                    .commit();
-        }
-
-        // Vendors content comes from reused activity
-        mTabHost.addTab(mTabHost.newTabSpec(TAG_VENDORS)
-                .setIndicator(buildIndicator(R.string.starred_vendors))
-                .setContent(R.id.fragment_vendors));
     }
 
     /**

@@ -43,7 +43,7 @@ public class HomeActivity extends BaseActivity {
     private static final String TAG = "HomeActivity";
 
     private TagStreamFragment mTagStreamFragment;
-    private SyncStatusUpdaterFragment mSyncStatusUpdaterFragment;
+    //private SyncStatusUpdaterFragment mSyncStatusUpdaterFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +58,7 @@ public class HomeActivity extends BaseActivity {
         setContentView(R.layout.activity_home);
         getActivityHelper().setupActionBar(null, 0);
 
-        FragmentManager fm = getSupportFragmentManager();
+        /*FragmentManager fm = getSupportFragmentManager();
 
         mTagStreamFragment = (TagStreamFragment) fm.findFragmentById(R.id.fragment_tag_stream);
 
@@ -70,7 +70,7 @@ public class HomeActivity extends BaseActivity {
                     SyncStatusUpdaterFragment.TAG).commit();
 
             triggerRefresh();
-        }
+        }*/
     }
 
 
@@ -79,7 +79,7 @@ public class HomeActivity extends BaseActivity {
         super.onPostCreate(savedInstanceState);
         getActivityHelper().setupHomeActivity();
     }
-
+    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.refresh_menu_items, menu);
@@ -90,12 +90,12 @@ public class HomeActivity extends BaseActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.menu_refresh) {
-            triggerRefresh();
+            Toast.makeText(getApplicationContext(), "REFRESH!", Toast.LENGTH_SHORT).show();
             return true;
         }
         return super.onOptionsItemSelected(item);
     }
-
+    
     private void triggerRefresh() {
         final Intent intent = new Intent(Intent.ACTION_SYNC, null, this, SyncService.class);
         intent.putExtra(SyncService.EXTRA_STATUS_RECEIVER, mSyncStatusUpdaterFragment.mReceiver);
@@ -108,12 +108,13 @@ public class HomeActivity extends BaseActivity {
 
     private void updateRefreshStatus(boolean refreshing) {
         getActivityHelper().setRefreshActionButtonCompatState(refreshing);
-    }
+    }*/
 
     /**
      * A non-UI fragment, retained across configuration changes, that updates its activity's UI
      * when sync status changes.
      */
+    /*
     public static class SyncStatusUpdaterFragment extends Fragment
             implements DetachableResultReceiver.Receiver {
         public static final String TAG = SyncStatusUpdaterFragment.class.getName();
@@ -129,7 +130,7 @@ public class HomeActivity extends BaseActivity {
             mReceiver.setReceiver(this);
         }
 
-        /** {@inheritDoc} */
+        /** {@inheritDoc} 
         public void onReceiveResult(int resultCode, Bundle resultData) {
             HomeActivity activity = (HomeActivity) getActivity();
             if (activity == null) {
@@ -163,5 +164,5 @@ public class HomeActivity extends BaseActivity {
             super.onActivityCreated(savedInstanceState);
             ((HomeActivity) getActivity()).updateRefreshStatus(mSyncing);
         }
-    }
+    }*/
 }
