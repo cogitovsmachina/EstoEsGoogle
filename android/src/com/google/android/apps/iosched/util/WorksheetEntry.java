@@ -18,11 +18,8 @@ package com.google.android.apps.iosched.util;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
-
 import android.text.format.DateUtils;
-
 import java.io.IOException;
-
 import static com.google.android.apps.iosched.util.ParserUtils.AtomTags.HREF;
 import static com.google.android.apps.iosched.util.ParserUtils.AtomTags.LINK;
 import static com.google.android.apps.iosched.util.ParserUtils.AtomTags.REL;

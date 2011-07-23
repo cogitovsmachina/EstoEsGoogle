@@ -42,7 +42,6 @@ import android.widget.TextView;
 public class SearchActivity extends BaseMultiPaneActivity {
 
     public static final String TAG_SESSIONS = "sessions";
-    public static final String TAG_VENDORS = "vendors";
 
     private String mQuery;
 
@@ -50,7 +49,6 @@ public class SearchActivity extends BaseMultiPaneActivity {
     private TabWidget mTabWidget;
 
     private SessionsFragment mSessionsFragment;
-    private VendorsFragment mVendorsFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,7 +68,6 @@ public class SearchActivity extends BaseMultiPaneActivity {
         mTabHost.setup();
 
         setupSessionsTab();
-        setupVendorsTab();
     }
 
     @Override
@@ -95,7 +92,6 @@ public class SearchActivity extends BaseMultiPaneActivity {
         mTabHost.setCurrentTab(0);
 
         mSessionsFragment.reloadFromArguments(getSessionsFragmentArguments());
-        mVendorsFragment.reloadFromArguments(getVendorsFragmentArguments());
     }
 
     /**
@@ -127,37 +123,7 @@ public class SearchActivity extends BaseMultiPaneActivity {
                 .setIndicator(buildIndicator(R.string.starred_sessions))
                 .setContent(R.id.fragment_sessions));
     }
-
-    /**
-     * Build and add "vendors" tab.
-     */
-    private void setupVendorsTab() {
-        // TODO: this is very inefficient and messy, clean it up
-        FrameLayout fragmentContainer = new FrameLayout(this);
-        fragmentContainer.setId(R.id.fragment_vendors);
-        fragmentContainer.setLayoutParams(
-                new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT,
-                        ViewGroup.LayoutParams.FILL_PARENT));
-        ((ViewGroup) findViewById(android.R.id.tabcontent)).addView(fragmentContainer);
-
-        final FragmentManager fm = getSupportFragmentManager();
-        mVendorsFragment = (VendorsFragment) fm.findFragmentByTag("vendors");
-        if (mVendorsFragment == null) {
-            mVendorsFragment = new VendorsFragment();
-            mVendorsFragment.setArguments(getVendorsFragmentArguments());
-            fm.beginTransaction()
-                    .add(R.id.fragment_vendors, mVendorsFragment, "vendors")
-                    .commit();
-        } else {
-            mVendorsFragment.reloadFromArguments(getVendorsFragmentArguments());
-        }
-
-        // Vendors content comes from reused activity
-        mTabHost.addTab(mTabHost.newTabSpec(TAG_VENDORS)
-                .setIndicator(buildIndicator(R.string.starred_vendors))
-                .setContent(R.id.fragment_vendors));
-    }
-
+    
     private Bundle getSessionsFragmentArguments() {
         return intentToFragmentArguments(
                 new Intent(Intent.ACTION_VIEW, Sessions.buildSearchUri(mQuery)));
@@ -205,9 +171,6 @@ public class SearchActivity extends BaseMultiPaneActivity {
     private void clearSelectedItems() {
         if (mSessionsFragment != null) {
             mSessionsFragment.clearCheckedPosition();
-        }
-        if (mVendorsFragment != null) {
-            mVendorsFragment.clearCheckedPosition();
         }
     }
 }
