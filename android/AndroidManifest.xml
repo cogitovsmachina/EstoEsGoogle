@@ -71,7 +71,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.dir/vnd.iosched.track" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.estoesgoogle.track" />
+              <!--   <data android:mimeType="vnd.android.cursor.dir/vnd.iosched.track" /> -->
             </intent-filter>
         </activity>
 

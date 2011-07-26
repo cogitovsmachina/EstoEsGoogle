@@ -164,8 +164,14 @@ public class ScheduleContract1 {
         public static final Uri CONTENT_URI =
                 BASE_CONTENT_URI.buildUpon().appendPath(PATH_BLOCKS).build();
 
+        
+        /////////////////
+       
+    //Hacked this part just to know if we can fix the onClick action in Dashboard Fragment
+//        public static final String CONTENT_TYPE =
+//                "vnd.android.cursor.dir/vnd.iosched.block";
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.iosched.block";
+            "vnd.android.cursor.dir/vnd.iosched.block";
         public static final String CONTENT_ITEM_TYPE =
                 "vnd.android.cursor.item/vnd.iosched.block";
 
@@ -229,9 +235,9 @@ public class ScheduleContract1 {
                 BASE_CONTENT_URI.buildUpon().appendPath(PATH_TRACKS).build();
 
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.iosched.track";
+                "vnd.android.cursor.dir/vnd.estoesgoogle.track";
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.iosched.track";
+                "vnd.android.cursor.item/vnd.estoesgoogle.track";
 
         /** Count of {@link Sessions} inside given track. */
         public static final String SESSIONS_COUNT = "sessions_count";
