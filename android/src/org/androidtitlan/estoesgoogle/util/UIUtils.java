@@ -45,8 +45,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Blocks;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Rooms;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Blocks;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Rooms;
 import org.androidtitlan.estoesgoogle.ui.phone.MapActivity;
 import org.androidtitlan.estoesgoogle.ui.tablet.MapMultiPaneActivity;
 

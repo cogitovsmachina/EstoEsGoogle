@@ -17,10 +17,10 @@
 package org.androidtitlan.estoesgoogle.io;
 
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Sessions;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Speakers;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Vendors;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Sessions;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Speakers;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Vendors;
 import org.androidtitlan.estoesgoogle.util.Lists;
 import org.androidtitlan.estoesgoogle.util.Maps;
 import org.androidtitlan.estoesgoogle.util.ParserUtils;
@@ -48,7 +48,7 @@ public class RemoteWorksheetsHandler extends XmlHandler {
     private RemoteExecutor mExecutor;
 
     public RemoteWorksheetsHandler(RemoteExecutor executor) {
-        super(ScheduleContract1.CONTENT_AUTHORITY);
+        super(ScheduleContract.CONTENT_AUTHORITY);
         mExecutor = executor;
     }
 

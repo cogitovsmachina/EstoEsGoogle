@@ -11,7 +11,7 @@ import android.widget.Button;
 
 import java.util.TimeZone;
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Blocks;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Blocks;
 import org.androidtitlan.estoesgoogle.util.UIUtils;
 
 /**

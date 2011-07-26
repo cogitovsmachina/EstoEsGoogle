@@ -16,11 +16,11 @@
 
 package org.androidtitlan.estoesgoogle.ui.tablet;
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
 import org.androidtitlan.estoesgoogle.ui.BaseMultiPaneActivity;
 import org.androidtitlan.estoesgoogle.ui.SessionDetailFragment;
 import org.androidtitlan.estoesgoogle.ui.SessionsFragment;
-import org.androidtitlan.estoesgoogle.ui.TracksFragment1;
+import org.androidtitlan.estoesgoogle.ui.TracksFragment;
 import org.androidtitlan.estoesgoogle.ui.phone.SessionDetailActivity;
 import org.androidtitlan.estoesgoogle.ui.phone.SessionsActivity;
 
@@ -48,8 +48,8 @@ public class SessionsMultiPaneActivity extends BaseMultiPaneActivity {
         setContentView(R.layout.activity_sessions);
 
         Intent intent = new Intent();
-        intent.setData(ScheduleContract1.Tracks.CONTENT_URI);
-        intent.putExtra(TracksFragment1.EXTRA_NEXT_TYPE, TracksFragment1.NEXT_TYPE_SESSIONS);
+        intent.setData(ScheduleContract.Tracks.CONTENT_URI);
+        intent.putExtra(TracksFragment.EXTRA_NEXT_TYPE, TracksFragment.NEXT_TYPE_SESSIONS);
 
         final FragmentManager fm = getSupportFragmentManager();
         mTracksDropdownFragment = (TracksDropdownFragment) fm.findFragmentById(

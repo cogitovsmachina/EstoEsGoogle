@@ -1,6 +1,6 @@
 package org.androidtitlan.estoesgoogle.ui;
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
 import org.androidtitlan.estoesgoogle.util.ActivityHelper;
 import org.androidtitlan.estoesgoogle.util.AnalyticsUtils;
 import org.androidtitlan.estoesgoogle.util.NotifyingAsyncQueryHandler;
@@ -80,7 +80,7 @@ public class SessionsFragment extends ListFragment implements
         }
 
         String[] projection;
-        if (!ScheduleContract1.Sessions.isSearchUri(sessionsUri)) {
+        if (!ScheduleContract.Sessions.isSearchUri(sessionsUri)) {
             mAdapter = new SessionsAdapter(getActivity());
             projection = SessionsQuery.PROJECTION;
             sessionQueryToken = SessionsQuery._TOKEN;
@@ -95,7 +95,7 @@ public class SessionsFragment extends ListFragment implements
 
         // Start background query to load sessions
         mHandler.startQuery(sessionQueryToken, null, sessionsUri, projection, null, null,
-                ScheduleContract1.Sessions.DEFAULT_SORT);
+                ScheduleContract.Sessions.DEFAULT_SORT);
 
         // If caller launched us with specific track hint, pass it along when
         // launching session details. Also start a query to load the track info.
@@ -183,7 +183,7 @@ public class SessionsFragment extends ListFragment implements
         super.onResume();
         mMessageQueueHandler.post(mRefreshSessionsRunnable);
         getActivity().getContentResolver().registerContentObserver(
-                ScheduleContract1.Sessions.CONTENT_URI, true, mSessionChangesObserver);
+                ScheduleContract.Sessions.CONTENT_URI, true, mSessionChangesObserver);
         if (mCursor != null) {
             mCursor.requery();
         }
@@ -209,8 +209,8 @@ public class SessionsFragment extends ListFragment implements
         // that should influence the title-bar.
         final Cursor cursor = (Cursor)mAdapter.getItem(position);
         final String sessionId = cursor.getString(cursor.getColumnIndex(
-                ScheduleContract1.Sessions.SESSION_ID));
-        final Uri sessionUri = ScheduleContract1.Sessions.buildSessionUri(sessionId);
+                ScheduleContract.Sessions.SESSION_ID));
+        final Uri sessionUri = ScheduleContract.Sessions.buildSessionUri(sessionId);
         final Intent intent = new Intent(Intent.ACTION_VIEW, sessionUri);
         intent.putExtra(SessionDetailFragment.EXTRA_TRACK, mTrackUri);
         ((BaseActivity) getActivity()).openActivityOrFragment(intent);
@@ -322,19 +322,19 @@ public class SessionsFragment extends ListFragment implements
     };
 
     /**
-     * {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Sessions} query parameters.
+     * {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract.Sessions} query parameters.
      */
     private interface SessionsQuery {
         int _TOKEN = 0x1;
 
         String[] PROJECTION = {
                 BaseColumns._ID,
-                ScheduleContract1.Sessions.SESSION_ID,
-                ScheduleContract1.Sessions.SESSION_TITLE,
-                ScheduleContract1.Sessions.SESSION_STARRED,
-                ScheduleContract1.Blocks.BLOCK_START,
-                ScheduleContract1.Blocks.BLOCK_END,
-                ScheduleContract1.Rooms.ROOM_NAME,
+                ScheduleContract.Sessions.SESSION_ID,
+                ScheduleContract.Sessions.SESSION_TITLE,
+                ScheduleContract.Sessions.SESSION_STARRED,
+                ScheduleContract.Blocks.BLOCK_START,
+                ScheduleContract.Blocks.BLOCK_END,
+                ScheduleContract.Rooms.ROOM_NAME,
         };
 
         int _ID = 0;
@@ -347,31 +347,31 @@ public class SessionsFragment extends ListFragment implements
     }
 
     /**
-     * {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Tracks} query parameters.
+     * {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract.Tracks} query parameters.
      */
     private interface TracksQuery {
         int _TOKEN = 0x2;
 
         String[] PROJECTION = {
-                ScheduleContract1.Tracks.TRACK_NAME,
-                ScheduleContract1.Tracks.TRACK_COLOR,
+                ScheduleContract.Tracks.TRACK_NAME,
+                ScheduleContract.Tracks.TRACK_COLOR,
         };
 
         int TRACK_NAME = 0;
         int TRACK_COLOR = 1;
     }
 
-    /** {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Sessions} search query
+    /** {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract.Sessions} search query
      * parameters. */
     private interface SearchQuery {
         int _TOKEN = 0x3;
 
         String[] PROJECTION = {
                 BaseColumns._ID,
-                ScheduleContract1.Sessions.SESSION_ID,
-                ScheduleContract1.Sessions.SESSION_TITLE,
-                ScheduleContract1.Sessions.SEARCH_SNIPPET,
-                ScheduleContract1.Sessions.SESSION_STARRED,
+                ScheduleContract.Sessions.SESSION_ID,
+                ScheduleContract.Sessions.SESSION_TITLE,
+                ScheduleContract.Sessions.SEARCH_SNIPPET,
+                ScheduleContract.Sessions.SESSION_STARRED,
         };
 
         int _ID = 0;

@@ -16,19 +16,19 @@
 
 package org.androidtitlan.estoesgoogle.provider;
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Blocks;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.BlocksColumns;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Rooms;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.RoomsColumns;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Sessions;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.SessionsColumns;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Speakers;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.SpeakersColumns;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.SyncColumns;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Tracks;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.TracksColumns;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Vendors;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.VendorsColumns;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Blocks;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.BlocksColumns;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Rooms;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.RoomsColumns;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Sessions;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.SessionsColumns;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Speakers;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.SpeakersColumns;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.SyncColumns;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Tracks;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.TracksColumns;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Vendors;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.VendorsColumns;
 
 import android.app.SearchManager;
 import android.content.Context;

@@ -16,7 +16,7 @@
 
 package org.androidtitlan.estoesgoogle.ui;
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
 import org.androidtitlan.estoesgoogle.ui.tablet.NowPlayingMultiPaneActivity;
 import org.androidtitlan.estoesgoogle.util.AnalyticsUtils;
 import org.androidtitlan.estoesgoogle.util.UIUtils;
@@ -126,7 +126,7 @@ public class WhatsOnFragment extends Fragment {
                     startActivity(new Intent(getActivity(), NowPlayingMultiPaneActivity.class));
                 } else {
                     Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(ScheduleContract1.Sessions
+                    intent.setData(ScheduleContract.Sessions
                             .buildSessionsAtDirUri(System.currentTimeMillis()));
                     intent.putExtra(Intent.EXTRA_TITLE, getString(R.string.title_now_playing));
                     startActivity(intent);

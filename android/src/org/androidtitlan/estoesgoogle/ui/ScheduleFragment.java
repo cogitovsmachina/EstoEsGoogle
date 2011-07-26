@@ -32,7 +32,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.TimeZone;
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
 import org.androidtitlan.estoesgoogle.ui.widget.BlockView;
 import org.androidtitlan.estoesgoogle.ui.widget.BlocksLayout;
 import org.androidtitlan.estoesgoogle.ui.widget.ObservableScrollView;
@@ -200,7 +200,7 @@ public class ScheduleFragment extends Fragment implements
         day.index = mDays.size();
         day.timeStart = startMillis;
         day.timeEnd = startMillis + DateUtils.DAY_IN_MILLIS;
-        day.blocksUri = ScheduleContract1.Blocks.buildBlocksBetweenDirUri(
+        day.blocksUri = ScheduleContract.Blocks.buildBlocksBetweenDirUri(
                 day.timeStart, day.timeEnd);
 
         // Setup views
@@ -232,7 +232,7 @@ public class ScheduleFragment extends Fragment implements
         requery();
 
         getActivity().getContentResolver().registerContentObserver(
-                ScheduleContract1.Sessions.CONTENT_URI, true, mSessionChangesObserver);
+                ScheduleContract.Sessions.CONTENT_URI, true, mSessionChangesObserver);
 
         // Start listening for time updates to adjust "now" bar. TIME_TICK is
         // triggered once per minute, which is how we move the bar over time.
@@ -246,7 +246,7 @@ public class ScheduleFragment extends Fragment implements
     private void requery() {
         for (Day day : mDays) {
             mHandler.startQuery(0, day, day.blocksUri, BlocksQuery.PROJECTION,
-                    null, null, ScheduleContract1.Blocks.DEFAULT_SORT);
+                    null, null, ScheduleContract.Blocks.DEFAULT_SORT);
         }
     }
 
@@ -324,7 +324,7 @@ public class ScheduleFragment extends Fragment implements
             AnalyticsUtils.getInstance(getActivity()).trackEvent(
                     "Schedule", "Session Click", title, 0);
             final String blockId = ((BlockView) view).getBlockId();
-            final Uri sessionsUri = ScheduleContract1.Blocks.buildSessionsUri(blockId);
+            final Uri sessionsUri = ScheduleContract.Blocks.buildSessionsUri(blockId);
 
             final Intent intent = new Intent(Intent.ACTION_VIEW, sessionsUri);
             intent.putExtra(SessionsFragment.EXTRA_SCHEDULE_TIME_STRING,
@@ -407,13 +407,13 @@ public class ScheduleFragment extends Fragment implements
     private interface BlocksQuery {
         String[] PROJECTION = {
                 BaseColumns._ID,
-                ScheduleContract1.Blocks.BLOCK_ID,
-                ScheduleContract1.Blocks.BLOCK_TITLE,
-                ScheduleContract1.Blocks.BLOCK_START,
-                ScheduleContract1.Blocks.BLOCK_END,
-                ScheduleContract1.Blocks.BLOCK_TYPE,
-                ScheduleContract1.Blocks.SESSIONS_COUNT,
-                ScheduleContract1.Blocks.CONTAINS_STARRED,
+                ScheduleContract.Blocks.BLOCK_ID,
+                ScheduleContract.Blocks.BLOCK_TITLE,
+                ScheduleContract.Blocks.BLOCK_START,
+                ScheduleContract.Blocks.BLOCK_END,
+                ScheduleContract.Blocks.BLOCK_TYPE,
+                ScheduleContract.Blocks.SESSIONS_COUNT,
+                ScheduleContract.Blocks.CONTAINS_STARRED,
         };
 
         int _ID = 0;

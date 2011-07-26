@@ -38,13 +38,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Blocks;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Rooms;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.SearchSuggest;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Sessions;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Speakers;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Tracks;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Vendors;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Blocks;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Rooms;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.SearchSuggest;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Sessions;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Speakers;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Tracks;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Vendors;
 import org.androidtitlan.estoesgoogle.provider.ScheduleDatabase.SessionsSearchColumns;
 import org.androidtitlan.estoesgoogle.provider.ScheduleDatabase.SessionsSpeakers;
 import org.androidtitlan.estoesgoogle.provider.ScheduleDatabase.SessionsTracks;
@@ -54,7 +54,7 @@ import org.androidtitlan.estoesgoogle.service.SyncService;
 import org.androidtitlan.estoesgoogle.util.SelectionBuilder;
 
 /**
- * Provider that stores {@link ScheduleContract1} data. Data is usually inserted
+ * Provider that stores {@link ScheduleContract} data. Data is usually inserted
  * by {@link SyncService}, and queried by various {@link Activity} instances.
  */
 public class ScheduleProvider extends ContentProvider {
@@ -106,7 +106,7 @@ public class ScheduleProvider extends ContentProvider {
      */
     private static UriMatcher buildUriMatcher() {
         final UriMatcher matcher = new UriMatcher(UriMatcher.NO_MATCH);
-        final String authority = ScheduleContract1.CONTENT_AUTHORITY;
+        final String authority = ScheduleContract.CONTENT_AUTHORITY;
 
         matcher.addURI(authority, "blocks", BLOCKS);
         matcher.addURI(authority, "blocks/between/*/*", BLOCKS_BETWEEN);
@@ -641,7 +641,7 @@ public class ScheduleProvider extends ContentProvider {
     }
 
     /**
-     * {@link ScheduleContract1} fields that are fully qualified with a specific
+     * {@link ScheduleContract} fields that are fully qualified with a specific
      * parent {@link Tables}. Used when needed to work around SQL ambiguity.
      */
     private interface Qualified {
