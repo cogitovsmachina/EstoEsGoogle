@@ -1,4 +1,4 @@
-<com.google.android.apps.iosched.ui.widget.DashboardLayout
+<org.androidtitlan.estoesgoogle.ui.widget.DashboardLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
@@ -19,12 +19,4 @@
         style="@style/DashboardButton"
         android:text="@string/btn_starred"
         android:drawableTop="@drawable/home_btn_starred" />
-<!-- <Button android:id="@+id/home_btn_vendors"
-        style="@style/DashboardButton"
-        android:text="@string/btn_vendors"
-        android:drawableTop="@drawable/home_btn_vendors" />
-    <Button android:id="@+id/home_btn_announcements"
-        style="@style/DashboardButton"
-        android:text="@string/btn_announcements"
-        android:drawableTop="@drawable/home_btn_announcements" /> --> 
-</com.google.android.apps.iosched.ui.widget.DashboardLayout>
+</org.androidtitlan.estoesgoogle.ui.widget.DashboardLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Esto es Google</string>
-    <string name="description_logo">Google I/O 2011</string>
+    <string name="description_logo">Esto es Google</string>
     <string name="description_home">Inicio</string>
     <string name="description_search">Busqueda</string>
     <string name="description_map">Mapa</string>
@@ -78,7 +78,7 @@
     <string name="starred_sessions">Sesiones</string>
     <string name="starred_vendors">Sandbox</string>
 
-    <string name="search_label">Google I/O</string>
+    <string name="search_label">Esto es Google</string>
     <string name="search_hint">Session keywords</string>
 
     <string name="share_template">Checking out \'<xliff:g id="title">%1$s</xliff:g>\' at <xliff:g id="hashtags">%2$s</xliff:g> <xliff:g id="url">%3$s</xliff:g></string>
