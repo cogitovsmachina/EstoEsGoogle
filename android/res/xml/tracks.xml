@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2011 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
 <tracks>
-	
-	<track>
-        <name>HTML y Mobile Web</name>
-        <color>#00658A</color>
-        <abstract>HTML5, GWT, Chrome y funcionalidades Web del futuro.</abstract>
-    </track>
 
-    <track>
-        <name>Android</name>
-        <color>#A4C639</color>
-        <abstract>Android es la primera plataforma móvil gratis, open-source y completamente personalizable.</abstract>
-    </track>
-
-    <track>
-        <name>La Nube, App Engine y Más</name>
-        <color>#FFCF53</color>
-        <abstract>App Engine is a powerful cloud computing platform which lets you build and run your apps on Google's reliable, scalable infrastructure.</abstract>
-    </track>
-
-    <track>
-        <name>Google GEO</name>
-        <color>#0FABFF</color>
-        <abstract>Haz de tus desarrollos en tecnologías y herramientas Google un negocio.</abstract>
-    </track>
-    <!--  
+    <!-- Sandbox only -->
     <track>
         <name>Accessibility</name>
         <color>#00658A</color>
@@ -73,6 +65,7 @@
         <abstract>This year the Geo track focuses on helping you connect users to the world around them, manage and visualize a world of spatial data...</abstract>
     </track>
 
+    <!-- Sessions only -->
     <track>
         <name>Google APIs</name>
         <color>#00658a</color>
@@ -85,28 +78,32 @@
         <abstract>Google Apps is an open application platform that can be extended and integrated, and a built-in marketplace for distribution and...</abstract>
     </track>
 
+    <!-- Sandbox only -->
     <track>
         <name>Google TV</name>
         <color>#00658a</color>
         <abstract>The Google TV developer sandbox pod.</abstract>
     </track>
- 
+
+    <!-- Sessions only -->
     <track>
         <name>Tech Talk</name>
         <color>#999999</color>
         <abstract>Google I/O features Tech Talks on subjects of interest to developers, such as computer science problems, programming languages, and more.</abstract>
     </track>
 
+    <!-- Sessions only -->
     <track>
         <name>Web Games</name>
         <color>#ff3333</color>
         <abstract>This track shows how web technologies are being used to create amazing games.</abstract>
     </track>
 
+    <!-- Sandbox only -->
     <track>
         <name>YouTube</name>
         <color>#ff3333</color>
         <abstract>The YouTube developer sandbox pod.</abstract>
     </track>
-	-->
+
 </tracks>
