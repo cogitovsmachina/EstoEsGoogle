@@ -1,6 +1,6 @@
 package org.androidtitlan.estoesgoogle.ui;
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
 import org.androidtitlan.estoesgoogle.util.ActivityHelper;
 import org.androidtitlan.estoesgoogle.util.AnalyticsUtils;
 import org.androidtitlan.estoesgoogle.util.BitmapUtils;
@@ -98,7 +98,7 @@ public class SessionDetailFragment extends Fragment implements
             return;
         }
 
-        mSessionId = ScheduleContract.Sessions.getSessionId(mSessionUri);
+        mSessionId = ScheduleContract1.Sessions.getSessionId(mSessionUri);
 
         setHasOptionsMenu(true);
     }
@@ -133,7 +133,7 @@ public class SessionDetailFragment extends Fragment implements
         }
 
         // Start background queries to load session and track details
-        final Uri speakersUri = ScheduleContract.Sessions.buildSpeakersDirUri(mSessionId);
+        final Uri speakersUri = ScheduleContract1.Sessions.buildSpeakersDirUri(mSessionId);
 
         mHandler = new NotifyingAsyncQueryHandler(getActivity().getContentResolver(), this);
         mHandler.startQuery(SessionsQuery._TOKEN, mSessionUri, SessionsQuery.PROJECTION);
@@ -196,7 +196,7 @@ public class SessionDetailFragment extends Fragment implements
     }
 
     /**
-     * Derive {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract.Tracks#CONTENT_ITEM_TYPE}
+     * Derive {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Tracks#CONTENT_ITEM_TYPE}
      * {@link Uri} based on incoming {@link Intent}, using
      * {@link #EXTRA_TRACK} when set.
      * @param intent
@@ -207,7 +207,7 @@ public class SessionDetailFragment extends Fragment implements
         if (trackUri != null) {
             return trackUri;
         } else {
-            return ScheduleContract.Sessions.buildTracksDirUri(mSessionId);
+            return ScheduleContract1.Sessions.buildTracksDirUri(mSessionId);
         }
     }
 
@@ -453,7 +453,7 @@ public class SessionDetailFragment extends Fragment implements
      */
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         final ContentValues values = new ContentValues();
-        values.put(ScheduleContract.Sessions.SESSION_STARRED, isChecked ? 1 : 0);
+        values.put(ScheduleContract1.Sessions.SESSION_STARRED, isChecked ? 1 : 0);
         mHandler.startUpdate(mSessionUri, values);
 
         // Because change listener is set to null during initialization, these won't fire on
@@ -631,29 +631,29 @@ public class SessionDetailFragment extends Fragment implements
         }
     };
     /**
-     * {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract.Sessions} query parameters.
+     * {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Sessions} query parameters.
      */
     private interface SessionsQuery {
         int _TOKEN = 0x1;
 
         String[] PROJECTION = {
-                ScheduleContract.Blocks.BLOCK_START,
-                ScheduleContract.Blocks.BLOCK_END,
-                ScheduleContract.Sessions.SESSION_LEVEL,
-                ScheduleContract.Sessions.SESSION_TITLE,
-                ScheduleContract.Sessions.SESSION_ABSTRACT,
-                ScheduleContract.Sessions.SESSION_REQUIREMENTS,
-                ScheduleContract.Sessions.SESSION_STARRED,
-                ScheduleContract.Sessions.SESSION_HASHTAG,
-                ScheduleContract.Sessions.SESSION_SLUG,
-                ScheduleContract.Sessions.SESSION_URL,
-                ScheduleContract.Sessions.SESSION_MODERATOR_URL,
-                ScheduleContract.Sessions.SESSION_YOUTUBE_URL,
-                ScheduleContract.Sessions.SESSION_PDF_URL,
-                ScheduleContract.Sessions.SESSION_FEEDBACK_URL,
-                ScheduleContract.Sessions.SESSION_NOTES_URL,
-                ScheduleContract.Sessions.ROOM_ID,
-                ScheduleContract.Rooms.ROOM_NAME,
+                ScheduleContract1.Blocks.BLOCK_START,
+                ScheduleContract1.Blocks.BLOCK_END,
+                ScheduleContract1.Sessions.SESSION_LEVEL,
+                ScheduleContract1.Sessions.SESSION_TITLE,
+                ScheduleContract1.Sessions.SESSION_ABSTRACT,
+                ScheduleContract1.Sessions.SESSION_REQUIREMENTS,
+                ScheduleContract1.Sessions.SESSION_STARRED,
+                ScheduleContract1.Sessions.SESSION_HASHTAG,
+                ScheduleContract1.Sessions.SESSION_SLUG,
+                ScheduleContract1.Sessions.SESSION_URL,
+                ScheduleContract1.Sessions.SESSION_MODERATOR_URL,
+                ScheduleContract1.Sessions.SESSION_YOUTUBE_URL,
+                ScheduleContract1.Sessions.SESSION_PDF_URL,
+                ScheduleContract1.Sessions.SESSION_FEEDBACK_URL,
+                ScheduleContract1.Sessions.SESSION_NOTES_URL,
+                ScheduleContract1.Sessions.ROOM_ID,
+                ScheduleContract1.Rooms.ROOM_NAME,
         };
 
         int BLOCK_START = 0;
@@ -694,14 +694,14 @@ public class SessionDetailFragment extends Fragment implements
     }
 
     /**
-     * {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract.Tracks} query parameters.
+     * {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Tracks} query parameters.
      */
     private interface TracksQuery {
         int _TOKEN = 0x2;
 
         String[] PROJECTION = {
-                ScheduleContract.Tracks.TRACK_NAME,
-                ScheduleContract.Tracks.TRACK_COLOR,
+                ScheduleContract1.Tracks.TRACK_NAME,
+                ScheduleContract1.Tracks.TRACK_COLOR,
         };
 
         int TRACK_NAME = 0;
@@ -712,11 +712,11 @@ public class SessionDetailFragment extends Fragment implements
         int _TOKEN = 0x3;
 
         String[] PROJECTION = {
-                ScheduleContract.Speakers.SPEAKER_NAME,
-                ScheduleContract.Speakers.SPEAKER_IMAGE_URL,
-                ScheduleContract.Speakers.SPEAKER_COMPANY,
-                ScheduleContract.Speakers.SPEAKER_ABSTRACT,
-                ScheduleContract.Speakers.SPEAKER_URL,
+                ScheduleContract1.Speakers.SPEAKER_NAME,
+                ScheduleContract1.Speakers.SPEAKER_IMAGE_URL,
+                ScheduleContract1.Speakers.SPEAKER_COMPANY,
+                ScheduleContract1.Speakers.SPEAKER_ABSTRACT,
+                ScheduleContract1.Speakers.SPEAKER_URL,
         };
 
         int SPEAKER_NAME = 0;

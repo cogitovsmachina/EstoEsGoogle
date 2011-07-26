@@ -1,7 +1,7 @@
 package org.androidtitlan.estoesgoogle.ui;
 
 import org.androidtitlan.estoesgoogle.R;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
 import org.androidtitlan.estoesgoogle.ui.phone.ScheduleActivity;
 import org.androidtitlan.estoesgoogle.ui.tablet.ScheduleMultiPaneActivity;
 import org.androidtitlan.estoesgoogle.ui.tablet.SessionsMultiPaneActivity;
@@ -48,10 +48,10 @@ public class DashboardFragment extends Fragment {
                     startActivity(new Intent(getActivity(), SessionsMultiPaneActivity.class));
                 } else {
                     final Intent intent = new Intent(Intent.ACTION_VIEW,
-                            ScheduleContract.Tracks.CONTENT_URI);
+                            ScheduleContract1.Tracks.CONTENT_URI);
                     intent.putExtra(Intent.EXTRA_TITLE, getString(R.string.title_session_tracks));
-                    intent.putExtra(TracksFragment.EXTRA_NEXT_TYPE,
-                            TracksFragment.NEXT_TYPE_SESSIONS);
+                    intent.putExtra(TracksFragment1.EXTRA_NEXT_TYPE,
+                            TracksFragment1.NEXT_TYPE_SESSIONS);
                     startActivity(intent);
                 }
 

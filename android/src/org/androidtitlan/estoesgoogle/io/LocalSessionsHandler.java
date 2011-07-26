@@ -17,10 +17,10 @@
 package org.androidtitlan.estoesgoogle.io;
 
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Rooms;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Sessions;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Tracks;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Rooms;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Sessions;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Tracks;
 import org.androidtitlan.estoesgoogle.provider.ScheduleDatabase.SessionsTracks;
 import org.androidtitlan.estoesgoogle.util.Lists;
 import org.androidtitlan.estoesgoogle.util.ParserUtils;
@@ -43,7 +43,7 @@ import static org.xmlpull.v1.XmlPullParser.TEXT;
 public class LocalSessionsHandler extends XmlHandler {
 
     public LocalSessionsHandler() {
-        super(ScheduleContract.CONTENT_AUTHORITY);
+        super(ScheduleContract1.CONTENT_AUTHORITY);
     }
 
     @Override

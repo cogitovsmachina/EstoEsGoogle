@@ -16,11 +16,11 @@
 
 package org.androidtitlan.estoesgoogle.ui.tablet;
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
 import org.androidtitlan.estoesgoogle.ui.BaseActivity;
 import org.androidtitlan.estoesgoogle.ui.SessionDetailFragment;
 import org.androidtitlan.estoesgoogle.ui.TracksAdapter;
-import org.androidtitlan.estoesgoogle.ui.TracksFragment;
+import org.androidtitlan.estoesgoogle.ui.TracksFragment1;
 import org.androidtitlan.estoesgoogle.util.NotifyingAsyncQueryHandler;
 import org.androidtitlan.estoesgoogle.util.UIUtils;
 
@@ -105,20 +105,20 @@ public class TracksDropdownFragment extends Fragment implements
         // Filter our tracks query to only include those with valid results
         String[] projection = TracksAdapter.TracksQuery.PROJECTION;
         String selection = null;
-        if (TracksFragment.NEXT_TYPE_SESSIONS.equals(mNextType)) {
+        if (TracksFragment1.NEXT_TYPE_SESSIONS.equals(mNextType)) {
             // Only show tracks with at least one session
             projection = TracksAdapter.TracksQuery.PROJECTION_WITH_SESSIONS_COUNT;
-            selection = ScheduleContract.Tracks.SESSIONS_COUNT + ">0";
-
-        } else if (TracksFragment.NEXT_TYPE_VENDORS.equals(mNextType)) {
-            // Only show tracks with at least one vendor
-            projection = TracksAdapter.TracksQuery.PROJECTION_WITH_VENDORS_COUNT;
-            selection = ScheduleContract.Tracks.VENDORS_COUNT + ">0";
+            selection = ScheduleContract1.Tracks.SESSIONS_COUNT + ">0";
         }
+//        } else if (TracksFragment1.NEXT_TYPE_VENDORS.equals(mNextType)) {
+//            // Only show tracks with at least one vendor
+//            projection = TracksAdapter.TracksQuery.PROJECTION_WITH_VENDORS_COUNT;
+//            selection = ScheduleContract.Tracks.VENDORS_COUNT + ">0";
+//        }
 
         // Start background query to load tracks
         mHandler.startQuery(TracksAdapter.TracksQuery._TOKEN, null, tracksUri, projection,
-                selection, null, ScheduleContract.Tracks.DEFAULT_SORT);
+                selection, null, ScheduleContract1.Tracks.DEFAULT_SORT);
     }
 
     @Override
@@ -178,7 +178,7 @@ public class TracksDropdownFragment extends Fragment implements
         }
 
         mAdapter.setHasAllItem(true);
-        mAdapter.setIsSessions(TracksFragment.NEXT_TYPE_SESSIONS.equals(mNextType));
+        mAdapter.setIsSessions(TracksFragment1.NEXT_TYPE_SESSIONS.equals(mNextType));
         mAdapter.changeCursor(mCursor);
     }
 
@@ -191,7 +191,7 @@ public class TracksDropdownFragment extends Fragment implements
             UIUtils.setLastUsedTrackID(getActivity(), cursor.getString(
                     TracksAdapter.TracksQuery.TRACK_ID));
         } else {
-            UIUtils.setLastUsedTrackID(getActivity(), ScheduleContract.Tracks.ALL_TRACK_ID);
+            UIUtils.setLastUsedTrackID(getActivity(), ScheduleContract1.Tracks.ALL_TRACK_ID);
         }
 
         if (mListPopupWindow != null) {
@@ -213,12 +213,12 @@ public class TracksDropdownFragment extends Fragment implements
 
         } else {
             trackColor = res.getColor(R.color.all_track_color);
-            trackId = ScheduleContract.Tracks.ALL_TRACK_ID;
+            trackId = ScheduleContract1.Tracks.ALL_TRACK_ID;
 
-            mTitle.setText(TracksFragment.NEXT_TYPE_SESSIONS.equals(mNextType)
+            mTitle.setText(TracksFragment1.NEXT_TYPE_SESSIONS.equals(mNextType)
                     ? R.string.all_sessions_title
                     : R.string.all_sandbox_title);
-            mAbstract.setText(TracksFragment.NEXT_TYPE_SESSIONS.equals(mNextType)
+            mAbstract.setText(TracksFragment1.NEXT_TYPE_SESSIONS.equals(mNextType)
                     ? R.string.all_sessions_subtitle
                     : R.string.all_sandbox_subtitle);
         }
@@ -240,20 +240,20 @@ public class TracksDropdownFragment extends Fragment implements
 
         if (loadTargetFragment) {
             final Intent intent = new Intent(Intent.ACTION_VIEW);
-            final Uri trackUri = ScheduleContract.Tracks.buildTrackUri(trackId);
+            final Uri trackUri = ScheduleContract1.Tracks.buildTrackUri(trackId);
             intent.putExtra(SessionDetailFragment.EXTRA_TRACK, trackUri);
 
             if (NEXT_TYPE_SESSIONS.equals(mNextType)) {
                 if (cursor == null) {
-                    intent.setData(ScheduleContract.Sessions.CONTENT_URI);
+                    intent.setData(ScheduleContract1.Sessions.CONTENT_URI);
                 } else {
-                    intent.setData(ScheduleContract.Tracks.buildSessionsUri(trackId));
+                    intent.setData(ScheduleContract1.Tracks.buildSessionsUri(trackId));
                 }
             } else if (NEXT_TYPE_VENDORS.equals(mNextType)) {
                 if (cursor == null) {
-                    intent.setData(ScheduleContract.Vendors.CONTENT_URI);
+                    intent.setData(ScheduleContract1.Vendors.CONTENT_URI);
                 } else {
-                    intent.setData(ScheduleContract.Tracks.buildVendorsUri(trackId));
+                    intent.setData(ScheduleContract1.Tracks.buildVendorsUri(trackId));
                 }
             }
 

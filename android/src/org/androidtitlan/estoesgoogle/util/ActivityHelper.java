@@ -16,7 +16,7 @@
 
 package org.androidtitlan.estoesgoogle.util;
 
-import org.androidtitlan.estoesgoogle.ui.HomeActivity;
+import org.androidtitlan.estoesgoogle.ui.Home;
 
 import org.androidtitlan.estoesgoogle.R;
 
@@ -113,14 +113,14 @@ public class ActivityHelper {
     }
 
     /**
-     * Invoke "home" action, returning to {@link org.androidtitlan.estoesgoogle.ui.HomeActivity}.
+     * Invoke "home" action, returning to {@link org.androidtitlan.estoesgoogle.ui.Home}.
      */
     public void goHome() {
-        if (mActivity instanceof HomeActivity) {
+        if (mActivity instanceof Home) {
             return;
         }
 
-        final Intent intent = new Intent(mActivity, HomeActivity.class);
+        final Intent intent = new Intent(mActivity, Home.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         mActivity.startActivity(intent);
 

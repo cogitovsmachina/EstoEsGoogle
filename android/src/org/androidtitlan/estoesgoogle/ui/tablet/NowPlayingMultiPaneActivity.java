@@ -16,7 +16,7 @@
 
 package org.androidtitlan.estoesgoogle.ui.tablet;
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Sessions;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Sessions;
 import org.androidtitlan.estoesgoogle.ui.BaseMultiPaneActivity;
 import org.androidtitlan.estoesgoogle.ui.SessionDetailFragment;
 import org.androidtitlan.estoesgoogle.ui.SessionsFragment;

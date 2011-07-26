@@ -2,10 +2,10 @@ package org.androidtitlan.estoesgoogle.util;
 
 
 import org.androidtitlan.estoesgoogle.io.XmlHandler;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Blocks;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.SyncColumns;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Tracks;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Blocks;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.SyncColumns;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Tracks;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -145,7 +145,7 @@ public class ParserUtils {
             if (cursor.moveToFirst()) {
                 return cursor.getLong(0);
             } else {
-                return ScheduleContract.UPDATED_NEVER;
+                return ScheduleContract1.UPDATED_NEVER;
             }
         } finally {
             cursor.close();

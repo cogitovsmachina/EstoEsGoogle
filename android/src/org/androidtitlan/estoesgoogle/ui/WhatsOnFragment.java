@@ -16,7 +16,7 @@
 
 package org.androidtitlan.estoesgoogle.ui;
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
 import org.androidtitlan.estoesgoogle.ui.tablet.NowPlayingMultiPaneActivity;
 import org.androidtitlan.estoesgoogle.util.AnalyticsUtils;
 import org.androidtitlan.estoesgoogle.util.UIUtils;
@@ -35,7 +35,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * A fragment used in {@link HomeActivity} that shows either a countdown, 'now playing' link to
+ * A fragment used in {@link Home} that shows either a countdown, 'now playing' link to
  * current sessions, or 'thank you' text, at different times (before/during/after the conference).
  * It also shows a 'Realtime Search' button on phones, as a replacement for the
  * {@link TagStreamFragment} that is visible on tablets on the home screen.
@@ -126,7 +126,7 @@ public class WhatsOnFragment extends Fragment {
                     startActivity(new Intent(getActivity(), NowPlayingMultiPaneActivity.class));
                 } else {
                     Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(ScheduleContract.Sessions
+                    intent.setData(ScheduleContract1.Sessions
                             .buildSessionsAtDirUri(System.currentTimeMillis()));
                     intent.putExtra(Intent.EXTRA_TITLE, getString(R.string.title_now_playing));
                     startActivity(intent);

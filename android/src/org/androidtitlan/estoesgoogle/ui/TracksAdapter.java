@@ -16,7 +16,7 @@
 
 package org.androidtitlan.estoesgoogle.ui;
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
 
 import org.androidtitlan.estoesgoogle.R;
 
@@ -138,34 +138,34 @@ public class TracksAdapter extends CursorAdapter {
         iconView.setImageDrawable(new ColorDrawable(cursor.getInt(TracksQuery.TRACK_COLOR)));
     }
 
-    /** {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract.Tracks} query parameters. */
+    /** {@link org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Tracks} query parameters. */
     public interface TracksQuery {
         int _TOKEN = 0x1;
 
         String[] PROJECTION = {
                 BaseColumns._ID,
-                ScheduleContract.Tracks.TRACK_ID,
-                ScheduleContract.Tracks.TRACK_NAME,
-                ScheduleContract.Tracks.TRACK_ABSTRACT,
-                ScheduleContract.Tracks.TRACK_COLOR,
+                ScheduleContract1.Tracks.TRACK_ID,
+                ScheduleContract1.Tracks.TRACK_NAME,
+                ScheduleContract1.Tracks.TRACK_ABSTRACT,
+                ScheduleContract1.Tracks.TRACK_COLOR,
         };
 
         String[] PROJECTION_WITH_SESSIONS_COUNT = {
                 BaseColumns._ID,
-                ScheduleContract.Tracks.TRACK_ID,
-                ScheduleContract.Tracks.TRACK_NAME,
-                ScheduleContract.Tracks.TRACK_ABSTRACT,
-                ScheduleContract.Tracks.TRACK_COLOR,
-                ScheduleContract.Tracks.SESSIONS_COUNT,
+                ScheduleContract1.Tracks.TRACK_ID,
+                ScheduleContract1.Tracks.TRACK_NAME,
+                ScheduleContract1.Tracks.TRACK_ABSTRACT,
+                ScheduleContract1.Tracks.TRACK_COLOR,
+                ScheduleContract1.Tracks.SESSIONS_COUNT,
         };
 
         String[] PROJECTION_WITH_VENDORS_COUNT = {
                 BaseColumns._ID,
-                ScheduleContract.Tracks.TRACK_ID,
-                ScheduleContract.Tracks.TRACK_NAME,
-                ScheduleContract.Tracks.TRACK_ABSTRACT,
-                ScheduleContract.Tracks.TRACK_COLOR,
-                ScheduleContract.Tracks.VENDORS_COUNT,
+                ScheduleContract1.Tracks.TRACK_ID,
+                ScheduleContract1.Tracks.TRACK_NAME,
+                ScheduleContract1.Tracks.TRACK_ABSTRACT,
+                ScheduleContract1.Tracks.TRACK_COLOR,
+                ScheduleContract1.Tracks.VENDORS_COUNT,
         };
 
         int _ID = 0;

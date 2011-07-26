@@ -17,9 +17,9 @@
 package org.androidtitlan.estoesgoogle.io;
 
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Sessions;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.SyncColumns;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Sessions;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.SyncColumns;
 import org.androidtitlan.estoesgoogle.provider.ScheduleDatabase.SessionsSpeakers;
 import org.androidtitlan.estoesgoogle.provider.ScheduleDatabase.SessionsTracks;
 import org.androidtitlan.estoesgoogle.util.Lists;
@@ -63,7 +63,7 @@ public class RemoteSessionsHandler extends XmlHandler {
             "EEEE MMM d yyyy h:mma Z", Locale.US);
 
     public RemoteSessionsHandler() {
-        super(ScheduleContract.CONTENT_AUTHORITY);
+        super(ScheduleContract1.CONTENT_AUTHORITY);
     }
 
     /** {@inheritDoc} */
@@ -205,7 +205,7 @@ public class RemoteSessionsHandler extends XmlHandler {
                 values.put(SyncColumns.UPDATED, cursor.getLong(SessionsQuery.UPDATED));
                 values.put(Sessions.SESSION_STARRED, cursor.getInt(SessionsQuery.STARRED));
             } else {
-                values.put(SyncColumns.UPDATED, ScheduleContract.UPDATED_NEVER);
+                values.put(SyncColumns.UPDATED, ScheduleContract1.UPDATED_NEVER);
             }
         } finally {
             cursor.close();

@@ -17,8 +17,8 @@
 package org.androidtitlan.estoesgoogle.io;
 
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Blocks;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Blocks;
 import org.androidtitlan.estoesgoogle.util.Lists;
 import org.androidtitlan.estoesgoogle.util.ParserUtils;
 import org.xmlpull.v1.XmlPullParser;
@@ -38,7 +38,7 @@ import static org.xmlpull.v1.XmlPullParser.TEXT;
 public class LocalBlocksHandler extends XmlHandler {
 
     public LocalBlocksHandler() {
-        super(ScheduleContract.CONTENT_AUTHORITY);
+        super(ScheduleContract1.CONTENT_AUTHORITY);
     }
 
     @Override

@@ -17,8 +17,8 @@
 package org.androidtitlan.estoesgoogle.io;
 
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.SearchSuggest;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.SearchSuggest;
 import org.androidtitlan.estoesgoogle.util.Lists;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -38,7 +38,7 @@ import static org.xmlpull.v1.XmlPullParser.TEXT;
 public class LocalSearchSuggestHandler extends XmlHandler {
 
     public LocalSearchSuggestHandler() {
-        super(ScheduleContract.CONTENT_AUTHORITY);
+        super(ScheduleContract1.CONTENT_AUTHORITY);
     }
 
     @Override

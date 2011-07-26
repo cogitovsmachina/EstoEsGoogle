@@ -17,7 +17,7 @@
 package org.androidtitlan.estoesgoogle.ui;
 
 import org.androidtitlan.estoesgoogle.R;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Sessions;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Sessions;
 import org.androidtitlan.estoesgoogle.ui.phone.SessionDetailActivity;
 
 import android.content.Intent;

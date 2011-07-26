@@ -17,9 +17,9 @@
 package org.androidtitlan.estoesgoogle.io;
 
 
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Speakers;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.SyncColumns;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.Speakers;
+import org.androidtitlan.estoesgoogle.provider.ScheduleContract1.SyncColumns;
 import org.androidtitlan.estoesgoogle.util.Lists;
 import org.androidtitlan.estoesgoogle.util.SpreadsheetEntry;
 import org.xmlpull.v1.XmlPullParser;
@@ -47,7 +47,7 @@ public class RemoteSpeakersHandler extends XmlHandler {
     private static final String TAG = "SpeakersHandler";
 
     public RemoteSpeakersHandler() {
-        super(ScheduleContract.CONTENT_AUTHORITY);
+        super(ScheduleContract1.CONTENT_AUTHORITY);
     }
 
     /** {@inheritDoc} */
