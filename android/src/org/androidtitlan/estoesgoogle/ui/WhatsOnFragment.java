@@ -35,7 +35,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * A fragment used in {@link HomeActivity} that shows either a countdown, 'now playing' link to
+ * A fragment used in {@link Home} that shows either a countdown, 'now playing' link to
  * current sessions, or 'thank you' text, at different times (before/during/after the conference).
  * It also shows a 'Realtime Search' button on phones, as a replacement for the
  * {@link TagStreamFragment} that is visible on tablets on the home screen.

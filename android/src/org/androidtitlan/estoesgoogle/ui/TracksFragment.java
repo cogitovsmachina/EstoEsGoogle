@@ -1,19 +1,3 @@
-/*
- * Copyright 2011 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package org.androidtitlan.estoesgoogle.ui;
 
 import org.androidtitlan.estoesgoogle.provider.ScheduleContract;
@@ -41,8 +25,8 @@ public class TracksFragment extends ListFragment implements
 
     public static final String EXTRA_NEXT_TYPE = "org.androidtitlan.estoesgoogle.extra.NEXT_TYPE";
 
-    public static final String NEXT_TYPE_SESSIONS = "sessions";
-    public static final String NEXT_TYPE_VENDORS = "vendors";
+    public static final String NEXT_TYPE_SESSIONS = "sesiones";
+//    public static final String NEXT_TYPE_VENDORS = "vendors";
 
     private TracksAdapter mAdapter;
     private NotifyingAsyncQueryHandler mHandler;
@@ -68,12 +52,13 @@ public class TracksFragment extends ListFragment implements
             selection = ScheduleContract.Tracks.SESSIONS_COUNT + ">0";
             AnalyticsUtils.getInstance(getActivity()).trackPageView("/Tracks");
 
-        } else if (NEXT_TYPE_VENDORS.equals(mNextType)) {
-            // Only show tracks with at least one vendor
-            projection = TracksAdapter.TracksQuery.PROJECTION_WITH_VENDORS_COUNT;
-            selection = ScheduleContract.Tracks.VENDORS_COUNT + ">0";
-            AnalyticsUtils.getInstance(getActivity()).trackPageView("/Sandbox");
         }
+//        } else if (NEXT_TYPE_VENDORS.equals(mNextType)) {
+//            // Only show tracks with at least one vendor
+//            projection = TracksAdapter.TracksQuery.PROJECTION_WITH_VENDORS_COUNT;
+//            selection = ScheduleContract.Tracks.VENDORS_COUNT + ">0";
+//            AnalyticsUtils.getInstance(getActivity()).trackPageView("/Sandbox");
+//        }
 
         // Start background query to load tracks
         mHandler = new NotifyingAsyncQueryHandler(getActivity().getContentResolver(), this);
@@ -134,13 +119,14 @@ public class TracksFragment extends ListFragment implements
             } else {
                 intent.setData(ScheduleContract.Tracks.buildSessionsUri(trackId));
             }
-        } else if (NEXT_TYPE_VENDORS.equals(mNextType)) {
-            if (cursor == null) {
-                intent.setData(ScheduleContract.Vendors.CONTENT_URI);
-            } else {
-                intent.setData(ScheduleContract.Tracks.buildVendorsUri(trackId));
-            }
         }
+//        } else if (NEXT_TYPE_VENDORS.equals(mNextType)) {
+//            if (cursor == null) {
+//                intent.setData(ScheduleContract.Vendors.CONTENT_URI);
+//            } else {
+//                intent.setData(ScheduleContract.Tracks.buildVendorsUri(trackId));
+//            }
+//        }
 
         ((BaseActivity) getActivity()).openActivityOrFragment(intent);
 

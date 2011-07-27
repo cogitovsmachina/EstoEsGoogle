@@ -40,7 +40,7 @@ import android.widget.Toast;
  * whereas on a tablet, both a {@link DashboardFragment} and a {@link TagStreamFragment} are
  * displayed.
  */
-public class HomeActivity extends BaseActivity {
+public class Home extends BaseActivity {
     private static final String TAG = "HomeActivity";
 
     private TagStreamFragment mTagStreamFragment;

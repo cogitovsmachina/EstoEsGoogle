@@ -109,12 +109,12 @@ public class TracksDropdownFragment extends Fragment implements
             // Only show tracks with at least one session
             projection = TracksAdapter.TracksQuery.PROJECTION_WITH_SESSIONS_COUNT;
             selection = ScheduleContract.Tracks.SESSIONS_COUNT + ">0";
-
-        } else if (TracksFragment.NEXT_TYPE_VENDORS.equals(mNextType)) {
-            // Only show tracks with at least one vendor
-            projection = TracksAdapter.TracksQuery.PROJECTION_WITH_VENDORS_COUNT;
-            selection = ScheduleContract.Tracks.VENDORS_COUNT + ">0";
         }
+//        } else if (TracksFragment1.NEXT_TYPE_VENDORS.equals(mNextType)) {
+//            // Only show tracks with at least one vendor
+//            projection = TracksAdapter.TracksQuery.PROJECTION_WITH_VENDORS_COUNT;
+//            selection = ScheduleContract.Tracks.VENDORS_COUNT + ">0";
+//        }
 
         // Start background query to load tracks
         mHandler.startQuery(TracksAdapter.TracksQuery._TOKEN, null, tracksUri, projection,
