@@ -434,7 +434,6 @@ containing a value of this type.
         public static final int activity_singlepane_empty=0x7f030008;
         public static final int activity_starred=0x7f030009;
         public static final int activity_tracks=0x7f03000a;
-<<<<<<< HEAD
         public static final int blocks_content=0x7f03000b;
         public static final int colorstrip=0x7f03000c;
         public static final int fragment_dashboard=0x7f03000d;
@@ -447,46 +446,17 @@ containing a value of this type.
         public static final int list_item_session=0x7f030014;
         public static final int list_item_session_link=0x7f030015;
         public static final int list_item_track=0x7f030016;
-        public static final int speaker_detail=0x7f030017;
-        public static final int tab_indicator=0x7f030018;
-        public static final int tab_session_links=0x7f030019;
-        public static final int tab_session_notes=0x7f03001a;
-        public static final int tab_session_summary=0x7f03001b;
-        public static final int tabs_container=0x7f03001c;
-        public static final int whats_on_countdown=0x7f03001d;
-        public static final int whats_on_now_playing=0x7f03001e;
-        public static final int whats_on_stream=0x7f03001f;
-        public static final int whats_on_thank_you=0x7f030020;
-=======
-        public static final int activity_vendors=0x7f03000b;
-        public static final int blocks_content=0x7f03000c;
-        public static final int colorstrip=0x7f03000d;
-        public static final int fragment_dashboard=0x7f03000e;
-        public static final int fragment_list_with_spinner=0x7f03000f;
-        public static final int fragment_schedule=0x7f030010;
-        public static final int fragment_session_detail=0x7f030011;
-        public static final int fragment_tracks_dropdown=0x7f030012;
-        public static final int fragment_vendor_detail=0x7f030013;
-        public static final int fragment_webview_with_spinner=0x7f030014;
-        public static final int fragment_whats_on=0x7f030015;
-        public static final int list_item_session=0x7f030016;
-        public static final int list_item_session_link=0x7f030017;
-        public static final int list_item_track=0x7f030018;
-        public static final int list_item_vendor=0x7f030019;
-        public static final int list_item_vendor_oneline=0x7f03001a;
-        public static final int mapview=0x7f03001b;
-        public static final int new_map=0x7f03001c;
-        public static final int speaker_detail=0x7f03001d;
-        public static final int tab_indicator=0x7f03001e;
-        public static final int tab_session_links=0x7f03001f;
-        public static final int tab_session_notes=0x7f030020;
-        public static final int tab_session_summary=0x7f030021;
-        public static final int tabs_container=0x7f030022;
-        public static final int whats_on_countdown=0x7f030023;
-        public static final int whats_on_now_playing=0x7f030024;
-        public static final int whats_on_stream=0x7f030025;
-        public static final int whats_on_thank_you=0x7f030026;
->>>>>>> 165c2163bd971a49a7b5ef6e555ec54442eaaf8c
+        public static final int mapview=0x7f030017;
+        public static final int speaker_detail=0x7f030018;
+        public static final int tab_indicator=0x7f030019;
+        public static final int tab_session_links=0x7f03001a;
+        public static final int tab_session_notes=0x7f03001b;
+        public static final int tab_session_summary=0x7f03001c;
+        public static final int tabs_container=0x7f03001d;
+        public static final int whats_on_countdown=0x7f03001e;
+        public static final int whats_on_now_playing=0x7f03001f;
+        public static final int whats_on_stream=0x7f030020;
+        public static final int whats_on_thank_you=0x7f030021;
     }
     public static final class menu {
         public static final int default_menu_items=0x7f0d0000;

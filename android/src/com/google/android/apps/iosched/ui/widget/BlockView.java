@@ -53,6 +53,7 @@ public class BlockView extends Button {
 
         mBlockId = blockId;
         mTitle = title;
+
         mStartTime = startTime;
         mEndTime = endTime;
         mContainsStarred = containsStarred;
