@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <sessions>
 	<!-- Developers -->
+		<!-- Track 1 -->
+		
 	<session>
 		<title>Android SDK: Qué es y cuáles son las últimas novedades</title>
 		<speakers>Bruno Oliveira</speakers>
@@ -13,21 +15,7 @@
 		<abstract>El crecimiento de Android en todo el mundo no está lejos de extraordinario y una parte fundamental de ello está en el gran ecosistema de desarrollo. En ésta sesión, presentaremos una perspectiva general de la plataforma, incluyendo la motivación para realizar aplicaciones móviles, un poco de historia y lo nuevo en las últimas versiones, así como una perspectiva general del SDK.</abstract>
 		<keywords>Android, SDK, Development, apps, mobile</keywords>
 	</session>
-	
-	<session>
-		<title>----</title>
-		<speakers>Bruno Oliveira</speakers>
 		
-		<date>Tuesday August 9</date>
-		<time>11:00am-11:50am</time>
-		
-		<room>1</room>
-		<track>Android</track>
-		<abstract>El crecimiento de Android en todo el mundo no está lejos de extraordinario y una parte fundamental de ello está en el gran ecosistema de desarrollo. En ésta sesión, presentaremos una perspectiva general de la plataforma, incluyendo la motivación para realizar aplicaciones móviles, un poco de historia y lo nuevo en las últimas versiones, así como una perspectiva general del SDK.</abstract>
-		<keywords>Android, SDK, Development, apps, mobile</keywords>
-	</session>
-	
-	
 	<session>
 		<title>Migrando juegos de C y C++ a Android</title>
 		<speakers>Dan Galpin</speakers>
@@ -40,6 +28,34 @@
 		<abstract>¿Quieres hacer estupendos juegos para Android pero no eres un programador Java? Ésta plática es para tí, ya que Android soporta una serie de herramientas para construir aplicaciones en C/C++. En Diciembre 2010, se hicieron arreglos para hacer más fácil el desarrollo de juegos y la presentación cubrirá estos ajustes, lo nuevo en la plataforma y las mejores prácticas para construir y debuggear juegos con el NDK.</abstract>
 		<keywords>Android, Juegos, Development, apps, mobile, C, C++</keywords>
 	</session>
+		<!-- Track 1 -->
+	
+	<session>
+		<title>HTML5 y características del futuro.</title>
+		<speakers>Ernest Delgado</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>2</room>
+		<track>HTML y Mobile Web</track>
+		<abstract>No habrá HTML6 y la nueva era del desarrollo HTML está integrada por la continua innovación de desarrolladores y exploradores Web. Desde gráficos 3D hasta generadores de Audio, te mostraremos las maneras estándar de usar estas impresionantes y tan esperadas características.</abstract>
+		<keywords>Web, HTML5, Development, HTML</keywords>
+	</session>
+		<!-- 
+	<session>
+		<title>Migrando juegos de C y C++ a Android</title>
+		<speakers>Dan Galpin</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>1</room>
+		<track>Android</track>
+		<abstract>¿Quieres hacer estupendos juegos para Android pero no eres un programador Java? Ésta plática es para tí, ya que Android soporta una serie de herramientas para construir aplicaciones en C/C++. En Diciembre 2010, se hicieron arreglos para hacer más fácil el desarrollo de juegos y la presentación cubrirá estos ajustes, lo nuevo en la plataforma y las mejores prácticas para construir y debuggear juegos con el NDK.</abstract>
+		<keywords>Android, Juegos, Development, apps, mobile, C, C++</keywords>
+	</session> -->
+	
 	<!-- Gobierno -->
 	<!-- ONG's y Educación -->
 	<!-- Usuarios -->

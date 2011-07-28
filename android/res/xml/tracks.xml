@@ -15,18 +15,16 @@
   limitations under the License.
   -->
 <tracks>
-
-    <!-- Sandbox only -->
+	<track>
+        <name>Android</name>
+        <color>#A4C639</color>
+        <abstract>Android es la primera plataforma gratis, open-source y totalmente personalizable para móviles.</abstract>
+    </track>
+    <!-- Sandbox only 
     <track>
         <name>Accessibility</name>
         <color>#00658A</color>
         <abstract>The accessibility developer sandbox pod.</abstract>
-    </track>
-
-    <track>
-        <name>Android</name>
-        <color>#A4C639</color>
-        <abstract>Android is the first free, open source, and fully customizable mobile platform.</abstract>
     </track>
 
     <track>
@@ -65,7 +63,6 @@
         <abstract>This year the Geo track focuses on helping you connect users to the world around them, manage and visualize a world of spatial data...</abstract>
     </track>
 
-    <!-- Sessions only -->
     <track>
         <name>Google APIs</name>
         <color>#00658a</color>
@@ -78,32 +75,28 @@
         <abstract>Google Apps is an open application platform that can be extended and integrated, and a built-in marketplace for distribution and...</abstract>
     </track>
 
-    <!-- Sandbox only -->
     <track>
         <name>Google TV</name>
         <color>#00658a</color>
         <abstract>The Google TV developer sandbox pod.</abstract>
     </track>
 
-    <!-- Sessions only -->
     <track>
         <name>Tech Talk</name>
         <color>#999999</color>
         <abstract>Google I/O features Tech Talks on subjects of interest to developers, such as computer science problems, programming languages, and more.</abstract>
     </track>
 
-    <!-- Sessions only -->
     <track>
         <name>Web Games</name>
         <color>#ff3333</color>
         <abstract>This track shows how web technologies are being used to create amazing games.</abstract>
     </track>
 
-    <!-- Sandbox only -->
     <track>
         <name>YouTube</name>
         <color>#ff3333</color>
         <abstract>The YouTube developer sandbox pod.</abstract>
     </track>
-
+	-->
 </tracks>

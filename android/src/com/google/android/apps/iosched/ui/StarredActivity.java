@@ -16,12 +16,6 @@
 
 package com.google.android.apps.iosched.ui;
 
-import com.google.android.apps.iosched.R;
-import com.google.android.apps.iosched.provider.ScheduleContract.Sessions;
-import com.google.android.apps.iosched.provider.ScheduleContract.Vendors;
-import com.google.android.apps.iosched.ui.phone.SessionDetailActivity;
-import com.google.android.apps.iosched.ui.phone.VendorDetailActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
@@ -31,6 +25,10 @@ import android.widget.FrameLayout;
 import android.widget.TabHost;
 import android.widget.TabWidget;
 import android.widget.TextView;
+
+import com.google.android.apps.iosched.R;
+import com.google.android.apps.iosched.provider.ScheduleContract.Sessions;
+import com.google.android.apps.iosched.ui.phone.SessionDetailActivity;
 
 /**
  * An activity that shows the user's starred sessions and sandbox companies. This activity can be
@@ -47,7 +45,6 @@ public class StarredActivity extends BaseMultiPaneActivity {
     private TabWidget mTabWidget;
 
     private SessionsFragment mSessionsFragment;
-    private VendorsFragment mVendorsFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,37 +102,6 @@ public class StarredActivity extends BaseMultiPaneActivity {
     }
 
     /**
-     * Build and add "vendors" tab.
-     */
-    private void setupVendorsTab() {
-        // TODO: this is very inefficient and messy, clean it up
-        FrameLayout fragmentContainer = new FrameLayout(this);
-        fragmentContainer.setId(R.id.fragment_vendors);
-        fragmentContainer.setLayoutParams(
-                new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT,
-                        ViewGroup.LayoutParams.FILL_PARENT));
-        ((ViewGroup) findViewById(android.R.id.tabcontent)).addView(fragmentContainer);
-
-        final Intent intent = new Intent(Intent.ACTION_VIEW, Vendors.CONTENT_STARRED_URI);
-
-        final FragmentManager fm = getSupportFragmentManager();
-
-        mVendorsFragment = (VendorsFragment) fm.findFragmentByTag("vendors");
-        if (mVendorsFragment == null) {
-            mVendorsFragment = new VendorsFragment();
-            mVendorsFragment.setArguments(intentToFragmentArguments(intent));
-            fm.beginTransaction()
-                    .add(R.id.fragment_vendors, mVendorsFragment, "vendors")
-                    .commit();
-        }
-
-        // Vendors content comes from reused activity
-        mTabHost.addTab(mTabHost.newTabSpec(TAG_VENDORS)
-                .setIndicator(buildIndicator(R.string.starred_vendors))
-                .setContent(R.id.fragment_vendors));
-    }
-
-    /**
      * Build a {@link View} to be used as a tab indicator, setting the requested string resource as
      * its label.
      */
@@ -157,12 +123,6 @@ public class StarredActivity extends BaseMultiPaneActivity {
                         SessionDetailFragment.class,
                         "session_detail",
                         R.id.fragment_container_starred_detail);
-            } else if (VendorDetailActivity.class.getName().equals(activityClassName)) {
-                clearSelectedItems();
-                return new FragmentReplaceInfo(
-                        VendorDetailFragment.class,
-                        "vendor_detail",
-                        R.id.fragment_container_starred_detail);
             }
         }
         return null;
@@ -171,9 +131,6 @@ public class StarredActivity extends BaseMultiPaneActivity {
     private void clearSelectedItems() {
         if (mSessionsFragment != null) {
             mSessionsFragment.clearCheckedPosition();
-        }
-        if (mVendorsFragment != null) {
-            mVendorsFragment.clearCheckedPosition();
         }
     }
 }

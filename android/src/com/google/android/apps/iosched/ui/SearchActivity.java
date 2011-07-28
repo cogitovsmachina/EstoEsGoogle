@@ -16,12 +16,6 @@
 
 package com.google.android.apps.iosched.ui;
 
-import com.google.android.apps.iosched.R;
-import com.google.android.apps.iosched.provider.ScheduleContract.Sessions;
-import com.google.android.apps.iosched.provider.ScheduleContract.Vendors;
-import com.google.android.apps.iosched.ui.phone.SessionDetailActivity;
-import com.google.android.apps.iosched.ui.phone.VendorDetailActivity;
-
 import android.app.SearchManager;
 import android.content.Intent;
 import android.os.Bundle;
@@ -32,6 +26,11 @@ import android.widget.FrameLayout;
 import android.widget.TabHost;
 import android.widget.TabWidget;
 import android.widget.TextView;
+
+import com.google.android.apps.iosched.R;
+import com.google.android.apps.iosched.provider.ScheduleContract.Sessions;
+import com.google.android.apps.iosched.provider.ScheduleContract.Vendors;
+import com.google.android.apps.iosched.ui.phone.SessionDetailActivity;
 
 /**
  * An activity that shows session and sandbox search results. This activity can be either single
@@ -50,7 +49,6 @@ public class SearchActivity extends BaseMultiPaneActivity {
     private TabWidget mTabWidget;
 
     private SessionsFragment mSessionsFragment;
-    private VendorsFragment mVendorsFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,7 +68,6 @@ public class SearchActivity extends BaseMultiPaneActivity {
         mTabHost.setup();
 
         setupSessionsTab();
-        setupVendorsTab();
     }
 
     @Override
@@ -95,7 +92,6 @@ public class SearchActivity extends BaseMultiPaneActivity {
         mTabHost.setCurrentTab(0);
 
         mSessionsFragment.reloadFromArguments(getSessionsFragmentArguments());
-        mVendorsFragment.reloadFromArguments(getVendorsFragmentArguments());
     }
 
     /**
@@ -131,33 +127,7 @@ public class SearchActivity extends BaseMultiPaneActivity {
     /**
      * Build and add "vendors" tab.
      */
-    private void setupVendorsTab() {
-        // TODO: this is very inefficient and messy, clean it up
-        FrameLayout fragmentContainer = new FrameLayout(this);
-        fragmentContainer.setId(R.id.fragment_vendors);
-        fragmentContainer.setLayoutParams(
-                new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT,
-                        ViewGroup.LayoutParams.FILL_PARENT));
-        ((ViewGroup) findViewById(android.R.id.tabcontent)).addView(fragmentContainer);
-
-        final FragmentManager fm = getSupportFragmentManager();
-        mVendorsFragment = (VendorsFragment) fm.findFragmentByTag("vendors");
-        if (mVendorsFragment == null) {
-            mVendorsFragment = new VendorsFragment();
-            mVendorsFragment.setArguments(getVendorsFragmentArguments());
-            fm.beginTransaction()
-                    .add(R.id.fragment_vendors, mVendorsFragment, "vendors")
-                    .commit();
-        } else {
-            mVendorsFragment.reloadFromArguments(getVendorsFragmentArguments());
-        }
-
-        // Vendors content comes from reused activity
-        mTabHost.addTab(mTabHost.newTabSpec(TAG_VENDORS)
-                .setIndicator(buildIndicator(R.string.starred_vendors))
-                .setContent(R.id.fragment_vendors));
-    }
-
+    
     private Bundle getSessionsFragmentArguments() {
         return intentToFragmentArguments(
                 new Intent(Intent.ACTION_VIEW, Sessions.buildSearchUri(mQuery)));
@@ -191,12 +161,6 @@ public class SearchActivity extends BaseMultiPaneActivity {
                         SessionDetailFragment.class,
                         "session_detail",
                         R.id.fragment_container_search_detail);
-            } else if (VendorDetailActivity.class.getName().equals(activityClassName)) {
-                clearSelectedItems();
-                return new BaseMultiPaneActivity.FragmentReplaceInfo(
-                        VendorDetailFragment.class,
-                        "vendor_detail",
-                        R.id.fragment_container_search_detail);
             }
         }
         return null;
@@ -205,9 +169,6 @@ public class SearchActivity extends BaseMultiPaneActivity {
     private void clearSelectedItems() {
         if (mSessionsFragment != null) {
             mSessionsFragment.clearCheckedPosition();
-        }
-        if (mVendorsFragment != null) {
-            mVendorsFragment.clearCheckedPosition();
         }
     }
 }

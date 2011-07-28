@@ -325,8 +325,7 @@ public class SessionDetailFragment extends Fragment implements
             // Show empty message when all data is loaded, and nothing to show
             if (mSpeakersCursor && !mHasSummaryContent) {
                 mRootView.findViewById(android.R.id.empty).setVisibility(View.VISIBLE);
-            }else
-            	Toast.makeText(getActivity(), "NO HAY SPEAKER!", Toast.LENGTH_SHORT).show();
+            }
 
             AnalyticsUtils.getInstance(getActivity()).trackPageView("/Sessions/" + mTitleString);
 

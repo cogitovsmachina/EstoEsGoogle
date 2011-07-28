@@ -35,6 +35,11 @@ public class EulaHelper {
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
         return sp.getBoolean("accepted_eula", false);
     }
+    
+    public static boolean didSync(final Context context){
+    	SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
+        return sp.getBoolean("sync", false);
+    }
 
     private static void setAcceptedEula(final Context context) {
         new AsyncTask<Void, Void, Void>() {
@@ -42,6 +47,17 @@ public class EulaHelper {
             protected Void doInBackground(Void... voids) {
                 SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
                 sp.edit().putBoolean("accepted_eula", true).commit();
+                return null;
+            }
+        }.execute();
+    }
+    
+    public static void setSync(final Context context) {
+        new AsyncTask<Void, Void, Void>() {
+            @Override
+            protected Void doInBackground(Void... voids) {
+                SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
+                sp.edit().putBoolean("sync", true).commit();
                 return null;
             }
         }.execute();

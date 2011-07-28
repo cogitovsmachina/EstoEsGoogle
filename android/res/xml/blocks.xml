@@ -9,6 +9,12 @@
 		<title>Bienvenida</title>
 		<type>session</type>
 	</block>
+	<block>
+        <start>2011-08-09T12:50:00.000-07:00</start>
+          <end>2011-08-09T14:00:00.000-07:00</end>
+        <title>Comida</title>
+        <type>food</type>
+    </block>
 	
 	<!-- Día 2 -->
 	<block>

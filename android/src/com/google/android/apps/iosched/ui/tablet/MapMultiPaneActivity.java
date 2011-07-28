@@ -16,24 +16,20 @@
 
 package com.google.android.apps.iosched.ui.tablet;
 
-import com.google.android.apps.iosched.R;
-import com.google.android.apps.iosched.ui.BaseMultiPaneActivity;
-import com.google.android.apps.iosched.ui.MapFragment;
-import com.google.android.apps.iosched.ui.SessionDetailFragment;
-import com.google.android.apps.iosched.ui.SessionsFragment;
-import com.google.android.apps.iosched.ui.VendorDetailFragment;
-import com.google.android.apps.iosched.ui.VendorsFragment;
-import com.google.android.apps.iosched.ui.phone.SessionDetailActivity;
-import com.google.android.apps.iosched.ui.phone.SessionsActivity;
-import com.google.android.apps.iosched.ui.phone.VendorDetailActivity;
-import com.google.android.apps.iosched.ui.phone.VendorsActivity;
-
 import android.app.FragmentBreadCrumbs;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
+
+import com.google.android.apps.iosched.R;
+import com.google.android.apps.iosched.ui.BaseMultiPaneActivity;
+import com.google.android.apps.iosched.ui.MapFragment;
+import com.google.android.apps.iosched.ui.SessionDetailFragment;
+import com.google.android.apps.iosched.ui.SessionsFragment;
+import com.google.android.apps.iosched.ui.phone.SessionDetailActivity;
+import com.google.android.apps.iosched.ui.phone.SessionsActivity;
 
 /**
  * A multi-pane activity, where the primary navigation pane is a {@link MapFragment}, that shows
@@ -109,21 +105,6 @@ public class MapMultiPaneActivity extends BaseMultiPaneActivity implements
                     SessionDetailFragment.class,
                     "session_detail",
                     R.id.fragment_container_map_detail);
-        } else if (VendorsActivity.class.getName().equals(activityClassName)) {
-            clearBackStack(getSupportFragmentManager());
-            mPopupType = POPUP_TYPE_VENDORS;
-            showHideDetailAndPan(true);
-            return new FragmentReplaceInfo(
-                    VendorsFragment.class,
-                    "vendors",
-                    R.id.fragment_container_map_detail);
-        } else if (VendorDetailActivity.class.getName().equals(activityClassName)) {
-            mPopupType = POPUP_TYPE_VENDORS;
-            showHideDetailAndPan(true);
-            return new FragmentReplaceInfo(
-                    VendorDetailFragment.class,
-                    "vendor_detail",
-                    R.id.fragment_container_map_detail);
         }
         return null;
     }
@@ -132,7 +113,7 @@ public class MapMultiPaneActivity extends BaseMultiPaneActivity implements
     protected void onBeforeCommitReplaceFragment(FragmentManager fm, FragmentTransaction ft,
             Fragment fragment) {
         super.onBeforeCommitReplaceFragment(fm, ft, fragment);
-        if (fragment instanceof SessionsFragment || fragment instanceof VendorsFragment) {
+        if (fragment instanceof SessionsFragment) {
             mPauseBackStackWatcher = true;
             clearBackStack(fm);
             mPauseBackStackWatcher = false;

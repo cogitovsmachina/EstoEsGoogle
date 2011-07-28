@@ -53,7 +53,6 @@ public class TracksDropdownFragment extends Fragment implements
     public static final String EXTRA_NEXT_TYPE = "com.google.android.iosched.extra.NEXT_TYPE";
 
     public static final String NEXT_TYPE_SESSIONS = "sessions";
-    public static final String NEXT_TYPE_VENDORS = "vendors";
 
     private boolean mAutoloadTarget = true;
     private Cursor mCursor;
@@ -109,12 +108,7 @@ public class TracksDropdownFragment extends Fragment implements
             projection = TracksAdapter.TracksQuery.PROJECTION_WITH_SESSIONS_COUNT;
             selection = ScheduleContract.Tracks.SESSIONS_COUNT + ">0";
 
-        } else if (TracksFragment.NEXT_TYPE_VENDORS.equals(mNextType)) {
-            // Only show tracks with at least one vendor
-            projection = TracksAdapter.TracksQuery.PROJECTION_WITH_VENDORS_COUNT;
-            selection = ScheduleContract.Tracks.VENDORS_COUNT + ">0";
         }
-
         // Start background query to load tracks
         mHandler.startQuery(TracksAdapter.TracksQuery._TOKEN, null, tracksUri, projection,
                 selection, null, ScheduleContract.Tracks.DEFAULT_SORT);
@@ -177,7 +171,7 @@ public class TracksDropdownFragment extends Fragment implements
         }
 
         mAdapter.setHasAllItem(true);
-        mAdapter.setIsSessions(TracksFragment.NEXT_TYPE_SESSIONS.equals(mNextType));
+        mAdapter.setIsSessions(true);
         mAdapter.changeCursor(mCursor);
     }
 
@@ -214,12 +208,8 @@ public class TracksDropdownFragment extends Fragment implements
             trackColor = res.getColor(R.color.all_track_color);
             trackId = ScheduleContract.Tracks.ALL_TRACK_ID;
 
-            mTitle.setText(TracksFragment.NEXT_TYPE_SESSIONS.equals(mNextType)
-                    ? R.string.all_sessions_title
-                    : R.string.all_sandbox_title);
-            mAbstract.setText(TracksFragment.NEXT_TYPE_SESSIONS.equals(mNextType)
-                    ? R.string.all_sessions_subtitle
-                    : R.string.all_sandbox_subtitle);
+            mTitle.setText(R.string.all_sessions_title);
+            mAbstract.setText(R.string.all_sessions_subtitle);
         }
 
         boolean isDark = UIUtils.isColorDark(trackColor);
@@ -242,18 +232,10 @@ public class TracksDropdownFragment extends Fragment implements
             final Uri trackUri = ScheduleContract.Tracks.buildTrackUri(trackId);
             intent.putExtra(SessionDetailFragment.EXTRA_TRACK, trackUri);
 
-            if (NEXT_TYPE_SESSIONS.equals(mNextType)) {
-                if (cursor == null) {
-                    intent.setData(ScheduleContract.Sessions.CONTENT_URI);
-                } else {
-                    intent.setData(ScheduleContract.Tracks.buildSessionsUri(trackId));
-                }
-            } else if (NEXT_TYPE_VENDORS.equals(mNextType)) {
-                if (cursor == null) {
-                    intent.setData(ScheduleContract.Vendors.CONTENT_URI);
-                } else {
-                    intent.setData(ScheduleContract.Tracks.buildVendorsUri(trackId));
-                }
+            if (cursor == null) {
+                intent.setData(ScheduleContract.Sessions.CONTENT_URI);
+            } else {
+                intent.setData(ScheduleContract.Tracks.buildSessionsUri(trackId));
             }
 
             ((BaseActivity) getActivity()).openActivityOrFragment(intent);
