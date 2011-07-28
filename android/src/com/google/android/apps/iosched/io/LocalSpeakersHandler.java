@@ -1,7 +1,6 @@
 package com.google.android.apps.iosched.io;
 
 import static com.google.android.apps.iosched.util.ParserUtils.sanitizeId;
-import static com.google.android.apps.iosched.util.ParserUtils.AtomTags.ENTRY;
 import static org.xmlpull.v1.XmlPullParser.END_DOCUMENT;
 import static org.xmlpull.v1.XmlPullParser.END_TAG;
 import static org.xmlpull.v1.XmlPullParser.START_TAG;
@@ -15,8 +14,6 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
-import android.util.Log;
-import android.widget.Toast;
 
 import com.google.android.apps.iosched.provider.ScheduleContract;
 import com.google.android.apps.iosched.provider.ScheduleContract.Speakers;
@@ -25,7 +22,6 @@ import com.google.android.apps.iosched.util.Lists;
 
 public class LocalSpeakersHandler extends XmlHandler {
 
-	 private static final String TAG = "SpeakersHandler";
 
 	    public LocalSpeakersHandler() {
 	        super(ScheduleContract.CONTENT_AUTHORITY);

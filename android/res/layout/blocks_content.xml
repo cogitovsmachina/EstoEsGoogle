@@ -27,7 +27,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layerType="software"
-        iosched:columns="4">
+        iosched:columns="2">
         <view
             class="com.google.android.apps.iosched.ui.widget.TimeRulerView"
             android:id="@id/blocks_ruler"
