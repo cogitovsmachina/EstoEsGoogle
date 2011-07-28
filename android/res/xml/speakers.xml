@@ -6,4 +6,16 @@
 		<image>http://www.estoesgoogle.com/images/conf/conf_11.jpg</image>
 		<abstract>Bruno es ingeniero en Desarrollo de Programas en Google. Desde Sao Paulo, Brasil, trabaja estrechamente con desarrolladores con el fin de crecer y atraer a la comunidad en línea alrededor de los productos que Google tiene para ellos, poniendo especial énfasis en fomentar la participación de los desarrolladores tanto brasileños como del resto de Latinoamérica. Sus áreas de interés son Android y Social.</abstract>
 	</speaker>
+	<speaker>
+		<name>Dan Galpin</name>
+		<company>Google Inc.</company>
+		<image>http://www.estoesgoogle.com/images/conf/conf_12.jpg</image>
+		<abstract>Dan Galpin es un Developer Advocate del equipo Google Android, enfocado en Juegos/ OpenGL, lo que implica ser capaz de trabajar tanto con los entornos de Dalvik como de NDK. Antes de unirse a Google, Dan ha estado trabajando intensamente con Android; desarrolló varias aplicaciones, creó un video instructivo para Android, y fue supervisor técnico de un popular libro también de Android. Ha pasado los últimos diez años de su carrera trabajando en el espacio móvil, incursionando en casi todas las áreas telefónicas. En su tiempo libre, participa con las compañías de ópera locales.</abstract>
+	</speaker>
+	<speaker>
+		<name>Trevor Johns</name>
+		<company>Google Inc.</company>
+		<image>http://www.estoesgoogle.com/images/conf/conf_13.jpg</image>
+		<abstract>Trevor es ingeniero de Desarrollo de Programas para Android en Google. Antes de unirse al equipo de Android, trabajó en la base de datos de Google para Blogger, Google Calendar, Contactos y Hojas de Cálculo. Es egresado de la Universidad de California del Sur, donde fue acreedor de un MS en Ciencias Computacionales y un BS en Ingeniería Computacional. Le gusta pasar su tiempo libre trabajando en software de código abierto y construyendo proyectos electrónicos, así como explorando las bellas montañas de California, Estados Unidos.</abstract>
+	</speaker>
 </speakers>

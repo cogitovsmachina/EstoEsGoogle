@@ -1,8 +1,8 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.google.android.apps.iosched"
-    android:versionCode="16"
-    android:versionName="0.16"
+    android:versionCode="1"
+    android:versionName="0.1"
     android:installLocation="auto">
 
     <uses-sdk
@@ -39,10 +39,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".ui.BulletinActivity"
-            android:label="@string/title_bulletin" />
 
         <activity
             android:name=".ui.TagStreamActivity"
@@ -99,25 +95,6 @@
         </activity>
 
         <activity
-            android:name=".ui.phone.VendorsActivity"
-            android:label="@string/title_vendors">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.TAB" />
-                <data android:mimeType="vnd.android.cursor.dir/vnd.iosched.vendor" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".ui.phone.VendorDetailActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.item/vnd.iosched.vendor" />
-            </intent-filter>
-        </activity>
-
-        <activity
             android:name=".ui.phone.MapActivity"
             android:label="@string/title_map"
             android:configChanges="orientation|keyboardHidden" />
@@ -127,9 +104,6 @@
         <activity
             android:name=".ui.tablet.SessionsMultiPaneActivity"
             android:label="@string/title_sessions" />
-        <activity
-            android:name=".ui.tablet.VendorsMultiPaneActivity"
-            android:label="@string/title_vendors" />
         <activity
             android:name=".ui.tablet.ScheduleMultiPaneActivity"
             android:label="@string/title_schedule" />
