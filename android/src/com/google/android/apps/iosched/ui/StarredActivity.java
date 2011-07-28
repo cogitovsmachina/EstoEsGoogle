@@ -60,7 +60,7 @@ public class StarredActivity extends BaseMultiPaneActivity {
         mTabHost.setup();
 
         setupSessionsTab();
-        setupVendorsTab();
+//      setupVendorsTab();
     }
 
     @Override
