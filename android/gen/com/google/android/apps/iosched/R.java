@@ -629,7 +629,8 @@ containing a value of this type.
         public static final int searchable=0x7f050004;
         public static final int sessions=0x7f050005;
         public static final int sessions0=0x7f050006;
-        public static final int tracks=0x7f050007;
+        public static final int speakers=0x7f050007;
+        public static final int tracks=0x7f050008;
     }
     public static final class styleable {
         /** Attributes that can be used with a AppTheme.

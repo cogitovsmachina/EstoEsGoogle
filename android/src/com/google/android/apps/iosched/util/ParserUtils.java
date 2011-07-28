@@ -93,6 +93,8 @@ public class ParserUtils {
      */
     public static String[] splitComma(CharSequence input) {
         if (input == null) return new String[0];
+        String temp=(String)input;
+        if (temp.indexOf(",")==-1) return new String[]{(String)input};
         return sCommaPattern.split(input);
     }
 

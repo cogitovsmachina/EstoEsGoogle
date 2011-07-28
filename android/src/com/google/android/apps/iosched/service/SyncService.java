@@ -16,19 +16,9 @@
 
 package com.google.android.apps.iosched.service;
 
-import com.google.android.apps.iosched.R;
-import com.google.android.apps.iosched.io.LocalBlocksHandler;
-import com.google.android.apps.iosched.io.LocalExecutor;
-import com.google.android.apps.iosched.io.LocalRoomsHandler;
-import com.google.android.apps.iosched.io.LocalSearchSuggestHandler;
-import com.google.android.apps.iosched.io.LocalSessionsHandler;
-import com.google.android.apps.iosched.io.LocalTracksHandler;
-import com.google.android.apps.iosched.io.RemoteExecutor;
-import com.google.android.apps.iosched.io.RemoteSessionsHandler;
-import com.google.android.apps.iosched.io.RemoteSpeakersHandler;
-import com.google.android.apps.iosched.io.RemoteVendorsHandler;
-import com.google.android.apps.iosched.io.RemoteWorksheetsHandler;
-import com.google.android.apps.iosched.provider.ScheduleProvider;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.zip.GZIPInputStream;
 
 import org.apache.http.Header;
 import org.apache.http.HeaderElement;
@@ -61,9 +51,15 @@ import android.os.ResultReceiver;
 import android.text.format.DateUtils;
 import android.util.Log;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.zip.GZIPInputStream;
+import com.google.android.apps.iosched.R;
+import com.google.android.apps.iosched.io.LocalBlocksHandler;
+import com.google.android.apps.iosched.io.LocalExecutor;
+import com.google.android.apps.iosched.io.LocalRoomsHandler;
+import com.google.android.apps.iosched.io.LocalSearchSuggestHandler;
+import com.google.android.apps.iosched.io.LocalSessionsHandler;
+import com.google.android.apps.iosched.io.LocalSpeakersHandler;
+import com.google.android.apps.iosched.io.LocalTracksHandler;
+import com.google.android.apps.iosched.provider.ScheduleProvider;
 
 /**
  * Background {@link Service} that synchronizes data living in
@@ -81,19 +77,11 @@ public class SyncService extends IntentService {
     public static final int STATUS_FINISHED = 0x3;
 
     private static final int SECOND_IN_MILLIS = (int) DateUtils.SECOND_IN_MILLIS;
-
-    /** Root worksheet feed for online data source */
-    // TODO: insert your sessions/speakers/vendors spreadsheet doc URL here.
-    private static final String WORKSHEETS_URL = "INSERT_SPREADSHEET_URL_HERE";
-
     private static final String HEADER_ACCEPT_ENCODING = "Accept-Encoding";
     private static final String ENCODING_GZIP = "gzip";
-
-    private static final int VERSION_NONE = 0;
     private static final int VERSION_CURRENT = 11;
 
     private LocalExecutor mLocalExecutor;
-    private RemoteExecutor mRemoteExecutor;
 
     public SyncService() {
         super(TAG);
@@ -102,12 +90,9 @@ public class SyncService extends IntentService {
     @Override
     public void onCreate() {
         super.onCreate();
-
-        final HttpClient httpClient = getHttpClient(this);
         final ContentResolver resolver = getContentResolver();
 
         mLocalExecutor = new LocalExecutor(getResources(), resolver);
-        mRemoteExecutor = new RemoteExecutor(httpClient, resolver);
     }
 
     @Override
@@ -116,45 +101,24 @@ public class SyncService extends IntentService {
 
         final ResultReceiver receiver = intent.getParcelableExtra(EXTRA_STATUS_RECEIVER);
         if (receiver != null) receiver.send(STATUS_RUNNING, Bundle.EMPTY);
-
-        final Context context = this;
         final SharedPreferences prefs = getSharedPreferences(Prefs.IOSCHED_SYNC,
                 Context.MODE_PRIVATE);
-        final int localVersion = prefs.getInt(Prefs.LOCAL_VERSION, VERSION_NONE);
 
         try {
             // Bulk of sync work, performed by executing several fetches from
             // local and online sources.
+            
+            // Load static local data
+            mLocalExecutor.execute(R.xml.blocks, new LocalBlocksHandler());
+            mLocalExecutor.execute(R.xml.speakers, new LocalSpeakersHandler());
+            mLocalExecutor.execute(R.xml.rooms, new LocalRoomsHandler());
+            mLocalExecutor.execute(R.xml.tracks, new LocalTracksHandler());
+            mLocalExecutor.execute(R.xml.search_suggest, new LocalSearchSuggestHandler());
+            mLocalExecutor.execute(R.xml.sessions, new LocalSessionsHandler());
 
-            final long startLocal = System.currentTimeMillis();
-            final boolean localParse = localVersion < VERSION_CURRENT;
-            Log.d(TAG, "found localVersion=" + localVersion + " and VERSION_CURRENT="
-                    + VERSION_CURRENT);
-            if (localParse) {
-                // Load static local data
-                mLocalExecutor.execute(R.xml.blocks, new LocalBlocksHandler());
-                mLocalExecutor.execute(R.xml.rooms, new LocalRoomsHandler());
-                mLocalExecutor.execute(R.xml.tracks, new LocalTracksHandler());
-                mLocalExecutor.execute(R.xml.search_suggest, new LocalSearchSuggestHandler());
-                mLocalExecutor.execute(R.xml.sessions, new LocalSessionsHandler());
-
-                // Parse values from local cache first, since spreadsheet copy
-                // or network might be down.
-                mLocalExecutor.execute(context, "cache-sessions.xml", new RemoteSessionsHandler());
-                mLocalExecutor.execute(context, "cache-speakers.xml", new RemoteSpeakersHandler());
-                mLocalExecutor.execute(context, "cache-vendors.xml", new RemoteVendorsHandler());
-
-                // Save local parsed version
-                prefs.edit().putInt(Prefs.LOCAL_VERSION, VERSION_CURRENT).commit();
-            }
-            Log.d(TAG, "local sync took " + (System.currentTimeMillis() - startLocal) + "ms");
-
-            // Always hit remote spreadsheet for any updates
-            final long startRemote = System.currentTimeMillis();
-            mRemoteExecutor
-                    .executeGet(WORKSHEETS_URL, new RemoteWorksheetsHandler(mRemoteExecutor));
-            Log.d(TAG, "remote sync took " + (System.currentTimeMillis() - startRemote) + "ms");
-
+            // Save local parsed version
+            prefs.edit().putInt(Prefs.LOCAL_VERSION, VERSION_CURRENT).commit();
+            
         } catch (Exception e) {
             Log.e(TAG, "Problem while syncing", e);
 
