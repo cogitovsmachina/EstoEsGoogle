@@ -36,6 +36,7 @@ import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
 import android.database.Cursor;
 import android.net.Uri;
+import android.util.Log;
 
 import com.google.android.apps.iosched.provider.ScheduleContract;
 import com.google.android.apps.iosched.provider.ScheduleContract.Rooms;
@@ -151,7 +152,6 @@ public class LocalSessionsHandler extends XmlHandler {
         }
 
         batch.add(builder.build());
-        
         // Assign tracks
         for (String track : tracks) {
             final String trackId = translateTrackIdAlias(sanitizeId(track));
