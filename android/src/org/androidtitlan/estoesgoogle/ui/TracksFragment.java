@@ -25,7 +25,7 @@ public class TracksFragment extends ListFragment implements
 
     public static final String EXTRA_NEXT_TYPE = "org.androidtitlan.estoesgoogle.extra.NEXT_TYPE";
 
-    public static final String NEXT_TYPE_SESSIONS = "sesiones";
+    public static final String NEXT_TYPE_SESSIONS = "sessions";
 //    public static final String NEXT_TYPE_VENDORS = "vendors";
 
     private TracksAdapter mAdapter;

@@ -1,118 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-
-<!-- Confirmed, these files are used to create the local blocks. To review the changes 
-	you need to delete all the memory data. Somehow if there are something in the DB
-	Doesnt update automatically.-->
-   <!--Keynote, Tuesday, Aug 9th 2011 -->
-   <block>
-        <start>2011-09-10T09:00:00.000-07:00</start>
-          <end>2011-09-10T10:00:00.000-07:00</end>
-        <title>Keynote</title>
-        <type>session</type>
-    </block>
-
-    <!-- Monday, May 9th 2011 -->
-    <block>
-        <start>2011-05-09T13:00:00.000-07:00</start>
-          <end>2011-05-09T19:00:00.000-07:00</end>
-        <title>On-site check-in</title>
-    </block>
-    <block>
-        <start>2011-05-09T09:00:00.000-07:00</start>
-          <end>2011-05-09T18:00:00.000-07:00</end>
-        <title>BootCamp</title>
-        <type>session</type>
-    </block>
-
-    <!-- Tuesday, May 10th 2011 -->
-    <block>
-        <start>2011-05-10T07:00:00.000-07:00</start>
-          <end>2011-05-10T22:00:00.000-07:00</end>
-        <title>On-site check-in</title>
-    </block>
-    <block>
-        <start>2011-05-10T07:00:00.000-07:00</start>
-          <end>2011-05-10T10:00:00.000-07:00</end>
-        <title>Breakfast</title>
-        <type>food</type>
-    </block>
-    <block>
-        <start>2011-05-10T09:00:00.000-07:00</start>
-          <end>2011-05-10T10:00:00.000-07:00</end>
-        <title>Keynote</title>
-        <type>session</type>
-    </block>
-    <block>
-        <start>2011-05-10T10:30:00.000-07:00</start>
-          <end>2011-05-10T18:30:00.000-07:00</end>
-        <title>Developer Sandbox</title>
-    </block>
-    <block>
-        <start>2011-05-10T11:45:00.000-07:00</start>
-          <end>2011-05-10T13:30:00.000-07:00</end>
-        <title>Lunch served</title>
-        <type>food</type>
-    </block>
-    <block>
-        <start>2011-05-10T12:00:00.000-07:00</start>
-          <end>2011-05-10T15:00:00.000-07:00</end>
-        <title>Office hours</title>
-        <type>officehours</type>
-    </block>
-    <block>
-        <start>2011-05-10T15:00:00.000-07:00</start>
-          <end>2011-05-10T18:30:00.000-07:00</end>
-        <title>Office hours</title>
-        <type>officehours</type>
-    </block>
-    <block>
-        <start>2011-05-10T18:30:00.000-07:00</start>
-          <end>2011-05-10T22:30:00.000-07:00</end>
-        <title>After Hours evening party</title>
-        <type>food</type>
-    </block>
-
-    <!-- Wednesday, May 11th 2011 -->
-    <block>
-        <start>2011-05-11T07:00:00.000-07:00</start>
-          <end>2011-05-11T16:00:00.000-07:00</end>
-        <title>On-site check-in</title>
-    </block>
-    <block>
-        <start>2011-05-11T07:00:00.000-07:00</start>
-          <end>2011-05-11T10:00:00.000-07:00</end>
-        <title>Breakfast</title>
-        <type>food</type>
-    </block>
-    <block>
-        <start>2011-05-11T09:30:00.000-07:00</start>
-          <end>2011-05-11T10:30:00.000-07:00</end>
-        <title>Keynote</title>
-        <type>session</type>
-    </block>
-    <block>
-        <start>2011-05-11T10:30:00.000-07:00</start>
-          <end>2011-05-11T17:30:00.000-07:00</end>
-        <title>Developer Sandbox</title>
-    </block>
-    <block>
-        <start>2011-05-11T11:45:00.000-07:00</start>
-          <end>2011-05-11T13:30:00.000-07:00</end>
-        <title>Lunch served</title>
-        <type>food</type>
-    </block>
-    <block>
-        <start>2011-05-11T12:00:00.000-07:00</start>
-          <end>2011-05-11T15:00:00.000-07:00</end>
-        <title>Office hours</title>
-        <type>officehours</type>
-    </block>
-    <block>
-        <start>2011-05-11T15:00:00.000-07:00</start>
-          <end>2011-05-11T17:30:00.000-07:00</end>
-        <title>Office hours</title>
-        <type>officehours</type>
-    </block>
-
+	<!-- Horarios dudosos debido a incongruencias entre el archivo xls y estoesgoogle.com -->
+	
+	<!-- Día 1 -->
+	<block>
+		<start>2011-08-09T09:00:00.000-07:00</start>
+		<end>2011-08-09T10:00:00.000-07:00</end>
+		<title>Bienvenida Developers</title>
+		<type>session</type>
+	</block>
+	
+	<!-- Día 2 -->
+	<block>
+		<start>2011-08-10T09:00:00.000-07:00</start>
+		<end>2011-08-10T10:00:00.000-07:00</end>
+		<title>Bienvenida Gobierno</title>
+		<type>session</type>
+	</block>
+	<block>
+		<start>2011-08-10T12:00:00.000-07:00</start>
+		<end>2011-08-10T13:00:00.000-07:00</end>
+		<title>Bienvenida ONG/EDU</title>
+		<type>session</type>
+	</block>
+	<block>
+		<start>2011-08-10T17:00:00.000-07:00</start>
+		<end>2011-08-10T18:00:00.000-07:00</end>
+		<title>Bienvenida Usuarios</title>
+		<type>session</type>
+	</block>
+	
+	<!-- Día 3 -->
+	<block>
+		<start>2011-08-11T09:00:00.000-07:00</start>
+		<end>2011-08-11T10:00:00.000-07:00</end>
+		<title>Bienvenida Empresas</title>
+		<type>session</type>
+	</block>
 </blocks>

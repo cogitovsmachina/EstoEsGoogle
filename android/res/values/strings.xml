@@ -1,31 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2011 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Esto es Google</string>
-    <string name="description_logo">Esto es Google</string>
-    <string name="description_home">Inicio</string>
-    <string name="description_search">Busqueda</string>
-    <string name="description_map">Mapa</string>
-    <string name="description_refresh">Actualizar</string>
-    <string name="description_share">Compartir</string>
-    <string name="description_export">Exportar</string>
+    <string name="app_name">Google I/O 2011</string>
+
+    <string name="description_logo">Google I/O 2011</string>
+    <string name="description_home">Home</string>
+    <string name="description_search">Search</string>
+    <string name="description_map">Map</string>
+    <string name="description_refresh">Refresh</string>
+    <string name="description_share">Share</string>
+    <string name="description_export">Export</string>
     <string name="description_star">Star</string>
     <string name="description_now">Go to Now</string>
 
     <string name="title_now_playing">Now Playing</string>
-    <!--  <string name="title_schedule">Schedule</string>--> 
-    <string name="title_schedule">Agenda</string> 
-    
-    <string name="title_sessions">Sesiones</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_sessions">Sessions</string>
     <string name="title_session_detail">Session Information</string>
-    <string name="title_starred">Favoritos</string>
+    <string name="title_starred">Starred</string>
     <string name="title_tracks">Tracks</string>
-     <string name="title_vendors">Sandbox</string> 
+    <string name="title_vendors">Sandbox</string>
     <string name="title_vendor_detail">Company Information</string>
-    <string name="title_map">Mapa</string>
+    <string name="title_map">Map</string>
     <string name="title_tagstream">Realtime Stream</string>
     <string name="title_bulletin">Bulletin</string>
 
-    <string name="title_session_tracks">Sesiones</string>
+    <string name="title_session_tracks">Session tracks</string>
     <string name="title_vendor_tracks">Sandbox pods</string>
 
     <string name="title_share">Share using</string>
@@ -33,12 +47,12 @@
     <string name="title_search">Search</string>
     <string name="title_search_query">Search for \'<xliff:g id="query">%1$s</xliff:g>\'</string>
 
-    <string name="btn_schedule">Agenda</string>
-    <string name="btn_map">Mapa</string>
-    <string name="btn_sessions">Sesiones</string>
-    <string name="btn_starred">Favoritos</string>
- <!--   <string name="btn_vendors">Sandbox</string>
-    <string name="btn_announcements">Bulletin</string>  -->
+    <string name="btn_schedule">Schedule</string>
+    <string name="btn_map">Map</string>
+    <string name="btn_sessions">Sessions</string>
+    <string name="btn_starred">Starred</string>
+    <string name="btn_vendors">Sandbox</string>
+    <string name="btn_announcements">Bulletin</string>
 
     <string name="toast_sync_error">Sync error: <xliff:g id="error">%1$s</xliff:g></string>
 
@@ -51,17 +65,17 @@
     <string name="all_sessions_title">All sessions</string>
     <string name="all_sessions_subtitle">Tap to filter sessions by track.</string>
 
-    <string name="empty_sessions">No se encontraron sesiones</string>
-    <string name="empty_session_detail">No hay detalles de sesión</string>
+    <string name="empty_sessions">No sessions found</string>
+    <string name="empty_session_detail">No session details found</string>
     <string name="empty_vendors">No sandbox results found</string>
-    <string name="empty_search">No hay resultados de la búsqueda</string>
-    <string name="empty_links">No hay links disponibles</string>
+    <string name="empty_search">No search results found</string>
+    <string name="empty_links">No links available</string>
 
-    <string name="session_summary">Resumen</string>
-    <string name="session_notes">Notas</string>
+    <string name="session_summary">Summary</string>
+    <string name="session_notes">Notes</string>
     <string name="session_links">Links</string>
-    <string name="session_requirements">Requisitos</string>
-    <string name="session_speakers">Conferencistas</string>
+    <string name="session_requirements">Requirements</string>
+    <string name="session_speakers">Speakers</string>
 
     <string name="tag_stream">Realtime stream for</string>
     
@@ -75,10 +89,10 @@
     <string name="search_sessions">Sessions</string>
     <string name="search_vendors">Sandbox</string>
 
-    <string name="starred_sessions">Sesiones</string>
+    <string name="starred_sessions">Sessions</string>
     <string name="starred_vendors">Sandbox</string>
 
-    <string name="search_label">Esto es Google</string>
+    <string name="search_label">Google I/O</string>
     <string name="search_hint">Session keywords</string>
 
     <string name="share_template">Checking out \'<xliff:g id="title">%1$s</xliff:g>\' at <xliff:g id="hashtags">%2$s</xliff:g> <xliff:g id="url">%3$s</xliff:g></string>
@@ -89,7 +103,7 @@
     <string name="dialog_moderator_message">The official Google Moderator app is available in Market, would you like to install it or continue using a normal browser?</string>
 
     <string name="dialog_moderator_web">Use Browser</string>
-    <string name="dialog_moderator_market">Visita Android Market</string>
+    <string name="dialog_moderator_market">Visit Market</string>
 
     <plurals name="whats_on_countdown_title">
         <item quantity="zero"><xliff:g id="remaining_time">%2$s</xliff:g>\nuntil Google I/O</item>
@@ -106,10 +120,9 @@
     <string name="toast_now_not_visible">Press this button during Google I/O to show the current time.</string>
 
     <!-- Notes integration -->
-    <string name="notes_catch_powered_by">Notas es desarrollado por <a href="http://www.catch.com/">Catch.com</a>.</string>
-    <string name="notes_catch_market_title">Descarga Catch Notes</string>
- <!--    <string name="notes_catch_market_subtitle">You can take notes for Google I/O sessions using the latest version of Catch Notes, available from Android Market.</string> -->
-    <string name="notes_catch_market_subtitle">Puedes descargar Catch Notes para las sesiones de Esto Es Google utilizando la última versión de Catch Notes, disponible en Android Market. </string>
+    <string name="notes_catch_powered_by">Notes are powered by <a href="http://www.catch.com/">Catch.com</a>.</string>
+    <string name="notes_catch_market_title">Install Catch Notes</string>
+    <string name="notes_catch_market_subtitle">You can take notes for Google I/O sessions using the latest version of Catch Notes, available from Android Market.</string>
     <string name="notes_catch_new_title">Create a new note</string>
     <string name="notes_catch_view_title">View track notes</string>
     <string name="toast_notes_error_invoking">Error invoking Catch Notes.</string>
