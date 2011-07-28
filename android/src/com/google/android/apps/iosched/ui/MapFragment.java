@@ -63,58 +63,58 @@ public class MapFragment extends Fragment {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
         AnalyticsUtils.getInstance(getActivity()).trackPageView("/Map");
-    }
+        }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
 
-        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.fragment_webview_with_spinner, null);
+        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.mapview, null);
 
         // For some reason, if we omit this, NoSaveStateFrameLayout thinks we are
         // FILL_PARENT / WRAP_CONTENT, making the progress bar stick to the top of the activity.
         root.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT,
                 ViewGroup.LayoutParams.FILL_PARENT));
 
-        mLoadingSpinner = root.findViewById(R.id.loading_spinner);
-        mWebView = (WebView) root.findViewById(R.id.webview);
-        mWebView.setWebChromeClient(mWebChromeClient);
-        mWebView.setWebViewClient(mWebViewClient);
-
-        mWebView.post(new Runnable() {
-            public void run() {
-                // Initialize web view
-                if (CLEAR_CACHE_ON_LOAD) {
-                    mWebView.clearCache(true);
-                }
-
-                mWebView.getSettings().setJavaScriptEnabled(true);
-                mWebView.getSettings().setJavaScriptCanOpenWindowsAutomatically(false);
-                mWebView.loadUrl(MAP_URL);
-                mWebView.addJavascriptInterface(mMapJsiImpl, MAP_JSI_NAME);
-            }
-        });
+//        mLoadingSpinner = root.findViewById(R.id.loading_spinner);
+//        mWebView = (WebView) root.findViewById(R.id.webview);
+//        mWebView.setWebChromeClient(mWebChromeClient);
+//        mWebView.setWebViewClient(mWebViewClient);
+//
+//        mWebView.post(new Runnable() {
+//            public void run() {
+//                // Initialize web view
+//                if (CLEAR_CACHE_ON_LOAD) {
+//                    mWebView.clearCache(true);
+//                }
+//
+//                mWebView.getSettings().setJavaScriptEnabled(true);
+//                mWebView.getSettings().setJavaScriptCanOpenWindowsAutomatically(false);
+//                mWebView.loadUrl(MAP_URL);
+////                mWebView.addJavascriptInterface(mMapJsiImpl, MAP_JSI_NAME);
+//            }
+//        });
 
         return root;
     }
 
 
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.refresh_menu_items, menu);
-    }
+//    @Override
+//    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+//        super.onCreateOptionsMenu(menu, inflater);
+//        inflater.inflate(R.menu.refresh_menu_items, menu);
+//    }
+//
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        if (item.getItemId() == R.id.menu_refresh) {
+//            mWebView.reload();
+//            return true;
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.menu_refresh) {
-            mWebView.reload();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-    private void runJs(String js) {
+   /* private void runJs(String js) {
         if (Log.isLoggable(TAG, Log.DEBUG)) {
             Log.d(TAG, "Loading javascript:" + js);
         }
@@ -125,21 +125,21 @@ public class MapFragment extends Fragment {
      * Helper method to escape JavaScript strings. Useful when passing strings to a WebView via
      * "javascript:" calls.
      */
-    private static String escapeJsString(String s) {
-        if (s == null) {
-            return "";
-        }
+//    private static String escapeJsString(String s) {
+//        if (s == null) {
+//            return "";
+//        }
+//
+//        return s.replace("'", "\\'").replace("\"", "\\\"");
+//    }
 
-        return s.replace("'", "\\'").replace("\"", "\\\"");
-    }
-
-    public void panLeft(float screenFraction) {
-        runJs("IoMap.panLeft('" + screenFraction + "');");
-    }
+//    public void panLeft(float screenFraction) {
+//        runJs("IoMap.panLeft('" + screenFraction + "');");
+//    }
 
     /**
      * I/O Conference Map JavaScript interface.
-     */
+     *
     private interface MapJsi {
         void openContentInfo(String test);
         void onMapReady();
@@ -214,5 +214,5 @@ public class MapFragment extends Fragment {
 
             mMapInitialized = true;
         }
-    };
+    };*/
 }
