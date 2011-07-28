@@ -15,9 +15,9 @@
   limitations under the License.
   -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Google I/O 2011</string>
+    <string name="app_name">Esto Es Google</string>
 
-    <string name="description_logo">Google I/O 2011</string>
+    <string name="description_logo">Esto Es Google</string>
     <string name="description_home">Home</string>
     <string name="description_search">Search</string>
     <string name="description_map">Map</string>
@@ -28,18 +28,18 @@
     <string name="description_now">Go to Now</string>
 
     <string name="title_now_playing">Now Playing</string>
-    <string name="title_schedule">Schedule</string>
-    <string name="title_sessions">Sessions</string>
+    <string name="title_schedule">Agenda</string>
+    <string name="title_sessions">Sesiones</string>
     <string name="title_session_detail">Session Information</string>
-    <string name="title_starred">Starred</string>
+    <string name="title_starred">Favoritos</string>
     <string name="title_tracks">Tracks</string>
     <string name="title_vendors">Sandbox</string>
     <string name="title_vendor_detail">Company Information</string>
-    <string name="title_map">Map</string>
+    <string name="title_map">Mapa</string>
     <string name="title_tagstream">Realtime Stream</string>
     <string name="title_bulletin">Bulletin</string>
 
-    <string name="title_session_tracks">Session tracks</string>
+    <string name="title_session_tracks">Sesiones</string>
     <string name="title_vendor_tracks">Sandbox pods</string>
 
     <string name="title_share">Share using</string>
@@ -47,10 +47,10 @@
     <string name="title_search">Search</string>
     <string name="title_search_query">Search for \'<xliff:g id="query">%1$s</xliff:g>\'</string>
 
-    <string name="btn_schedule">Schedule</string>
-    <string name="btn_map">Map</string>
-    <string name="btn_sessions">Sessions</string>
-    <string name="btn_starred">Starred</string>
+    <string name="btn_schedule">Agenda</string>
+    <string name="btn_map">Mapa</string>
+    <string name="btn_sessions">Sesiones</string>
+    <string name="btn_starred">Favoritos</string>
     <string name="btn_vendors">Sandbox</string>
     <string name="btn_announcements">Bulletin</string>
 
@@ -62,20 +62,20 @@
     <string name="all_sandbox_title">All companies</string>
     <string name="all_sandbox_subtitle">Tap to filter by sandbox companies by pod.</string>
 
-    <string name="all_sessions_title">All sessions</string>
+    <string name="all_sessions_title">Todas las sesiones</string>
     <string name="all_sessions_subtitle">Tap to filter sessions by track.</string>
 
-    <string name="empty_sessions">No sessions found</string>
+    <string name="empty_sessions">No se encontraron sesiones</string>
     <string name="empty_session_detail">No session details found</string>
     <string name="empty_vendors">No sandbox results found</string>
     <string name="empty_search">No search results found</string>
-    <string name="empty_links">No links available</string>
+    <string name="empty_links">No hay links disponibles</string>
 
-    <string name="session_summary">Summary</string>
-    <string name="session_notes">Notes</string>
-    <string name="session_links">Links</string>
+    <string name="session_summary">Resumen</string>
+    <string name="session_notes">Notas</string>
+    <string name="session_links">Enlaces</string>
     <string name="session_requirements">Requirements</string>
-    <string name="session_speakers">Speakers</string>
+    <string name="session_speakers">Conferencista</string>
 
     <string name="tag_stream">Realtime stream for</string>
     
@@ -120,10 +120,11 @@
     <string name="toast_now_not_visible">Press this button during Google I/O to show the current time.</string>
 
     <!-- Notes integration -->
-    <string name="notes_catch_powered_by">Notes are powered by <a href="http://www.catch.com/">Catch.com</a>.</string>
-    <string name="notes_catch_market_title">Install Catch Notes</string>
-    <string name="notes_catch_market_subtitle">You can take notes for Google I/O sessions using the latest version of Catch Notes, available from Android Market.</string>
-    <string name="notes_catch_new_title">Create a new note</string>
+    <string name="notes_catch_powered_by">Notes es desarrollado por <a href="http://www.catch.com/">Catch.com</a>.</string>
+    <string name="notes_catch_market_title">Descarga Catch Notes</string>
+   <!--  <string name="notes_catch_market_subtitle">You can take notes for Google I/O sessions using the latest version of Catch Notes, available from Android Market.</string> -->
+    <string name="notes_catch_market_subtitle">Puedes tomar notas en las sesiones de Esto Es Google utilizando la ultima version de Catch Notes, disponible en Android Market.</string>
+    <string name="notes_catch_new_title">Crea una nueva nota</string>
     <string name="notes_catch_view_title">View track notes</string>
     <string name="toast_notes_error_invoking">Error invoking Catch Notes.</string>
 
@@ -131,8 +132,8 @@
 
     <!-- EULA -->
     <string name="eula_title">EULA title.</string>
-    <string name="eula_text">EULA goes here.</string>
-    <string name="accept">Accept</string>
-    <string name="decline">Decline</string>
+    <string name="eula_text">Nyan nyan nyan nyan nyan.</string>
+    <string name="accept">Aceptar</string>
+    <string name="decline">Declinar</string>
 
 </resources>

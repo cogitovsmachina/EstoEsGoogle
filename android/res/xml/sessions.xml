@@ -15,6 +15,20 @@
 	</session>
 	
 	<session>
+		<title>----</title>
+		<speakers>Bruno Oliveira</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>1</room>
+		<track>Android</track>
+		<abstract>El crecimiento de Android en todo el mundo no está lejos de extraordinario y una parte fundamental de ello está en el gran ecosistema de desarrollo. En ésta sesión, presentaremos una perspectiva general de la plataforma, incluyendo la motivación para realizar aplicaciones móviles, un poco de historia y lo nuevo en las últimas versiones, así como una perspectiva general del SDK.</abstract>
+		<keywords>Android, SDK, Development, apps, mobile</keywords>
+	</session>
+	
+	
+	<session>
 		<title>Migrando juegos de C y C++ a Android</title>
 		<speakers>Dan Galpin</speakers>
 		
