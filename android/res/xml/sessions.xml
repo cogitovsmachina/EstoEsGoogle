@@ -28,7 +28,60 @@
 		<abstract>¿Quieres hacer estupendos juegos para Android pero no eres un programador Java? Ésta plática es para tí, ya que Android soporta una serie de herramientas para construir aplicaciones en C/C++. En Diciembre 2010, se hicieron arreglos para hacer más fácil el desarrollo de juegos y la presentación cubrirá estos ajustes, lo nuevo en la plataforma y las mejores prácticas para construir y debuggear juegos con el NDK.</abstract>
 		<keywords>Android, Juegos, Development, apps, mobile, C, C++</keywords>
 	</session>
-		<!-- Track 1 -->
+	
+	<session>
+		<title>Construcción de aplicaciones de alto rendimiento para Android</title>
+		<speakers>Bruno Oliveira</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>12:00pm-12:50pm</time>
+		
+		<room>1</room>
+		<track>Android</track>
+		<abstract>Sin importar que tan útil sea tu aplicación, a los usuarios no les gustan las aplicaciones lentas y que no responden: ¡El rendimiento es crucial! Ésta conferencia te presentará algunas técnicas para construir aplicaciones que sean fluídas, rápidas y fáciles de usar. También, aprenderás sobre las herramientas y técnicas que usamos para rastrear y reparar problemas de rendimiento.</abstract>
+		<keywords>Android, mobile, apps, usuario, rendimiento</keywords>
+	</session>
+	
+	<session>
+		<title>Android Market para desarrolladores</title>
+		<speakers>Trevor Johns</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>1</room>
+		<track>Android</track>
+		<abstract>Hay pocas cosas que a los desarrolladores les importan más que el Market de Android y, desde el Google IO 2010 hemos invertido gran cantidad de esfuerzos en expandirlo y mejorarlo. Ésta presentación cubre las novedades con un particular enfoque en donde los desarrolladores pueden tomar acción para mejorar el rendimiento de sus apps en el Market, así como las mejores prácticas de cobro In-App y la Librería de Verificación de Licencia.</abstract>
+		<keywords>Android, market, in-app, inapp, apps, mobile, licencia, cobro</keywords>
+	</session>
+	
+	<session>
+		<title>Taller: Android para principiantes</title>
+		<speakers>Bruno Oliveira</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>1</room>
+		<track>Android</track>
+		<abstract>En este laboratorio, el equipo Android te llevará a través de los pasos que necesitas para escribir tu primera aplicación Android, empezando por los básicos: instalar el ambiente, layouts, views, manejo de eventos, Activities e Intents. Al final de este laboratorio, tendrás una aplicación Android funcional que muestre una interfaz de usuario, lea entrada del usuario, mantenga datos a través de ejecuciones  e interactúe con otras aplicaciones.</abstract>
+		<keywords>Android, Intents, layouts, views, taller, activity, apps, mobile</keywords>
+	</session>
+	
+	<session>
+		<title>Taller: Mejores prácticas en aplicaciones para celulares</title>
+		<speakers>Trevor Johns</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>4:00pm-4:50pm</time>
+		
+		<room>1</room>
+		<track>Android</track>
+		<abstract>¿Qué hace la diferencia entre una buena y una excelente app de Android? Ahora que sabes como escribir código, este laboratorio te mostrará las mejores prácticas que debes adoptar para asegurarte que tu app provee una placentera experiencia de usuario, que incluye: ser responsiva, tener una apariencia profesional y correr bien en modo paisaje y retrato así como en diferentes tamaños de pantalla.</abstract>
+		<keywords>Android, usuario, retrato, paisaje, pantallas, apps, mobile</keywords>
+	</session>
+	
+		<!-- Track 2 -->
 	
 	<session>
 		<title>HTML5 y características del futuro.</title>
@@ -42,19 +95,6 @@
 		<abstract>No habrá HTML6 y la nueva era del desarrollo HTML está integrada por la continua innovación de desarrolladores y exploradores Web. Desde gráficos 3D hasta generadores de Audio, te mostraremos las maneras estándar de usar estas impresionantes y tan esperadas características.</abstract>
 		<keywords>Web, HTML5, Development, HTML</keywords>
 	</session>
-		<!-- 
-	<session>
-		<title>Migrando juegos de C y C++ a Android</title>
-		<speakers>Dan Galpin</speakers>
-		
-		<date>Tuesday August 9</date>
-		<time>11:00am-11:50am</time>
-		
-		<room>1</room>
-		<track>Android</track>
-		<abstract>¿Quieres hacer estupendos juegos para Android pero no eres un programador Java? Ésta plática es para tí, ya que Android soporta una serie de herramientas para construir aplicaciones en C/C++. En Diciembre 2010, se hicieron arreglos para hacer más fácil el desarrollo de juegos y la presentación cubrirá estos ajustes, lo nuevo en la plataforma y las mejores prácticas para construir y debuggear juegos con el NDK.</abstract>
-		<keywords>Android, Juegos, Development, apps, mobile, C, C++</keywords>
-	</session> -->
 	
 	<!-- Gobierno -->
 	<!-- ONG's y Educación -->
