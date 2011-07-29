@@ -27,7 +27,7 @@
     <string name="description_star">Star</string>
     <string name="description_now">Go to Now</string>
 
-    <string name="title_now_playing">Now Playing</string>
+    <string name="title_now_playing">Ahora</string>
     <string name="title_schedule">Agenda</string>
     <string name="title_sessions">Sesiones</string>
     <string name="title_session_detail">Informacion de Sesion</string>
@@ -36,7 +36,7 @@
     <string name="title_vendors">Sandbox</string>
     <string name="title_vendor_detail">Company Information</string>
     <string name="title_map">Mapa</string>
-    <string name="title_tagstream">Realtime Stream</string>
+    <string name="title_tagstream">Hashtag</string>
     <string name="title_bulletin">Bulletin</string>
 
     <string name="title_session_tracks">Sesiones</string>
@@ -66,9 +66,9 @@
     <string name="all_sessions_subtitle">Toca para filtrar sesiones por tema.</string>
 
     <string name="empty_sessions">No se encontraron sesiones</string>
-    <string name="empty_session_detail">No session details found</string>
+    <string name="empty_session_detail">No hay detalles de sesion</string>
     <string name="empty_vendors">No sandbox results found</string>
-    <string name="empty_search">No search results found</string>
+    <string name="empty_search">No hay resultados de la busqueda</string>
     <string name="empty_links">No hay links disponibles</string>
 
     <string name="session_summary">Resumen</string>
@@ -86,16 +86,16 @@
     <string name="session_link_feedback">Feedback on this session</string>
     <string name="session_link_notes">Official notes</string>
 
-    <string name="search_sessions">Sessions</string>
+    <string name="search_sessions">Sesiones</string>
     <string name="search_vendors">Sandbox</string>
 
-    <string name="starred_sessions">Sessions</string>
+    <string name="starred_sessions">Sesiones</string>
     <string name="starred_vendors">Sandbox</string>
 
-    <string name="search_label">Google I/O</string>
-    <string name="search_hint">Session keywords</string>
+    <string name="search_label">Esto es Google</string>
+    <string name="search_hint">Palabras clave de sesiones</string>
 
-    <string name="share_template">Checking out \'<xliff:g id="title">%1$s</xliff:g>\' at <xliff:g id="hashtags">%2$s</xliff:g> <xliff:g id="url">%3$s</xliff:g></string>
+    <string name="share_template">Estoy en la conferencia \'<xliff:g id="title">%1$s</xliff:g>\' at <xliff:g id="hashtags">%2$s</xliff:g> <xliff:g id="url">%3$s</xliff:g></string>
 
     <string name="moderator_header">Moderator</string>
 
@@ -106,14 +106,14 @@
     <string name="dialog_moderator_market">Visit Market</string>
 
     <plurals name="whats_on_countdown_title">
-        <item quantity="zero"><xliff:g id="remaining_time">%2$s</xliff:g>\nuntil Google I/O</item>
-        <item quantity="one"><xliff:g id="number_of_days">%1$s</xliff:g> day, <xliff:g id="remaining_time">%2$s</xliff:g>\nuntil Google I/O</item>
-        <item quantity="other"><xliff:g id="number_of_days">%1$s</xliff:g> days, <xliff:g id="remaining_time">%2$s</xliff:g>\nuntil Google I/O</item>
+        <item quantity="zero"><xliff:g id="remaining_time">%2$s</xliff:g>\npara Esto Es Google</item>
+        <item quantity="one"><xliff:g id="number_of_days">%1$s</xliff:g> dia, <xliff:g id="remaining_time">%2$s</xliff:g>\npara Esto Es Google</item>
+        <item quantity="other"><xliff:g id="number_of_days">%1$s</xliff:g> dias, <xliff:g id="remaining_time">%2$s</xliff:g>\npara Esto Es Google</item>
     </plurals>
 
-    <string name="whats_on_stream_title">Realtime\nStream</string>
-    <string name="whats_on_now_playing_title">Now Playing</string>
-    <string name="whats_on_thank_you_title">See you next year!</string>
+    <string name="whats_on_stream_title">Sigue el\nHashtag</string>
+    <string name="whats_on_now_playing_title">Ahora</string>
+    <string name="whats_on_thank_you_title">¡Gracias por asistir!</string>
 
     <string name="permission_write">Modify Google I/O schedule data</string>
 
@@ -131,7 +131,7 @@
     <string name="note_template">Session: <xliff:g id="title">%1$s</xliff:g>\n\n\n\n__________\nTags: <xliff:g id="hashtags">%2$s</xliff:g></string>
 
     <!-- EULA -->
-    <string name="eula_title">EULA title.</string>
+    <string name="eula_title">Titulo de EULA.</string>
     <string name="eula_text">Nyan nyan nyan nyan nyan.</string>
     <string name="accept">Aceptar</string>
     <string name="decline">Declinar</string>

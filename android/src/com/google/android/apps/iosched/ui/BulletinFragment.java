@@ -65,7 +65,7 @@ public class BulletinFragment extends Fragment {
         root.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT,
                 ViewGroup.LayoutParams.FILL_PARENT));
 
-        mLoadingSpinner = root.findViewById(R.id.loading_spinner);
+//        mLoadingSpinner = root.findViewById(R.id.loading_spinner);
         mWebView = (WebView) root.findViewById(R.id.webview);
         mWebView.setWebViewClient(mWebViewClient);
 

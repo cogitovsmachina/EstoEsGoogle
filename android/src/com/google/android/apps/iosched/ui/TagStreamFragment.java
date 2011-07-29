@@ -45,7 +45,7 @@ public class TagStreamFragment extends Fragment {
 
     public static final String EXTRA_QUERY = "com.google.android.iosched.extra.QUERY";
 
-    public static final String CONFERENCE_HASHTAG = "#io2011";
+    public static final String CONFERENCE_HASHTAG = "#EstoEsGoogle";
 
     private String mSearchString;
     private WebView mWebView;
@@ -86,7 +86,8 @@ public class TagStreamFragment extends Fragment {
                 mWebView.getSettings().setJavaScriptCanOpenWindowsAutomatically(false);
                 try {
                     mWebView.loadUrl(
-                            "http://www.google.com/search?tbs="
+//                    		http://twitter.com/?q=
+                            "http://www.google.com.mx/search?tbs="
                             + "mbl%3A1&hl=en&source=hp&biw=1170&bih=668&q="
                             + URLEncoder.encode(mSearchString, "UTF-8")
                             + "&btnG=Search");
