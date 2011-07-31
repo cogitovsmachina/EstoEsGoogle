@@ -1,19 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright 2011 Google Inc.
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
 <tracks>
 	<track>
         <name>Android</name>
@@ -35,38 +20,23 @@
     	<color>#007D5D</color>
     	<abstract>Hacer De Tus Dessarrollos Un Negocio: Google GEO se enfoca en ayudarte a conectarte a conectar a los usuarios con el mundo que los rodea, así como manejar y visualizar un universo de datos espaciales.</abstract>
     </track>
-    <!-- 
     <track>
-    	<name>Liberación y Visualización de Datos</name>
-    </track>
-    <track>
-    	<name>Servicios de Google para Gobiernos</name>
-    </track>
-    <track>
-    	<name>Internet y el Cambio Social</name>
-    </track>
-    <track>
-    	<name>El futuro del Gobierno</name>
-    </track>
-    
-    <track>
-    	<name>Google Products para ONG's</name>
-    	<abstract>Más de 35 millones de mexicanos se conectan a Internet, la red se está convirtiendo en el mejor medio para alcanzar a una amplia audiencia, que pueda contribuir a tu causa o consumir tus servicios educativos.</abstract>
-    </track>
-    <track>
-    	<name>Donaciones (In-Kind Giving)</name>
-    </track>
-    <track>
-    	<name>Talleres GEO</name>
-    </track>-->
-    
-    
-    <!-- Sandbox only 
-    <track>
-        <name>Accessibility</name>
+        <name>Gobierno</name>
         <color>#00658A</color>
-        <abstract>The accessibility developer sandbox pod.</abstract>
+        <abstract>Servicios y herramientas de Google para el Gobierno.</abstract>
     </track>
+    <track>
+        <name>ONG's y Educativas</name>
+        <color>#F3AF1C</color>
+        <abstract>Servicios y herramientas de Google para Organizaciones No Gubernamentales e Instituciones Educativas.</abstract>
+    </track>
+    <track>
+        <name>Usuarios</name>
+        <color>#ff3333</color>
+        <abstract>Los servicios y tecnologías de Google para el usuario final.</abstract>
+    </track>
+    
+    <!-- Sandbox only
     <track>
         <name>Commerce</name>
         <color>#CC0033</color>
@@ -92,12 +62,6 @@
     </track>
 
     <track>
-        <name>Google Apps</name>
-        <color>#F3AF1C</color>
-        <abstract>Google Apps is an open application platform that can be extended and integrated, and a built-in marketplace for distribution and...</abstract>
-    </track>
-
-    <track>
         <name>Google TV</name>
         <color>#00658a</color>
         <abstract>The Google TV developer sandbox pod.</abstract>
@@ -113,12 +77,6 @@
         <name>Web Games</name>
         <color>#ff3333</color>
         <abstract>This track shows how web technologies are being used to create amazing games.</abstract>
-    </track>
-
-    <track>
-        <name>YouTube</name>
-        <color>#ff3333</color>
-        <abstract>The YouTube developer sandbox pod.</abstract>
     </track>
 	-->
 </tracks>

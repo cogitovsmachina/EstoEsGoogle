@@ -98,7 +98,7 @@
 	
 	<session>
 		<title>Construyendo mejores experiencias en la web: Usos prácticos de HTML5 en la actualidad</title>
-		<speakers>Peter LePage</speakers>
+		<speakers>Pete LePage</speakers>
 		
 		<date>Tuesday August 9</date>
 		<time>11:00am-11:50am</time>
@@ -131,7 +131,7 @@
 	
 	<session>
 		<title>Extensiones de Chrome, Aplicaciones y Chrome Web Store: Haciendo dinero en la Web</title>
-		<speakers>Peter LePage</speakers>
+		<speakers>Pete LePage</speakers>
 		
 		<date>Tuesday August 9</date>
 		<time>3:00pm-3:50pm</time>
@@ -268,7 +268,7 @@
 	
 	<session>
 		<title>Desde las universidades: Sinapsis</title>
-		<speakers>Alejandro Villanueva, Nicolás Bortolotti</speakers>
+		<speakers>Alejandro Villanueva,Nicolás Bortolotti</speakers>
 		<date>Tuesday August 9</date>
 		<time>3:00pm-3:50pm</time>
 		
@@ -279,7 +279,7 @@
 	
 	<session>
 		<title>Panel de emprendedores y Venture Capital</title>
-		<speakers>Don Dodge</speakers>
+		<speakers>Don Dodge,Jorge A. Zavala,Santiago Zavala</speakers>
 		
 		<date>Tuesday August 9</date>
 		<time>4:00pm-4:50pm</time>
@@ -289,7 +289,300 @@
 	</session>
 	
 	<!-- Gobierno -->
+		<!-- Track 1 -->
+	
+	<session>
+		<title>Open Data y Transparencia</title>
+		<speakers>James Ballentine</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>1</room>
+		<track>Gobierno</track>
+	</session>
+	
+	<session>
+		<title>TBC</title>
+		<speakers>TBC</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>1</room>
+		<track>Gobierno</track>
+	</session>
+	
+		<!-- Track 2 -->
+		
+	<session>
+		<title>Zapopan: Ciudad digital y el Proyecto Google Apps</title>
+		<speakers>Yolanda Martínez Zaldivar</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>2</room>
+		<track>Gobierno</track>
+	</session>
+	
+	<session>
+		<title>Uso de soluciones Geográficas de Google en actividades gubernamentales</title>
+		<speakers>Miguel Monreal</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>2</room>
+		<track>Gobierno</track>
+	</session>
+	
+		<!-- Track 3 -->
+	
+	<session>
+		<title>Estrategias de Comunicación para Campañas Políticas Digitales</title>
+		<speakers>Sergio Velez</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>3</room>
+		<track>Gobierno</track>
+	</session>
+	
+	<session>
+		<title>Internet, Democracia y Organización social</title>
+		<speakers>Manuel Tamez</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>3</room>
+		<track>Gobierno</track>
+	</session>
+	
+		<!-- Track 4 -->
+		
+	<session>
+		<title>Soluciones geográficas a profundidad</title>
+		<speakers>Miguel Monreal</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>4</room>
+		<track>Gobierno</track>
+		<abstract>Maps, Earth, APIs y Street View</abstract>
+	</session>
+	
+	<session>
+		<title>Poniendo a México En El Mapa</title>
+		<speakers>Aidan Chopra,Alfonso De Maria</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>4</room>
+		<track>Gobierno</track>
+	</session>
+	
+	
 	<!-- ONG's y Educación -->
+	<session>
+		<title>Activismo digital: Unidos A Favor De La Paz</title>
+		<speakers>Alejandro Martí,Jeremy Gilley</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>4:00pm-4:50pm</time>
+		
+		<room>1</room>
+		<track>ONG's y Educativas</track>
+	</session>
+		<!-- Track 1 -->
+	<session>
+		<title>AdWords</title>
+		<speakers>Jack Fermón</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>1</room>
+		<track>ONG's y Educativas</track>
+	</session>
+	<session>
+		<title>Google Grants</title>
+		<speakers>Jorge Acevedo</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>1</room>
+		<track>ONG's y Educativas</track>
+	</session>
+		<!-- Track 2 -->
+	<session>
+		<title>Google Fusion Tables</title>
+		<speakers>Mano Marks</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>2</room>
+		<track>ONG's y Educativas</track>
+	</session>
+	<session>
+		<title>Google Earth and Sketchup</title>
+		<speakers>Aidan Chopra</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>2</room>
+		<track>ONG's y Educativas</track>
+	</session>
+		<!-- Track 3 -->
+	<session>
+		<title>YouTube for EDU</title>
+		<speakers>Ricardo Blanco</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>3</room>
+		<track>ONG's y Educativas</track>
+	</session>
+	<session>
+		<title>Dándole voz a tu causa con YouTube</title>
+		<speakers>Ricardo Blanco</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>3</room>
+		<track>ONG's y Educativas</track>
+	</session>
+		<!-- Track 4 -->
+	<session>
+		<title>Google Apps: Comunicación y Colaboración en línea</title>
+		<speakers>Jorge Molina</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>4</room>
+		<track>ONG's y Educativas</track>
+	</session>
+	<session>
+		<title>10 Tácticas Para Transformar La Información</title>
+		<speakers>Juan Manuel Casanueva</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>4</room>
+		<track>ONG's y Educativas</track>
+	</session>
+	
 	<!-- Usuarios -->
+		<!-- Track 1 -->
+	<session>
+		<title>La vida es búsqueda, sigue buscando</title>
+		<speakers>Jack Fermón</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>6:00pm-6:50pm</time>
+		
+		<room>1</room>
+		<track>Usuarios</track>
+	</session>
+	<session>
+		<title>Desarrollar proyectos y tareas en colaboración</title>
+		<speakers>Jorge Molina</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>7:00pm-7:50pm</time>
+		
+		<room>1</room>
+		<track>Usuarios</track>
+	</session>
+	
+		<!-- Track 2 -->
+	<session>
+		<title>Google Places y la Revolución Social</title>
+		<speakers>Alex Rodríguez Torres</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>6:00pm-6:50pm</time>
+		
+		<room>2</room>
+		<track>Usuarios</track>
+	</session>
+	<session>
+		<title>El Proyecto Google+</title>
+		<speakers>Gopi Kallayil</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>7:00pm-7:50pm</time>
+		
+		<room>2</room>
+		<track>Usuarios</track>
+	</session>
+	
+		<!-- Track 3 -->
+	<session>
+		<title>YouTube: Más allá del entretenimiento</title>
+		<speakers>Adrián Fernández</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>6:00pm-6:50pm</time>
+		
+		<room>3</room>
+		<track>Usuarios</track>
+	</session>
+	<session>
+		<title>Generando valor a los creadores de contenido: Programa de Socios</title>
+		<speakers>Adrián Fernández</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>7:00pm-7:50pm</time>
+		
+		<room>4</room>
+		<track>Usuarios</track>
+	</session>
+	
+		<!-- Track 4 -->
+	<session>
+		<title>Navegando a la segura</title>
+		<speakers>Ana Paula Blanco</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>6:00pm-6:50pm</time>
+		
+		<room>1</room>
+		<track>Usuarios</track>
+	</session>
+	<session>
+		<title>Las Mujeres e Internet</title>
+		<speakers>Ana Paula Blanco</speakers>
+		
+		<date>Wednesday August 10</date>
+		<time>7:00pm-7:50pm</time>
+		
+		<room>4</room>
+		<track>Usuarios</track>
+	</session>
+	<!-- 
+	<session>
+		<title></title>
+		<speakers></speakers>
+		
+		<date></date>
+		<time></time>
+		
+		<room></room>
+		<track></track>
+		<abstract></abstract>
+		<keywords></keywords>
+	</session> -->
 	<!-- Empresas -->
 </sessions>

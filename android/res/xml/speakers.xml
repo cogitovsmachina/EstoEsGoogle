@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <speakers>
+	<!-- 9 de Agosto -->
 	<speaker>
 		<name>Bruno Oliveira</name>
 		<company>Google Inc.</company>
@@ -10,7 +11,7 @@
 		<name>Dan Galpin</name>
 		<company>Google Inc.</company>
 		<image>http://www.estoesgoogle.com/images/conf/conf_12.jpg</image>
-		<abstract>Dan Galpin es un Developer Advocate del equipo Google Android, enfocado en Juegos/ OpenGL, lo que implica ser capaz de trabajar tanto con los entornos de Dalvik como de NDK. Antes de unirse a Google, Dan ha estado trabajando intensamente con Android; desarrolló varias aplicaciones, creó un video instructivo para Android, y fue supervisor técnico de un popular libro también de Android. Ha pasado los últimos diez años de su carrera trabajando en el espacio móvil, incursionando en casi todas las áreas telefónicas. En su tiempo libre, participa con las compañías de ópera locales.</abstract>
+		<abstract>Dan Galpin es un Developer Advocate del equipo Google Android, enfocado en Juegos OpenGL, lo que implica ser capaz de trabajar tanto con los entornos de Dalvik como de NDK. Antes de unirse a Google, Dan ha estado trabajando intensamente con Android; desarrolló varias aplicaciones, creó un video instructivo para Android, y fue supervisor técnico de un popular libro también de Android. Ha pasado los últimos diez años de su carrera trabajando en el espacio móvil, incursionando en casi todas las áreas telefónicas. En su tiempo libre, participa con las compañías de ópera locales.</abstract>
 	</speaker>
 	<speaker>
 		<name>Trevor Johns</name>
@@ -18,4 +19,185 @@
 		<image>http://www.estoesgoogle.com/images/conf/conf_13.jpg</image>
 		<abstract>Trevor es ingeniero de Desarrollo de Programas para Android en Google. Antes de unirse al equipo de Android, trabajó en la base de datos de Google para Blogger, Google Calendar, Contactos y Hojas de Cálculo. Es egresado de la Universidad de California del Sur, donde fue acreedor de un MS en Ciencias Computacionales y un BS en Ingeniería Computacional. Le gusta pasar su tiempo libre trabajando en software de código abierto y construyendo proyectos electrónicos, así como explorando las bellas montañas de California, Estados Unidos.</abstract>
 	</speaker>
+	
+	<speaker>
+		<name>Ernest Delgado</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_14.jpg</image>
+		<abstract>Ernest trabaja con las comunidades de desarrolladores representando a Google Chrome, Google Chrome Extensions y Google Chrome OS. Le encanta jugar con funciones de HTML5 y resolver situaciones relacionadas con el desempeño de la web. Antes de colaborar con Google trabajó para Yahoo! como ingeniero de Front End, con vista a convertirse en gurú de JavaScript. Enest es originario de Barcelona y actualmente reside en San Francisco.</abstract>
+	</speaker>
+	<speaker>
+		<name>Pete LePage</name>
+		<company>Google Inc.</company>
+		<url>http://PeteLePage.com</url>
+		<image>http://estoesgoogle.com/images/conf/conf_15.jpg</image>
+		<abstract>Pete se integró a Google en el 2001 como Developer Advocate trabajando con el equipo de Chrome Web Store y a cargo de la apretura de la plataforma web. Ha diseñado páginas web desde la preparatoria, evolucionando la superposición de etiquetas y fuentes en GeoCities a un apropiado estilo CSS, y ha sido administrador de sitios web. Pete trabaja con la comunidad de desarrolladores web para crear impresionantes nuevas aplicaciones web utilizando tecnologías abiertas web como HTML5 y CSS3. A menudo lo puedes encontrar viajando por el mundo con sus amigos, por lugares exóticos u ordinarios, o en un cuarto obscuro imprimiendo sus tomas. Ha estudiado y enseñado en el prestigiado Photographic Center Northwest en Seattle, donde terminó su tesis en Fotografía Artística. LePage mantiene un blog irregular en http://PeteLePage.com, y lo puedes seguir en Twitter: @petele</abstract>
+	</speaker>
+	<speaker>
+		<name>Rodrigo Chandia</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_16.jpg</image>
+		<abstract> Rodrigo Chandia es un ingeniero de Software que trabaja en el desarrollo de las bibliotecas GWT. A principios de 2010 comenzó a trabajar en la mejora de GWT, en sus generadores de código y su adaptación para dispositivos móviles. Antes de unirse a Google realizó investigaciones para la Seguridad de Sistemas de Control Industrial, trabajó como consultor de software para Telecoms y desarrollando software para sistemas de pago electrónico. El cree que haciendo las cosas simples es la clave para construir algo más complejo. Le gusta perder el tiempo leyendo acerca de genios adolecentes salvando al mundo.</abstract>
+	</speaker>
+	
+	<speaker>
+		<name>Chris Schalk</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_17.jpg</image>
+		<abstract>Chris es Developer Advocate en Google. Incorpora a las comunidades desarrolladoras en la nube tanto con el motor de Google App y otras tecnologías de Google nube. Chris se unió a Google en el 2007 y ha trabajado en varias tecnologías de Google incluyendo OpenSocial, Maps y AJAX Apis. Antes de Google, Chris era gerente principal de producto en Oracle en el grupo de desarrollo de herramientas y co-autor de "JavaServer Faces: The Complete Reference". Chris es un piloto privado que también disfruta construir y pilotear aviones de control remoto. Cuando no está volando le gusta tocar la trompeta en varias sinfónicas del área de la Bahia de San Francisco. Chris habla español, un poco de francés y alemán.</abstract>
+	</speaker>
+	<speaker>
+		<name>Ikai Lan</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_18.jpg</image>
+		<abstract>Ikai es ingeniero de Desarrollo de Programas en el motor de Google App. Antes de Google, trabajó como ingeniero programador construyendo aplicaciones para móviles y redes sociales en LinkedIn. Ikai es un ávido de la tecnología, consumiendo cantidades de material acerca de nuevos lenguajes de programación, estructuras o servicios. En sus ratos libres disfruta de California, ganando concursos de karaoke chino y jugando futbol de bandera. Actualmente vive en el área de la Bahía de San Francisco, donde agoniza viendo como su equipo favorito explota temporada tras temporada.</abstract>
+	</speaker>
+	<speaker>
+		<name>Saurabh Gupta</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_19.jpg</image>
+		<abstract>Saurabh es un ingeniero desarrollador de programas en Google. Trabaja muy de la mano con desarrolladores de Google Apps Script para ayudarlos a extender Google Apps. En los últimos 10 años ha trabajado en la industria de servicios financieros en diferentes puestos. Su actual misión es fortalecer a la comunidad de desarrolladores de Google Apps y poder crear más excitantes aplicaciones en Google Apps.</abstract>
+	</speaker>
+	
+	<speaker>
+		<name>Mano Marks</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_20.jpg</image>
+		<abstract>Mano ha estado en el equipo de Desarrollo de Relaciones para Google en los últimos 4 años, y es la cabeza de Desarrollo para Google Geo APIs. Ha viajado por el mundo ayudando a individuos, corporaciones, gobiernos y organizaciones a usar las tecnologías de mapas de Google para transmitir su mensaje a todo el planeta. Antes de Google, Mano tenía una carrera ecléctica que involucraba una maestría en historia, una en manejo de la información y sistemas, y un trabajo como gerente de datos en organizaciones no gubernamentales por más de una década.</abstract>
+	</speaker>
+	<speaker>
+		<name>Don Dodge</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_21.jpg</image>
+		<abstract>Don Dodge es Developer Advocate en Google, ayudando a desarrolladores a construir nuevas aplicaciones en plataformas y tecnologías de Google. Antes de ser parte de Google, Don era un evangelista de la creación de programas en Microsoft. También es un veterano en la creación de progrmas incluyendo Forte Software, AltaVista, Napster, Bowstreet y Groove Neworks. Forte Software fue el primer desarrollo de objecto orientado multiplataforma. Altavista fue el primer motor de búsqueda en la web. Napster fue el primer P2P red de archivos compartidos. Bowstreet fue el primer servicio de desarrollo web. Groove Networks fue el primer P2P seguro de plataforma de colaboración. Don comenzó su carrera de programador con Digital Equipment, alias DEC, en el grupo de bases de datos, y ha estado en el negocio de los programas por más de 25 años.</abstract>
+	</speaker>
+	<speaker>
+		<name>Alejandro Villanueva</name>
+		<company>EMEA/LATAM</company>
+		<image>http://estoesgoogle.com/images/conf/conf_22.jpg</image>
+		<abstract>Alejandro trabaja como desarrollador de Relaciones para EMEA y LATAM. Su puesto consiste en apoyar la vanguardia y dar soporte intuitivo para ayudar a las comunidades de desarrolladores a usar correctamente estándares abiertos y de plataformas de desarrollo de Google. Esto incluye observar el crecimiento y avance tecnológico de desarrollos locales tanto de web como de aplicaciones móviles. Alejandro es un veterano de la industria con más de 20 años de experiencia trabajando para compañías de alta tecnología.</abstract>
+	</speaker>
+	<speaker>
+		<name>Peter Fernández</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_23.jpg</image>
+		<abstract>Peter Fernández gestiona las operaciones de ventas de publicidad móvil de Google en América Latina. Anteriormente, dirigió las ventas en América Latina de AdMob, una compañía de publicidad móvil que fue adquirida por Google en 2010. Antes de AdMob, Peter era un consultor de estrategia de Bain and Company. Peter realizó sus estudios en Duke University.</abstract>
+	</speaker>
+	<speaker>
+		<name>Nicolás Bortolotti</name>
+		<image>http://estoesgoogle.com/images/conf/conf_24.jpg</image>
+		<abstract>Nicolás Bortolotti ha desarrollado comunidades académicas y de investigación en varios países de América Latina, sobre la plataforma de desarrollo de Google, Web y móvil. Nicolás se ha desempañado academicamente como profesor de la Universidad Tecnológica Nacional de Argentina, para las cátedras Ingeniería de Software Orientado a Objetos y Arquitecturas Móviles. En el marco de investigación ha realizado tareas en el Instituto INGAR-UTN-Conicet. En el marco corporativo se desempeñó como arquitecto de desarrollo de varias organizaciones nacionales y CTO de Dotar Consulting, especialistas en ingeniería de software, móvil y de cómputo en la Nube. Nicolás es un destacado blogger y conferencista sobre las tecnologías de desarrollo de Google.</abstract>
+	</speaker>
+	<speaker>
+		<name>Jorge A. Zavala</name>
+	</speaker>
+	<speaker>
+		<name>Santiago Zavala</name>
+		<company>Venture Capital</company>
+	</speaker>
+	
+	
+	<!-- 10 de Agosto -->
+	<speaker>
+		<name>James Ballentine</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_37.jpg</image>
+		<abstract>James Ballentine tiene más de 25 años de experiencia en la industria de las tecnologías de la información, incluyendo desarrollo, consultoría, ventas y marketing de soluciones empresariales. En Google, donde se desempeña desde 2005, tiene bajo su responsabilidad el desarrollo de nuevos negocios dentro de Latinoamérica, definiendo estrategias para acercar la promesa y beneficios de Internet en los sectores menos desarrollados. Anteriormente, estaba a cargo de las actividades de desarrollo del mercado de la publicidad on-line en Chile a través de la plataforma AdWords, implantación de estrategias de crecimiento de la industria, además del relacionamiento con avisadores, agencias publicitarias, y organismos gubernamentales. Antes de ingresar a Google, James se desempeñó en empresas multinacionales de tecnología en Chile, Alemania y Estados Unidos. James estudió matemáticas aplicadas, con especialización en investigación operativa, en California State Polytechnic University, de Pomona, California. También cursó estudios de post-grado en la Universidad Diego Portales.</abstract>
+	</speaker>
+	<speaker>
+		<name>Yolanda Martínez Zaldivar</name>
+		<abstract>Maestra en Ciencias de Administración y Políticas Públicas, por la Universidad de Carnegie Mellon, en Pittsburg, PA. Es becaria Fulbright García Robles y miembro actual de su Patronato. Participó en Nueva York dentro del Programa para el Desarrollo de las Naciones Unidad (PNUD) como responsable del análisis de tendencias y áreas de apoyo estratégico a la Unidad de Cooperación Sur-Sur. Coordinó el trabajo de asesores en políticas públicas con el fin de generar herramientas para el desarrollo de capacidades, indicadores de desempeño y marcos estratégicos con el propósito de implementarse en 138 países en desarrollo. En la ciudad de Zapopan se desempeña actualmente como Asesora de Presidencia en Modernización, donde ha definido y coordinado la implementación de proyectos TICs que integran la estrategia de modernización de la Ciudad a través del Programa Zapopan Ciudad Digital. En la ciudad de Zapopan se desempeña actualmente como Asesora de Presidencia en Modernización, donde ha definido y coordinado la implementación de proyectos TICs que integran la estrategia de modernización de la Ciudad a través del Programa Zapopan Ciudad Digital.</abstract>
+	</speaker>
+	<speaker>
+		<name>Miguel Monreal</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_27.jpg</image>
+		<abstract>Gerente de Ventas para Google Enterprise en el Norte de Latinoamérica Miguel Monreal coordina las ventas de Google Maps, Google Earth Enterprise y Google Search Appliance en Hispanoamérica, como parte de las soluciones empresariales que ofrece Google. La división empresarial de Google ha logrado una penetración importante en la región, siendo uno de los territorios de mayor crecimiento en el mundo. Trabajó con anterioridad en empresas como Emc2 y Verity, donde obtuvo experiencia en sistemas de manejo de contenido y búsquedas empresariales, además de contar con certificaciones como Java Architect y Java programmer.</abstract>
+	</speaker>
+	<speaker>
+		<name>Sergio Velez</name>
+	</speaker>
+	<speaker>
+		<name>Manuel Tamez</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_5.jpg</image>
+		<abstract>Manuel Tamez es responsable de representar a Google en México y Centroamérica para temas de gran relevancia pública. Trabaja en aspectos de: propiedad intelectual, privacidad y protección de datos personales, regulación de contenidos, libertad de expresión, transparencia, acceso a la información, regulación de medios y telecomunicaciones, y regulación de Internet y tecnología, entre otros. Cuenta con un Master en Administración Pública y Desarrollo Económico por la Universidad de Harvard (Kennedy School of Government), un Master en Administración de Negocios (MBA) concedido por el Instituto Tecnológico de Massachusetts (MIT), y es Ingeniero en Electrónica y Comunicaciónes por el Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM), además de ser Licenciado en Economía por la misma institución.</abstract>
+	</speaker>
+	<speaker>
+		<name>Aidan Chopra</name>
+	</speaker>
+	<speaker>
+		<name>Alfonso De Maria</name>
+	</speaker>
+	
+	<speaker>
+		<name>Jack Fermón</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_44.jpg</image>
+		<abstract>Jack es parte del equipo de Google México desde marzo de 2007. Actualmente se encarga de coordinar las estrategias de lanzamiento de nuevos productos de Google en México, además de apoyar en su desarrollo, comercialización y prueba. Jack también está al frente de los entrenamientos en el uso de productos de Google en el país. Otros puestos de Jack Fermon dentro de Google Inc. fueron: Account Strategist, Account Strategist Associate y Account Manager. Antes de ingresar a Google, trabajó en el Departamento de Ingeniería de la Universidad Anáhuac como Webmaster y como Director de la Red de Laboratorios y Telecomunicaciones en la misma institución, además de encargarse de la administración de bases de datos. Diseñó y desarrollo páginas Web para empresas como Mattel, Banco de México y Universidad Anáhuac. En Central Médica (Web Médica) era el encargado de Internet y la administración de servidores. Ha hecho investigaciones sobre el modelo para la predicción de la delincuencia en la Ciudad de México, utilizando el Sistema de Información Geográfica (SIG) y el desarrollo del sistema de localización de un vehículo por medio de un satélite, utilizando la Radio (AX.25 protocolo). Cuenta con una Maestría en Ingeniería Industrial por parte de la Universidad Anáhuac y es especialista en Planificación Estratégica, además estudió Tecnologías de la Información e Ingeniería de Telecomunicaciones, en la misma universidad.</abstract>
+	</speaker>
+	<speaker>
+		<name>Jorge Acevedo</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_43.jpg</image>
+		<abstract>Es responsable de manejar las relaciones de Google México con clientes estratégicos. Desde 2003 se dedica a asesorar a empresas que desean implementar o seguir con éxito campañas de publicidad en línea. En 2007 se une al equipo de Google México. Con más de seis años de experiencia como consultor de EMarketing y Sistemas Computacionales. Dentro de Google Jorge trabaja para empresas como CocaCola,Volaris, Unilever, P and G, Expedia.com, Nestlé y Cerveceria Cuauhtemoc, entre otras.Jorge es Licenciado en Sistemas Computacionales Administrativos y en 2005 obtuvo el grado de Maestro en Comercio Electrónico, ambos títulos otorgados por el Tecnológico de Monterrey Campus Ciudad de México, ha tomado cursos de especialización de Marketing Estratégico en Columbia University (Nueva York) y de Administración de Empresas Globales en Harvard Business School (Boston).</abstract>
+	</speaker>
+	<speaker>
+		<name>Ricardo Blanco</name>
+	</speaker>
+	<speaker>
+		<name>Jorge Molina</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_6.jpg</image>
+		<abstract>Jorge Molina es responsable de la oferta de soluciones empresariales de Google. Anteriormente fué Director de Calcomp de México, Gerente regional de Verity en México, Socio Fundador de Digital Data S.A., miembro del IMAC (Instituto Mexicano de Administración del Conocimiento) y continúa desempeñándose como miembro del Consejo de Administración de diversas empresas además de ser mentor del equipo de robótica de la Universidad Panamericana. Es Ingeniero en Electrónica, por la Universidad Iberoamericana, cuenta con una Maestría en Ingeniería de Sistemas de Cómputo por Rensselaer Polytechnic Institute. La oferta empresarial que Jorge encabeza en las regiones antes mencionadas incluye: Google Enterprise Search (Motores de búsqueda empresariales), Google Maps y Google Earth (Plataformas de visualización y construcción de mapas e información geográfica) y Google Apps (Servicios corporativos de Mensajería y Colaboración hospedados por Google).</abstract>
+	</speaker>
+	<speaker>
+		<name>Juan Manuel Casanueva</name>
+		<image>http://estoesgoogle.com/images/conf/conf_42.jpg</image>
+		<abstract>Juan Manuel es investigador y promotor de proyectos de TIC para el Desarrollo y Acción Social. Es fundador de la ONG Telar Social A.C. dedicada al fortalecimiento de capacidades del sector social, encabeza el proyecto de Infoactivismo de Tactical Technology Collective en Latinoamérica y es consultor en estrategia de medios digitales para la acción social. Juan Manuel cuenta con estudios de maestría en ciencias en Gestión e Implantación de Proyectos de Desarrollo por la Universidad de Manchester con especialidad en Innovación Social y licenciatura en Ingeniería Industrial y de Sistemas por el Tecnológico de Monterrey Campus Estado de México. Cuenta con 15 años de experiencia en el sector de la sociedad civil mexicana en ámbitos de desarrollo social, educación, medio ambiente y tecnología para el desarrollo. En el sector privado, fue consultor de estrategia corporativa, operaciones y gestión de proyectos para Accenture.</abstract>
+	</speaker>
+	<speaker>
+		<name>Alejandro Martí</name>
+		<company>Grupo Martí</company>
+		<image>http://estoesgoogle.com/images/conf/conf_47.jpg</image>
+		<abstract>En 1969 Alejandro Joaquín Martí García fundó la primera tienda de artículos deportivos en la Ciudad de México, como parte de la celebración de las Olimpiadas. Al término de éstas, comenzó su expansión en centros comerciales. En 1972 se graduó de la Universidad de la Salle, de la carrera de Administración de Empresas, y 23 años más tarde, instaló el primer Fitness Center del país: Sport City. Actualmente es presidente del Comité Administrativo del Grupo Martí, S.A., corporativo integrado por más de 100 tiendas deportivas, y 32 Fitness Centers. Así mismo, es miembro de otros Comités Administrativos de empresas como: Grupo Domit, Administradora de Centros Comerciales, Centro Comercial Lindavista, Mexicana de Restaurantes, Procorp, Ferruco Equity Partners, Progress Investments LLC, Paga Todo, Más Negocio, y Promotora Grupo and Hildebrando, S.A.</abstract>
+	</speaker>
+	<speaker>
+		<name>Jeremy Gilley</name>
+		<image>http://estoesgoogle.com/images/conf/conf_46.jpg</image>
+		<abstract>Después de una exitosa carrera en cine y televisión, Jeremy comenzó a realizar sus propios filmes en 1995, y en 1999 fundó el proyecto fílmico Peace One Day, para documentar sus esfuerzos para establecer el primer día donde se pare el fuego y se le ponga un alto a la violencia en el mundo. En 2001 como respuesta a sus esfuerzos, miembros de las Naciones Unidas adoptaron una resolución para establecer el 21 de septiembre como el Día de la paz en todo el mundo. Peace One Day Parte Tres, el último documental producido por Gilley y el actor Jude Law, se transmitió por primera vez en septiembre 18 y 19 de 2010 por BBC World, con una cobertura de 306 millones de hogares en 200 países. El 1ero de diciembre de 2010, Jeremy y Peace One Day fueron galardonados con el Premio de la Paz Carnegie-Wateler en La Haya.</abstract>
+	</speaker>
+	
+	
+	<speaker>
+		<name>Alex Rodríguez Torres</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_23.jpg</image>
+		<abstract>Ha tenido a su cargo el área de Marketing para Google Enterprise en Latinoamérica y Japón encabezando las iniciativas de comercialización de productos Google como Google Apps. En la actualidad está encargado del equipo de Community Manager para Google Local a nivel mundial. Alex Rodríguez Torres cuenta con una maestría en Marketing y otra Maestría en Filosofía.</abstract>
+	</speaker>
+	<speaker>
+		<name>Gopi Kallayil</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_25.jpg</image>
+		<abstract>Gopi Kallayi trabaja en Google en la mercadotecnia de Google Plus, desde el Googleplex en Mountain View, California. Anteriormente trabajó en la mercadotecnia para América y el pacífico de Asia de Adwords, el producto estrella de la compañía. Gopi también estuvo al frente del equipo de mercadotecnia de AdSense, producto editor sobresaliente. Antes de unirse a Google, Gopi fue vicepresidente de Alianzas Estratégicas en Nextance, una desarrolladora de software para gestión empresarial. También fue vicepresidente de Business Development y socio fundador del equipo en Allegrix, una aplicación proveedora de software adquirida por Progress Software. Siendo consultor en McKinsey and Co., trabajó ayudando a los equipos directivos de grande corporativos, a mejorar el desarrollo de sus negocios y maximizando los ingresos. Adicionalmente, Gopi ha dirigido proyectos de información tecnológica para empresas transnacionales de India, China y Estados Unidos.</abstract>
+	</speaker>
+	<speaker>
+		<name>Adrián Fernández</name>
+		<company>YouTube</company>
+		<image>http://estoesgoogle.com/images/conf/conf_7.jpg</image>
+		<abstract>Adrián diseña y ejecuta estrategias de negocio para YouTube en México y Colombia, además de ser responsable del relacionamiento con socios de contenido clave en ambos países. Forma parte del equipo de Google desde 2008, Adrián colaboró para GE Equipment Services como Director de Desarrollo de Negocios y Marketing, donde de 2002 a 2005 se encargó de implementar estrategias de posicionamiento de marca, fusiones y adquisiciones, lanzamiento de nuevos productos, RP y de lealtad del consumidor. Antes de su labor en GE Equipment Services, Adrián se desempeñó como Business Development Manager para GE Corporate, y como Líder de Planeación estratégica para General Motors, ahí lideró los esfuerzos de crecimiento comercial a través de iniciativas estratégicas de marketing. Adrián Fernández es Licenciado en Ingeniaría Industrial por la Universidad Panamericana y además cuenta con un MBA del IPADE.</abstract>
+	</speaker>
+	<speaker>
+		<name>Ana Paula Blanco</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_4.jpg</image>
+		<abstract>Ana Paula Blanco es directora de Comunicación para Google en el Norte de Latinoamérica. Formada como psicóloga organizacional y deformada como una adicta a la Comunicación y las Relaciones Públicas, comienza una carrera en el área de Comunicación y RP de Citibank Mexico. En 2002 se mueve al "excitante" mundo de los focos y los refrigeradores, como gerente de Comunicaciones de GE en México. Cuatro años más tarde y tras apoyar operaciones en el norte de Latinoamérica, comienza una nueva etapa en el negocio de salud, GE Healthcare. En junio de 2008 ingresa a Google para abrir el área de Comunicación y Relaciones Públicas. Hoy dirige la comunicación pública de la empresa en México, US Hispanic, Centroamérica, el Caribe y Colombia. Es adicta a los grandes retos y a entender empresas que hacen historia.</abstract>
+	</speaker>
+	<!-- 
+	<speaker>
+		<name></name>
+		<company></company>
+		<image></image>
+		<abstract></abstract>
+	</speaker> -->
 </speakers>
