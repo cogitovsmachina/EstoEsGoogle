@@ -84,7 +84,7 @@
 		<!-- Track 2 -->
 	
 	<session>
-		<title>HTML5 y características del futuro.</title>
+		<title>HTML5 y características del futuro</title>
 		<speakers>Ernest Delgado</speakers>
 		
 		<date>Tuesday August 9</date>
@@ -94,6 +94,198 @@
 		<track>HTML y Mobile Web</track>
 		<abstract>No habrá HTML6 y la nueva era del desarrollo HTML está integrada por la continua innovación de desarrolladores y exploradores Web. Desde gráficos 3D hasta generadores de Audio, te mostraremos las maneras estándar de usar estas impresionantes y tan esperadas características.</abstract>
 		<keywords>Web, HTML5, Development, HTML</keywords>
+	</session>
+	
+	<session>
+		<title>Construyendo mejores experiencias en la web: Usos prácticos de HTML5 en la actualidad</title>
+		<speakers>Peter LePage</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>2</room>
+		<track>HTML y Mobile Web</track>
+	</session>
+	
+	<session>
+		<title>Desarrollos para Mobile Web</title>
+		<speakers>Ernest Delgado</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>12:00pm-12:50pm</time>
+		
+		<room>2</room>
+		<track>HTML y Mobile Web</track>
+	</session>
+	
+	<session>
+		<title>Uso de GWT y Eclipse para construir increibles aplicaciones para Mobile Web</title>
+		<speakers>Rodrigo Chandia</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>2</room>
+		<track>HTML y Mobile Web</track>
+	</session>
+	
+	<session>
+		<title>Extensiones de Chrome, Aplicaciones y Chrome Web Store: Haciendo dinero en la Web</title>
+		<speakers>Peter LePage</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>2</room>
+		<track>HTML y Mobile Web</track>
+	</session>
+	
+	<session>
+		<title>GWT + HTML5: El sueño de todo desarrollador de la Web</title>
+		<speakers>Rodrigo Chandia</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>4:00pm-4:50pm</time>
+		
+		<room>2</room>
+		<track>HTML y Mobile Web</track>
+	</session>
+	
+		<!-- Track 3 -->
+	
+	<session>
+		<title>Utilizando las funciones más recientes de App Engine</title>
+		<speakers>Chris Schalk</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>3</room>
+		<track>La Nube y App Engine</track>
+	</session>
+	
+	<session>
+		<title>Diseñando para High Replication Datastore con Google App Engine</title>
+		<speakers>Ikai Lan</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>3</room>
+		<track>La Nube y App Engine</track>
+		<abstract>Cómo tomar ventaja de la arquitectura distribuída de Google para construir aplicaciones confiables y robustas.</abstract>
+	</session>
+	
+	<session>
+		<title>JavaScript en la nube - Automatización usando Google Apps Script</title>
+		<speakers>Saurabh Gupta</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>12:00pm-12:50pm</time>
+		
+		<room>3</room>
+		<track>La Nube y App Engine</track>
+	</session>
+	
+	<session>
+		<title>Construyendo aplicaciones en la plataforma Google Cloud</title>
+		<speakers>Chris Schalk</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>3</room>
+		<track>La Nube y App Engine</track>
+	</session>
+	
+	<session>
+		<title>REST, Oauth y más</title>
+		<speakers>Ikai Lan</speakers>
+		<date>Tuesday August 9</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>3</room>
+		<track>La Nube y App Engine</track>
+		<abstract>Comprendiendo los estándares de facto de la nube para construir aplicaciones integradas.</abstract>
+	</session>
+	
+	<session>
+		<title>Construyendo videojuegos multi plataforma para la nube</title>
+		<speakers>Chris Schalk</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>4:00pm-4:50pm</time>
+		
+		<room>3</room>
+		<track>La Nube y App Engine</track>
+	</session>
+	
+		<!-- Track 4 -->
+	
+	<session>
+		<title>Encontrando tu espacio en el nuevo mundo: API de Google Places</title>
+		<speakers>Mano Marks</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>4</room>
+		<track>Google GEO</track>
+	</session>
+	
+	<session>
+		<title>Desplegando grandes bloques de datos geográficos: Google Fusion Tablese</title>
+		<speakers>Mano Marks</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>4</room>
+		<track>Google GEO</track>
+	</session>
+	
+	<session>
+		<title>Construyendo un negocio con Mobile Apps</title>
+		<speakers>Peter Fernández</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>12:00pm-12:50pm</time>
+		
+		<room>4</room>
+		<track>Google GEO</track>
+	</session>
+	
+	<session>
+		<title>Oportunidades de monetización con las tecnologías de Google</title>
+		<speakers>Don Dodge</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>4</room>
+		<track>Google GEO</track>
+	</session>
+	
+	<session>
+		<title>Desde las universidades: Sinapsis</title>
+		<speakers>Alejandro Villanueva, Nicolás Bortolotti</speakers>
+		<date>Tuesday August 9</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>4</room>
+		<track>Google GEO</track>
+		<abstract>Como integrar Google Tools en cátedras universitarias, práctica aplicada.</abstract>
+	</session>
+	
+	<session>
+		<title>Panel de emprendedores y Venture Capital</title>
+		<speakers>Don Dodge</speakers>
+		
+		<date>Tuesday August 9</date>
+		<time>4:00pm-4:50pm</time>
+		
+		<room>4</room>
+		<track>Google GEO</track>
 	</session>
 	
 	<!-- Gobierno -->
