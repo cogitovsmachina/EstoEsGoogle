@@ -30,7 +30,7 @@
     <string name="title_now_playing">Ahora</string>
     <string name="title_schedule">Agenda</string>
     <string name="title_sessions">Sesiones</string>
-    <string name="title_session_detail">Informacion de Sesion</string>
+    <string name="title_session_detail">Información de la Sesión</string>
     <string name="title_starred">Favoritos</string>
     <string name="title_tracks">Tracks</string>
     <string name="title_vendors">Sandbox</string>
@@ -42,10 +42,10 @@
     <string name="title_session_tracks">Sesiones</string>
     <string name="title_vendor_tracks">Sandbox pods</string>
 
-    <string name="title_share">Compartir en</string>
+    <string name="title_share">Compartir</string>
 
-    <string name="title_search">Search</string>
-    <string name="title_search_query">Search for \'<xliff:g id="query">%1$s</xliff:g>\'</string>
+    <string name="title_search">Búsqueda</string>
+    <string name="title_search_query">Buscar \'<xliff:g id="query">%1$s</xliff:g>\'</string>
 
     <string name="btn_schedule">Agenda</string>
     <string name="btn_map">Mapa</string>
@@ -68,8 +68,8 @@
     <string name="empty_sessions">No se encontraron sesiones</string>
     <string name="empty_session_detail">No hay detalles de sesion</string>
     <string name="empty_vendors">No sandbox results found</string>
-    <string name="empty_search">No hay resultados de la busqueda</string>
-    <string name="empty_links">No hay links disponibles</string>
+    <string name="empty_search">No hay resultados de la búsqueda</string>
+    <string name="empty_links">No hay enlaces disponibles</string>
 
     <string name="session_summary">Resumen</string>
     <string name="session_notes">Notas</string>
@@ -95,7 +95,7 @@
     <string name="search_label">Esto es Google</string>
     <string name="search_hint">Palabras clave de sesiones</string>
 
-    <string name="share_template">Estoy en la conferencia \'<xliff:g id="title">%1$s</xliff:g>\' at <xliff:g id="hashtags">%2$s</xliff:g> <xliff:g id="url">%3$s</xliff:g></string>
+    <string name="share_template">Estoy en la conferencia \'<xliff:g id="title">%1$s</xliff:g>\' en <xliff:g id="hashtags">%2$s</xliff:g> <xliff:g id="url">%3$s</xliff:g></string>
 
     <string name="moderator_header">Moderator</string>
 
@@ -117,18 +117,18 @@
 
     <string name="permission_write">Modify Google I/O schedule data</string>
 
-    <string name="toast_now_not_visible">Press this button during Google I/O to show the current time.</string>
+    <string name="toast_now_not_visible">Presiona este botón durante el evento para mostrar los eventos del momento.</string>
 
     <!-- Notes integration -->
     <string name="notes_catch_powered_by">Notes es desarrollado por <a href="http://www.catch.com/">Catch.com</a>.</string>
     <string name="notes_catch_market_title">Descarga Catch Notes</string>
    <!--  <string name="notes_catch_market_subtitle">You can take notes for Google I/O sessions using the latest version of Catch Notes, available from Android Market.</string> -->
-    <string name="notes_catch_market_subtitle">Puedes tomar notas en las sesiones de Esto Es Google utilizando la ultima version de Catch Notes, disponible en Android Market.</string>
+    <string name="notes_catch_market_subtitle">Puedes tomar notas en las sesiones de Esto Es Google utilizando la última versión de Catch Notes, disponible en Android Market.</string>
     <string name="notes_catch_new_title">Crea una nueva nota</string>
-    <string name="notes_catch_view_title">View track notes</string>
+    <string name="notes_catch_view_title">Ver notas de sesiones</string>
     <string name="toast_notes_error_invoking">Error invoking Catch Notes.</string>
 
-    <string name="note_template">Session: <xliff:g id="title">%1$s</xliff:g>\n\n\n\n__________\nTags: <xliff:g id="hashtags">%2$s</xliff:g></string>
+    <string name="note_template">Sesión: <xliff:g id="title">%1$s</xliff:g>\n\n\n\n__________\nTags: <xliff:g id="hashtags">%2$s</xliff:g></string>
 
     <!-- EULA -->
     <string name="eula_title">Titulo de EULA.</string>

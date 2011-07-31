@@ -17,7 +17,6 @@
 package org.androidtitlan.estoesgoogle.ui;
 
 import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Sessions;
-import org.androidtitlan.estoesgoogle.provider.ScheduleContract.Vendors;
 import org.androidtitlan.estoesgoogle.ui.phone.SessionDetailActivity;
 
 import android.app.SearchManager;
@@ -42,7 +41,6 @@ import org.androidtitlan.estoesgoogle.R;
 public class SearchActivity extends BaseMultiPaneActivity {
 
     public static final String TAG_SESSIONS = "sessions";
-    public static final String TAG_VENDORS = "vendors";
 
     private String mQuery;
 
@@ -132,11 +130,6 @@ public class SearchActivity extends BaseMultiPaneActivity {
     private Bundle getSessionsFragmentArguments() {
         return intentToFragmentArguments(
                 new Intent(Intent.ACTION_VIEW, Sessions.buildSearchUri(mQuery)));
-    }
-
-    private Bundle getVendorsFragmentArguments() {
-        return intentToFragmentArguments(
-                new Intent(Intent.ACTION_VIEW, Vendors.buildSearchUri(mQuery)));
     }
 
     /**
