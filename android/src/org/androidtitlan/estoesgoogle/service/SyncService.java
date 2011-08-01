@@ -106,7 +106,7 @@ public class SyncService extends IntentService {
 
         try {
             // Bulk of sync work, performed by executing several fetches from
-            // local and online sources.
+            // local sources.
             
             // Load static local data
             mLocalExecutor.execute(R.xml.blocks, new LocalBlocksHandler());

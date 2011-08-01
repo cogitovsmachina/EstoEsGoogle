@@ -122,10 +122,6 @@ public class SearchActivity extends BaseMultiPaneActivity {
                 .setIndicator(buildIndicator(R.string.starred_sessions))
                 .setContent(R.id.fragment_sessions));
     }
-
-    /**
-     * Build and add "vendors" tab.
-     */
     
     private Bundle getSessionsFragmentArguments() {
         return intentToFragmentArguments(

@@ -106,6 +106,7 @@
 		<room>2</room>
 		<track>HTML y Mobile Web</track>
 		<keywords>web,HTML5,development,html</keywords>
+		<abstract>Todo el mundo parece estar de acuerdo, HTML5 es el futuro - y nos permitirá crear aplicaciones web que hacen cosas que hace 2 años no se crían posibles. Sin embargo, no tenemos que esperar a su adopción de amplia difusión, ¡Podemos empezar a utilizarlo hoy mismo! Le mostraremos cómo puede utilizar las nuevas características de HTML5 para mejorar la experiencia y el rendimiento de su sitio web sin necesidad de re-escribir todo desde cero.</abstract>
 	</session>
 	
 	<session>
@@ -117,6 +118,8 @@
 		
 		<room>2</room>
 		<track>HTML y Mobile Web</track>
+		<keywords>web,HTML5,development,html,mobile,app</keywords>
+		<abstract>El crecimiento explosivo de la web móvil va a continuar. No te quedes atrás. Escribir una nueva aplicación en todos los ambientes nativos no siempre es posible, y HTML5 es una manera de reutilizar la mayor parte de su código en todas las plataformas principales. Le mostraremos paso a paso cómo construir una aplicación web increíble que funciona en muchos dispositivos.</abstract>
 	</session>
 	
 	<session>
@@ -128,6 +131,8 @@
 		
 		<room>2</room>
 		<track>HTML y Mobile Web</track>
+		<abstract>El desarrollo para móviles es lo de hoy. Pero muchos desarrolladores ya están familiarizados con tecnologías web como HTML, CSS, Javascript y GWT para construir aplicaciones web modernas. En esta charla discutiremos cómo puedes utilizar estas habilidades y código para construir grandiosas aplicaciones web para dispositivos móviles.</abstract>
+		<keywords>html,eclipse,GWT,mobile,web,CSS,javascript,development</keywords>
 	</session>
 	
 	<session>
@@ -139,6 +144,8 @@
 		
 		<room>2</room>
 		<track>HTML y Mobile Web</track>
+		<abstract>Seamos honestos, todos queremos hacer un poco de dinero con el internet, y los esquemas para volverse ricos no funcionan del todo bien, ¡Pero hay verdaderas opciones! La Chrome Web Store es un marketplace el línea donde puedes publicar y vender aplicaciones web y utilizar un modelo de monetización que funciona para tí. Aprenderás acerca de las Extensiones de Chrome y cómo construir una app para la Chrome Web Store.</abstract>
+		<keywords>Chrome,web,store,tienda,market,app,development</keywords>
 	</session>
 	
 	<session>
@@ -150,6 +157,8 @@
 		
 		<room>2</room>
 		<track>HTML y Mobile Web</track>
+		<abstract>¿Cómo puedes tomar ventaja de las nuevas capacidades de HTML5 en tus aplicaciones desarrolladas en GWT? En esta sesión, responderemos a esa pregunta utilizando demostraciones -muchas, de hecho-. Cubriremos ejemplos de cómo utilizar Canvas(para visualizaciones), drag and drop, capacidades de CSS3 y más dentro de las aplicaciones GWT.</abstract>
+		<keywords>web,html,HTML5,GWT,development,app,CSS</keywords>
 	</session>
 	
 		<!-- Track 3 -->
@@ -163,6 +172,8 @@
 		
 		<room>3</room>
 		<track>La Nube y App Engine</track>
+		<abstract>Esta sesión dará una revisión de las más recientes e irresistibles capacidades de App Engine incluyendo Backends y el Channel API y mostrar cómo utilizarlas en aplicaciones web del mundo real.</abstract>
+		<keywords>app engine,API,web,nube,develoment,app</keywords>
 	</session>
 	
 	<session>
@@ -174,7 +185,11 @@
 		
 		<room>3</room>
 		<track>La Nube y App Engine</track>
-		<abstract>Cómo tomar ventaja de la arquitectura distribuída de Google para construir aplicaciones confiables y robustas.</abstract>
+		<keywords>app engine,nube,web,app,development</keywords>
+		<abstract>El Datastore de alta replicación de Google App Engine brinda a los desarrolladores la habilidad para construir aplicaciones robustas y confiables, que abarcan multiples centros de datos, proporcionando una fuerte consistencia de datos sin pérdida de datos. Esta sesión abordará: 
+- Una revisión general de Paxos, el algoritmo de consenso distrubuído producido por Google y para uso de sus centros de datos. 
+- La estructura sin esquema y jerárquica de las entidades de datastore de App Engine y los grupos de entidades.
+- Mejores prácticas para diseñar una robusta y escalable estrategia para persistencia de datos.</abstract>
 	</session>
 	
 	<session>
@@ -186,6 +201,8 @@
 		
 		<room>3</room>
 		<track>La Nube y App Engine</track>
+		<abstract>Google Apps Script es un lenguaje de programación JavaScript en la nube. Apps Script es también Javascript en el lado del servidor que hace las APIs más accesibles y permite la automatización en Google Apps. Con un sencillo editor basado en el browser, puedes empezar a escribir y ejecutar scripts. También permite construír una interfaz de usuario usando Javascript del lado del servidor. Como desarrolladores JavaScript, cuando pensamos en este lenguaje, pensamos en construir interfaces geniales e interacción con el usuario. Pero, ¿sabías que el paradigma de JavaScript del lado del servidor está tomando una fuerza increíble en la comunidad de desarrolladores? Resulta que éste lenguaje ha encontrado una gran utilidad en el lado del server y Google Apps Script está aprovechando esa oportunidad. Esta sesión demostrará cómo puedes extender y automatizar el uso de Google Apps usando Google Apps Script.</abstract>
+		<keywords>javascript,nube,web,app,development</keywords>
 	</session>
 	
 	<session>
@@ -197,6 +214,8 @@
 		
 		<room>3</room>
 		<track>La Nube y App Engine</track>
+		<keywords>nube,app engine,app,web,development</keywords>
+		<abstract>Esta sesión revisará una serie de distintas aplicaciones que fueron construidas usando una combinación de tecnologías que conjuntan toda la plataforma de Google en la nube. Estas aplicaciones mostrarán cómo integrar capacidades como Google Storage, Prediction API, BigQuery y App Engine en conjunto para construir poderosas aplicaciones web.</abstract>
 	</session>
 	
 	<session>
@@ -207,7 +226,13 @@
 		
 		<room>3</room>
 		<track>La Nube y App Engine</track>
-		<abstract>Comprendiendo los estándares de facto de la nube para construir aplicaciones integradas.</abstract>
+		<keywords>REST,OAuth,development,web,app,nube,JSON,app engine,API</keywords>
+		<abstract>Comprendiendo los estándares de facto de la nube para construir aplicaciones integradas:
+La nube puede ser descrita como una red de servicios interactivos. Varias tecnologías se han posicionado como estándares cuando se está trabajando con tecnologías en la nube. Esta sesión describirá en detalle tecnologías como:
+- REST, un estándar para usar verbos en HTTP para interactuar con APIs
+- OAuth, un estándar para autenticación segura de terceras personas
+- JSON, un formato de serialización de datos ligero.
+Esta sesión además cubrirá una breve introducción de cómo el API de Google Data puede ser accesado vía estos services, así como construir un servicio simple utilizando Google App Engine.</abstract>
 	</session>
 	
 	<session>
@@ -219,6 +244,12 @@
 		
 		<room>3</room>
 		<track>La Nube y App Engine</track>
+		<keywords>juegos,nube,web,development,app engine</keywords>
+		<abstract>La nube puede ser descrita como una red de servicios interactivos. Varias tecnologías se han posicionado como estándares cuando se está trabajando con tecnologías en la nube. Esta sesión describirá en detalle tecnologías como:
+- REST, un estándar para usar verbos en HTTP para interactuar con APIs
+- OAuth, un estándar para autenticación segura de terceras personas
+- JSON, un formato de serialización de datos ligero.
+Esta sesión además cubrirá una breve introducción de cómo el API de Google Data puede ser accesado vía estos services, así como construir un servicio simple utilizando Google App Engine.</abstract>
 	</session>
 	
 		<!-- Track 4 -->
@@ -232,10 +263,12 @@
 		
 		<room>4</room>
 		<track>Google GEO</track>
+		<keywords>development,API,places,maps,mapa,web,nube,GEO</keywords>
+		<abstract>Ésta sesión mostrará cómo construír juegos multiplataforma utilizando una combinación de tecnología de código abierto, junto con App Engine y otras tecnologías de Google en la nube para manejo de juegos y manejo de recursos. Al finalizar esta sesión, los asistentes serán capaces de empezar a desarrollar simples videojuegos que pueden ser tan poderosos como Angry Birds o un simple Pong, utilizando tecnología de código abierto.</abstract>
 	</session>
 	
 	<session>
-		<title>Desplegando grandes bloques de datos geográficos: Google Fusion Tablese</title>
+		<title>Desplegando grandes bloques de datos geográficos: Google Fusion Tables</title>
 		<speakers>Mano Marks</speakers>
 		
 		<date>Tuesday August 9</date>
@@ -243,6 +276,8 @@
 		
 		<room>4</room>
 		<track>Google GEO</track>
+		<keywords>fusion tables,development,nube,mapa,maps,API,GEO</keywords>
+		<abstract>Google Fusion Tables te permite subir, guardar y acceder grandes cantidades de datos geográficos. Aprende como poner tu información en la nube y como integrar fácilmente poderosos grupos datos de mapeo en tus aplicaciones de la Maps API.</abstract>
 	</session>
 	
 	<session>
@@ -254,6 +289,7 @@
 		
 		<room>4</room>
 		<track>Google GEO</track>
+		<keywords>emprendedor,app,mobile,web,development,GEO</keywords>
 	</session>
 	
 	<session>
@@ -265,6 +301,8 @@
 		
 		<room>4</room>
 		<track>Google GEO</track>
+		<keywords>emprendedor,development,market,store,tienda,android,app,Chrome,web,GEO</keywords>
+		<abstract>Como construir negocios exitosos con el marketplace de Google: Android Market, Google Apps Marketplace y Chrome Web Store.</abstract>
 	</session>
 	
 	<session>
@@ -275,7 +313,9 @@
 		
 		<room>4</room>
 		<track>Google GEO</track>
-		<abstract>Como integrar Google Tools en cátedras universitarias, práctica aplicada.</abstract>
+		<abstract>Como integrar Google Tools en cátedras universitarias, práctica aplicada:
+En ésta sesión se analizará un segmento conceptual metodológico donde se propone la integración de Google tools a los planes prácticos de aplicación de conceptos académicos dentro de la universidad. Vista general de soluciones propuestas a integrar. Modelo de integración. Proyecto Sinapsis y GUTrainning. (Caso de Estudio).</abstract>
+		<keywords>sinapsis,universidades,GEO</keywords>
 	</session>
 	
 	<session>
@@ -287,6 +327,8 @@
 		
 		<room>4</room>
 		<track>Google GEO</track>
+		<keywords>emprendedor,México,GEO</keywords>
+		<abstract>Las startups pueden ser construidas y fundadas en cualquier lugar del mundo, no sólo en Silicon Valley. Inversionistas de Venture Capital están invirtiendo en startups globalmente y dando fundos a incubadoras para hacer florecer sus inversiones futuras. Descubra como puede entrar a una incubadora o como puede ser financiado por un Venture Capitalist o un Angel Investor. Aprenda de los ejemplos en EUA y escuche de los inversionistas VC locales en este panel de discusión. Deje que sus preguntas sean respondidas por verdaderos inversionistas.</abstract>
 	</session>
 	
 	<!-- Gobierno -->
@@ -301,6 +343,7 @@
 		
 		<room>1</room>
 		<track>Gobierno</track>
+		<keywords>gobierno</keywords>
 	</session>
 	
 	<session>
@@ -325,6 +368,7 @@
 		
 		<room>2</room>
 		<track>Gobierno</track>
+		<keywords>gobierno,app</keywords>
 	</session>
 	
 	<session>
@@ -336,6 +380,7 @@
 		
 		<room>2</room>
 		<track>Gobierno</track>
+		<keywords>gobierno,GEO,mapa,maps</keywords>
 	</session>
 	
 		<!-- Track 3 -->
@@ -349,6 +394,7 @@
 		
 		<room>3</room>
 		<track>Gobierno</track>
+		<keywords>gobierno,web</keywords>
 	</session>
 	
 	<session>
@@ -360,6 +406,7 @@
 		
 		<room>3</room>
 		<track>Gobierno</track>
+		<keywords>web,gobierno,social</keywords>
 	</session>
 	
 		<!-- Track 4 -->
@@ -374,6 +421,7 @@
 		<room>4</room>
 		<track>Gobierno</track>
 		<abstract>Maps, Earth, APIs y Street View</abstract>
+		<keywords>gobierno,GEO,maps,mapa,soluciones,earth,API,street view</keywords>
 	</session>
 	
 	<session>
@@ -385,6 +433,7 @@
 		
 		<room>4</room>
 		<track>Gobierno</track>
+		<keywords>gobierno,México</keywords>
 	</session>
 	
 	
@@ -398,6 +447,7 @@
 		
 		<room>1</room>
 		<track>ONG's y Educativas</track>
+		<keywords>ONG,social,México</keywords>
 	</session>
 		<!-- Track 1 -->
 	<session>
@@ -409,6 +459,7 @@
 		
 		<room>1</room>
 		<track>ONG's y Educativas</track>
+		<keywords>ONG,web,adwords</keywords>
 	</session>
 	<session>
 		<title>Google Grants</title>
@@ -419,6 +470,7 @@
 		
 		<room>1</room>
 		<track>ONG's y Educativas</track>
+		<keywords>ONG</keywords>
 	</session>
 		<!-- Track 2 -->
 	<session>
@@ -430,6 +482,7 @@
 		
 		<room>2</room>
 		<track>ONG's y Educativas</track>
+		<keywords>ONG,fusion tables</keywords>
 	</session>
 	<session>
 		<title>Google Earth and Sketchup</title>
@@ -440,6 +493,7 @@
 		
 		<room>2</room>
 		<track>ONG's y Educativas</track>
+		<keywords>ONG,earth</keywords>
 	</session>
 		<!-- Track 3 -->
 	<session>
@@ -451,6 +505,7 @@
 		
 		<room>3</room>
 		<track>ONG's y Educativas</track>
+		<keywords>EDU,youtube,web</keywords>
 	</session>
 	<session>
 		<title>Dándole voz a tu causa con YouTube</title>
@@ -461,6 +516,7 @@
 		
 		<room>3</room>
 		<track>ONG's y Educativas</track>
+		<keywords>social,ONG,youtube,web</keywords>
 	</session>
 		<!-- Track 4 -->
 	<session>
@@ -472,6 +528,7 @@
 		
 		<room>4</room>
 		<track>ONG's y Educativas</track>
+		<keywords>social,web,app</keywords>
 	</session>
 	<session>
 		<title>10 Tácticas Para Transformar La Información</title>
@@ -495,6 +552,7 @@
 		
 		<room>1</room>
 		<track>Usuarios</track>
+		<keywords>búsqueda,usuario</keywords>
 	</session>
 	<session>
 		<title>Desarrollar proyectos y tareas en colaboración</title>
@@ -505,6 +563,7 @@
 		
 		<room>1</room>
 		<track>Usuarios</track>
+		<keywords>usuario</keywords>
 	</session>
 	
 		<!-- Track 2 -->
@@ -517,6 +576,7 @@
 		
 		<room>2</room>
 		<track>Usuarios</track>
+		<keywords>usuario,places,social</keywords>
 	</session>
 	<session>
 		<title>El Proyecto Google+</title>
@@ -527,6 +587,7 @@
 		
 		<room>2</room>
 		<track>Usuarios</track>
+		<keywords>usuario,social,web</keywords>
 	</session>
 	
 		<!-- Track 3 -->
@@ -539,6 +600,7 @@
 		
 		<room>3</room>
 		<track>Usuarios</track>
+		<keywords>usuario,youtube,social</keywords>
 	</session>
 	<session>
 		<title>Generando valor a los creadores de contenido: Programa de Socios</title>
@@ -549,6 +611,7 @@
 		
 		<room>3</room>
 		<track>Usuarios</track>
+		<keywords>usuario,youtube,social</keywords>
 	</session>
 	
 		<!-- Track 4 -->
@@ -561,6 +624,7 @@
 		
 		<room>4</room>
 		<track>Usuarios</track>
+		<keywords>usuario</keywords>
 	</session>
 	<session>
 		<title>Las Mujeres e Internet</title>
