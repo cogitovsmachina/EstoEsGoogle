@@ -624,7 +624,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>4</room>
 		<track>Usuarios</track>
-		<keywords>usuario</keywords>
+		<keywords>usuario,chrome,padres,web</keywords>
 	</session>
 	<session>
 		<title>Las Mujeres e Internet</title>
@@ -635,6 +635,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>4</room>
 		<track>Usuarios</track>
+		<keywords>usuario,web,mujeres</keywords>
 	</session>
 	
 	<!-- Empresas -->
@@ -648,6 +649,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>1</room>
 		<track>Respuesta Directa</track>
+		<keywords>respuesta directa,e-commerce,empresas,México,web</keywords>
 	</session>
 	<session>
 		<title>Innovaciones En Google Search</title>
@@ -658,6 +660,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>1</room>
 		<track>Respuesta Directa</track>
+		<keywords>búsqueda,empresas,respuesta directa,web</keywords>
 	</session>
 	<session>
 		<title>La información al alcance de tus dedos: Buscadores y plataformas móviles</title>
@@ -668,6 +671,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>1</room>
 		<track>Respuesta Directa</track>
+		<keywords>búsqueda,empresas,respuesta directa,mobile,web</keywords>
 	</session>
 	
 	<session>
@@ -679,6 +683,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>1</room>
 		<track>Respuesta Directa</track>
+		<keywords>empresas,respuesta directa</keywords>
 	</session>
 	<session>
 		<title>Analytics</title>
@@ -689,6 +694,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>1</room>
 		<track>Respuesta Directa</track>
+		<keywords>empresas,respuesta directa,análisis</keywords>
 	</session>
 	<session>
 		<title>Panel de Analytics</title>
@@ -699,6 +705,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>1</room>
 		<track>Respuesta Directa</track>
+		<keywords>empresas,respuesta directa,análisis</keywords>
 	</session>
 	
 		<!-- Track 2 -->
@@ -711,6 +718,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>2</room>
 		<track>Gerentes de Marca</track>
+		<keywords>gerentes,marca,empresas,web</keywords>
 	</session>
 	<session>
 		<title>Generando Awareness: Porqué Display</title>
@@ -721,6 +729,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>2</room>
 		<track>Gerentes de Marca</track>
+		<keywords>gerentes,marca,empresas</keywords>
 	</session>
 	<session>
 		<title>Casos de Éxito Mexicano</title>
@@ -731,6 +740,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>2</room>
 		<track>Gerentes de Marca</track>
+		<keywords>gerentes,marca,empresas,México</keywords>
 	</session>
 	
 	<session>
@@ -742,6 +752,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>2</room>
 		<track>Gerentes de Marca</track>
+		<keywords>gerentes,marca,empresas</keywords>
 	</session>
 	<session>
 		<title>Bringing It All Together: Caso Corona Music</title>
@@ -752,6 +763,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>2</room>
 		<track>Gerentes de Marca</track>
+		<keywords>gerentes,marca,empresas</keywords>
 	</session>
 	<session>
 		<title>Posicionamiento De Marca En Plataformas Móviles</title>
@@ -762,6 +774,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>2</room>
 		<track>Gerentes de Marca</track>
+		<keywords>gerentes,marca,empresas,mobile</keywords>
 	</session>
 	
 		<!-- Track 3 -->
@@ -774,6 +787,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>3</room>
 		<track>Soluciones Google: Como empezar</track>
+		<keywords>soluciones,places,social</keywords>
 	</session>
 	<session>
 		<title>Plataformas sociales: El Proyecto Google+</title>
@@ -784,6 +798,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>3</room>
 		<track>Soluciones Google: Como empezar</track>
+		<keywords>soluciones,social</keywords>
 	</session>
 	<session>
 		<title>Tus Primeros Pasos En AdWords</title>
@@ -794,6 +809,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>3</room>
 		<track>Soluciones Google: Como empezar</track>
+		<keywords>soluciones,adwords,web</keywords>
 	</session>
 	
 	<session>
@@ -805,6 +821,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>3</room>
 		<track>Soluciones Google: Como empezar</track>
+		<keywords>soluciones,búsqueda,web</keywords>
 	</session>
 	<session>
 		<title>Analizando Los Resultados De Tu Campaña</title>
@@ -815,6 +832,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>3</room>
 		<track>Soluciones Google: Como empezar</track>
+		<keywords>soluciones,análisis</keywords>
 	</session>
 	<session>
 		<title>Oportunidades en Display</title>
@@ -825,6 +843,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>3</room>
 		<track>Soluciones Google: Como empezar</track>
+		<keywords>soluciones</keywords>
 	</session>
 	
 		<!-- Track 4 -->
@@ -837,6 +856,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>4</room>
 		<track>Soluciones Google para empresas</track>
+		<keywords>soluciones,empresas,gobierno,GEO,maps,mapa</keywords>
 	</session>
 	<session>
 		<title>Google Apps y La Experiencia Completa En La Web 1a. Parte</title>
@@ -848,6 +868,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>4</room>
 		<track>Soluciones Google para empresas</track>
 		<abstract>¿Por qué La Nube, Por qué Google?</abstract>
+		<keywords>soluciones,empresas,web,nube</keywords>
 	</session>
 	<session>
 		<title>Google Apps y La Experiencia Completa En La Web 2a. Parte</title>
@@ -859,6 +880,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>4</room>
 		<track>Soluciones Google para empresas</track>
 		<abstract>Un Día En La Vida De Un Usuario De Google Apps</abstract>
+		<keywords>soluciones,empresas,app,web</keywords>
 	</session>
 	
 	<session>
@@ -870,6 +892,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>4</room>
 		<track>Soluciones Google para empresas</track>
+		<keywords>soluciones,empresas,app,market,store</keywords>
 	</session>
 	<session>
 		<title>Enterprise Search: El Valor De Encontrar Informacióin En Tu Empresa</title>
@@ -880,6 +903,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>4</room>
 		<track>Soluciones Google para empresas</track>
+		<keywords>soluciones,empresas,búsqueda</keywords>
 	</session>
 	<session>
 		<title>Chrome y Tu Negocio</title>
@@ -890,5 +914,6 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>4</room>
 		<track>Soluciones Google para empresas</track>
+		<keywords>soluciones,empresas,Chrome OS,Chrome</keywords>
 	</session>
 </sessions>
