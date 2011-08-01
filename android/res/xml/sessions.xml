@@ -546,7 +546,7 @@
 		<date>Wednesday August 10</date>
 		<time>7:00pm-7:50pm</time>
 		
-		<room>4</room>
+		<room>3</room>
 		<track>Usuarios</track>
 	</session>
 	
@@ -558,7 +558,7 @@
 		<date>Wednesday August 10</date>
 		<time>6:00pm-6:50pm</time>
 		
-		<room>1</room>
+		<room>4</room>
 		<track>Usuarios</track>
 	</session>
 	<session>
@@ -571,18 +571,259 @@
 		<room>4</room>
 		<track>Usuarios</track>
 	</session>
-	<!-- 
-	<session>
-		<title></title>
-		<speakers></speakers>
-		
-		<date></date>
-		<time></time>
-		
-		<room></room>
-		<track></track>
-		<abstract></abstract>
-		<keywords></keywords>
-	</session> -->
+	
 	<!-- Empresas -->
+		<!-- Track 1 -->
+	<session>
+		<title>E-Commerce en México</title>
+		<speakers>Mauricio Braverman</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>1</room>
+		<track>Respuesta Directa</track>
+	</session>
+	<session>
+		<title>Innovaciones En Google Search</title>
+		<speakers>John Farrell</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>1</room>
+		<track>Respuesta Directa</track>
+	</session>
+	<session>
+		<title>La información al alcance de tus dedos: Buscadores y plataformas móviles</title>
+		<speakers>Peter Fernández</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>12:00pm-12:50pm</time>
+		
+		<room>1</room>
+		<track>Respuesta Directa</track>
+	</session>
+	
+	<session>
+		<title>Ponente invitado: GM</title>
+		<speakers>General Motors</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>1</room>
+		<track>Respuesta Directa</track>
+	</session>
+	<session>
+		<title>Analytics</title>
+		<speakers>Justin Cutroni</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>1</room>
+		<track>Respuesta Directa</track>
+	</session>
+	<session>
+		<title>Panel de Analytics</title>
+		<speakers>Enrique Quevedo</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>4:00pm-4:50pm</time>
+		
+		<room>1</room>
+		<track>Respuesta Directa</track>
+	</session>
+	
+		<!-- Track 2 -->
+	<session>
+		<title>Panorama del Mercado: Internet extiende el alcance</title>
+		<speakers>Juliana Sawaia</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>2</room>
+		<track>Gerentes de Marca</track>
+	</session>
+	<session>
+		<title>Generando Awareness: Porqué Display</title>
+		<speakers>Flavia Verginelli</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>2</room>
+		<track>Gerentes de Marca</track>
+	</session>
+	<session>
+		<title>Casos de Éxito Mexicano</title>
+		<speakers>José Luis Ortega</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>12:00pm-12:50pm</time>
+		
+		<room>2</room>
+		<track>Gerentes de Marca</track>
+	</session>
+	
+	<session>
+		<title>Generando Engagement: Creative Canvas</title>
+		<speakers>Google The Zoo Creative Director</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>2</room>
+		<track>Gerentes de Marca</track>
+	</session>
+	<session>
+		<title>Bringing It All Together: Caso Corona Music</title>
+		<speakers>Jorge Ruiz,María Mañón,Fabiola Pérez,Carlos Fernández,Claudia Marín,Juan Carlos Morales</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>2</room>
+		<track>Gerentes de Marca</track>
+	</session>
+	<session>
+		<title>Posicionamiento De Marca En Plataformas Móviles</title>
+		<speakers>Peter Fernández</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>4:00pm-4:50pm</time>
+		
+		<room>2</room>
+		<track>Gerentes de Marca</track>
+	</session>
+	
+		<!-- Track 3 -->
+	<session>
+		<title>Google Places y la revolución social</title>
+		<speakers>Alex Rodríguez Torres</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>3</room>
+		<track>Soluciones Google: Como empezar</track>
+	</session>
+	<session>
+		<title>Plataformas sociales: El Proyecto Google+</title>
+		<speakers>Gopi Kallayil</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>3</room>
+		<track>Soluciones Google: Como empezar</track>
+	</session>
+	<session>
+		<title>Tus Primeros Pasos En AdWords</title>
+		<speakers>Nicolás Garber</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>12:00pm-12:50pm</time>
+		
+		<room>3</room>
+		<track>Soluciones Google: Como empezar</track>
+	</session>
+	
+	<session>
+		<title>Estrategias De Optimización En La Red De Búsqueda</title>
+		<speakers>Romina Rodríguez</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>3</room>
+		<track>Soluciones Google: Como empezar</track>
+	</session>
+	<session>
+		<title>Analizando Los Resultados De Tu Campaña</title>
+		<speakers>Matías Sulzberger</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>3</room>
+		<track>Soluciones Google: Como empezar</track>
+	</session>
+	<session>
+		<title>Oportunidades en Display</title>
+		<speakers>Nicolás Maurette</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>4:00pm-4:50pm</time>
+		
+		<room>3</room>
+		<track>Soluciones Google: Como empezar</track>
+	</session>
+	
+		<!-- Track 4 -->
+	<session>
+		<title>Visualización Geográfica En Los Negocios y el Gobierno</title>
+		<speakers>Miguel Monreal</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>4</room>
+		<track>Soluciones Google para empresas</track>
+	</session>
+	<session>
+		<title>Google Apps y La Experiencia Completa En La Web 1a. Parte</title>
+		<speakers>Jorge Molina</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>4</room>
+		<track>Soluciones Google para empresas</track>
+		<abstract>¿Por qué La Nube, Por qué Google?</abstract>
+	</session>
+	<session>
+		<title>Google Apps y La Experiencia Completa En La Web 2a. Parte</title>
+		<speakers>Sebastián Hiernaux</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>12:00pm-12:50pm</time>
+		
+		<room>4</room>
+		<track>Soluciones Google para empresas</track>
+		<abstract>Un Día En La Vida De Un Usuario De Google Apps</abstract>
+	</session>
+	
+	<session>
+		<title>Aplicaciones De Terceros Y El Google Apps Marketplace</title>
+		<speakers>David Cifuentes</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>4</room>
+		<track>Soluciones Google para empresas</track>
+	</session>
+	<session>
+		<title>Enterprise Search: El Valor De Encontrar Informacióin En Tu Empresa</title>
+		<speakers>Miguel Monreal</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>4</room>
+		<track>Soluciones Google para empresas</track>
+	</session>
+	<session>
+		<title>Chrome y Tu Negocio</title>
+		<speakers>Campbell Foster</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>4:00pm-4:50pm</time>
+		
+		<room>4</room>
+		<track>Soluciones Google para empresas</track>
+	</session>
 </sessions>
