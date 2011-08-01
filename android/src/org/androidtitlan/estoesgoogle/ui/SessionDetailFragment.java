@@ -74,6 +74,7 @@ public class SessionDetailFragment extends Fragment implements
 
     private static final String TAG_SUMMARY = "summary";
     private static final String TAG_NOTES = "notes";
+    private static final String TAG_LINKS = "links";
 
     private static StyleSpan sBoldSpan = new StyleSpan(Typeface.BOLD);
 
@@ -181,6 +182,7 @@ public class SessionDetailFragment extends Fragment implements
 
         setupSummaryTab();
         setupNotesTab();
+        setupLinksTab();
 
         return mRootView;
     }
@@ -327,7 +329,7 @@ public class SessionDetailFragment extends Fragment implements
             }
 
             AnalyticsUtils.getInstance(getActivity()).trackPageView("/Sessions/" + mTitleString);
-
+            updateLinksTab(cursor);
             updateNotesTab();
 
         } finally {
@@ -506,6 +508,16 @@ public class SessionDetailFragment extends Fragment implements
         AnalyticsUtils.getInstance(getActivity()).trackEvent(
                 "Link Details", getActivity().getString(actionId), mTitleString, 0);
     }
+    
+    /**
+     * Build and add "summary" tab.
+     */
+    private void setupLinksTab() {
+        // Summary content comes from existing layout
+        mTabHost.addTab(mTabHost.newTabSpec(TAG_LINKS)
+                .setIndicator(buildIndicator(R.string.session_links))
+                .setContent(R.id.tab_session_links));
+    }
 
     private void updateNotesTab() {
         final CatchNotesHelper helper = new CatchNotesHelper(getActivity());
@@ -566,7 +578,53 @@ public class SessionDetailFragment extends Fragment implements
         mRootView.findViewById(R.id.notes_catch_view_separator).setVisibility(
                 !notesInstalled ? View.GONE : View.VISIBLE);
     }
+    
+    private void updateLinksTab(Cursor cursor) {
+        ViewGroup container = (ViewGroup) mRootView.findViewById(R.id.links_container);
 
+        // Remove all views but the 'empty' view
+        int childCount = container.getChildCount();
+        if (childCount > 1) {
+            container.removeViews(1, childCount - 1);
+        }
+
+        LayoutInflater inflater = getLayoutInflater(null);
+
+        boolean hasLinks = false;
+        for (int i = 0; i < SessionsQuery.LINKS_INDICES.length; i++) {
+            final String url = cursor.getString(SessionsQuery.LINKS_INDICES[i]);
+            if (!TextUtils.isEmpty(url)) {
+                hasLinks = true;
+                ViewGroup linkContainer = (ViewGroup)
+                        inflater.inflate(R.layout.list_item_session_link, container, false);
+                ((TextView) linkContainer.findViewById(R.id.link_text)).setText(
+                        SessionsQuery.LINKS_TITLES[i]);
+                final int linkTitleIndex = i;
+                linkContainer.setOnClickListener(new View.OnClickListener() {
+                    public void onClick(View view) {
+                        fireLinkEvent(SessionsQuery.LINKS_TITLES[linkTitleIndex]);
+                    	Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
+                        startActivity(intent);
+                        
+                    }
+                });
+
+                container.addView(linkContainer);
+
+                // Create separator
+                View separatorView = new ImageView(getActivity());
+                separatorView.setLayoutParams(
+                        new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT,
+                                ViewGroup.LayoutParams.WRAP_CONTENT));
+                separatorView.setBackgroundResource(android.R.drawable.divider_horizontal_bright);
+                container.addView(separatorView);
+            }
+        }
+
+        container.findViewById(R.id.empty_links).setVisibility(hasLinks ? View.GONE : View.VISIBLE);
+    }
+    
     private String getHashtagsString() {
         if (!TextUtils.isEmpty(mHashtag)) {
             return TagStreamFragment.CONFERENCE_HASHTAG + " #" + mHashtag;
