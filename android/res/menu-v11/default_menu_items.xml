@@ -22,4 +22,9 @@
         android:title="@string/description_search"
         android:orderInCategory="0"
         android:showAsAction="always" />
+   <item android:id="@+id/menu_about"
+        android:icon="@drawable/home_btn_vendors_default"
+        android:title="@string/about_title"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"/>
 </menu>
