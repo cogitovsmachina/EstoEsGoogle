@@ -21,6 +21,8 @@ import org.androidtitlan.estoesgoogle.ui.HomeActivity;
 import org.androidtitlan.estoesgoogle.R;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -34,6 +36,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * A class that handles some common activity-related functionality in the app, such as setting up
@@ -79,11 +82,33 @@ public class ActivityHelper {
             case R.id.menu_search:
                 goSearch();
                 return true;
+            case R.id.menu_about:
+            	showAboutMessage(mActivity);
+            	return true;
         }
         return false;
     }
 
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
+    /**
+     * Show About this app.
+     * @param activity Activity started from.
+     */
+    
+    public static void showAboutMessage(final Activity activity) {
+        AlertDialog.Builder about = new AlertDialog.Builder(activity)
+                .setTitle(R.string.about_title)
+                .setIcon(android.R.drawable.ic_dialog_info)
+                .setMessage(R.string.about_text)
+                .setPositiveButton(R.string.accept,
+                            new android.content.DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.dismiss();
+                                }
+                            });
+        about.show();
+    }
+
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_MENU) {
             return true;
         }
