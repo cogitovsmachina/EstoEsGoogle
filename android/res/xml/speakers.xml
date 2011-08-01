@@ -193,11 +193,107 @@
 		<image>http://estoesgoogle.com/images/conf/conf_4.jpg</image>
 		<abstract>Ana Paula Blanco es directora de Comunicación para Google en el Norte de Latinoamérica. Formada como psicóloga organizacional y deformada como una adicta a la Comunicación y las Relaciones Públicas, comienza una carrera en el área de Comunicación y RP de Citibank Mexico. En 2002 se mueve al "excitante" mundo de los focos y los refrigeradores, como gerente de Comunicaciones de GE en México. Cuatro años más tarde y tras apoyar operaciones en el norte de Latinoamérica, comienza una nueva etapa en el negocio de salud, GE Healthcare. En junio de 2008 ingresa a Google para abrir el área de Comunicación y Relaciones Públicas. Hoy dirige la comunicación pública de la empresa en México, US Hispanic, Centroamérica, el Caribe y Colombia. Es adicta a los grandes retos y a entender empresas que hacen historia.</abstract>
 	</speaker>
-	<!-- 
+	
+	<!-- 11 de Agosto -->
+	
 	<speaker>
-		<name></name>
-		<company></company>
-		<image></image>
-		<abstract></abstract>
-	</speaker> -->
+		<name>Mauricio Braverman</name>
+	</speaker>
+	<speaker>
+		<name>John Farrell</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_2.jpg</image>
+		<abstract>John Farrell fue nombrado Director General de Google México en febrero de 2008 y desde aquel año las operaciones de Google en el país han crecido a ritmos superiores al 50% anualmente. Hasta finales 2009, John también fue responsable del Desarrollo de Negocios de Google en Latinoamérica y anteriormente también lo hizo para el mercado asíatico. Antes de formar parte del equipo de Google, John trabajó para Televisa como Director de Desarrollo de Negocios para Esmas.com, donde generó nuevos servicios interactivos utilizando diferentes materiales pertenecientes al grupo Televisa. John Farrell también es cofundundador de Adetel: primera empresa que proveyó acceso a Internet para el segmento residencial y empresarial de México, y poco después, como Gerente General de Adetel, desarrolló una alianza con TV Azteca que derivó en el lanzamiento de ToditoCard: la primera tarjeta de acceso a Internet prepagado del país. Estuvo al frente del Desarrollo de Negocios en Iridium (Washington DC), dando apoyó al diseño y lanzamiento del primer servicio de localización satelital en el mundo y estableciendo acuerdos de distribución internacional.</abstract>
+	</speaker>
+	<speaker>
+		<name>General Motors</name>
+	</speaker>
+	<speaker>
+		<name>Justin Cutroni</name>
+		<company>Cardinal Path</company>
+		<image>http://estoesgoogle.com/images/conf/conf_45.jpg</image>
+		<abstract>Justin Cutroni es director de Inteligencia Artificial en Cardinal Path, una firma líder en servicios profesionales y socia certificada de Google especializada en medición digital y marketing online. Como parte de su trabajo, Justin ayuda a organizaciones a integrar analíticos web en sus procesos de toma de decisiones, frecuentemente interactuando con la administración de alto nivel para impulsar el uso estratégico de los datos de la web. Así mismo, colabora con equipos de IT y marketing para desarrollar planes de implementación y procesos necesarios en la generación de datos procesables e insights del negocio. Siendo miembro activo en la comunidad de analíticos web, Justin ha participado como orador en una gran variedad de eventos industriales, demostrando una gran pasión por compartir conocimiento y avances dentro de la industria de los analíticos web. Es un seminarista certificado líder de Google y ha encabezado infinitos eventos de entrenamiento en Estados Unidos y Europa. Justin es autor de los libros Google Analytics Short Cut, (O'Reilly Media, Inc., 2007), Google Analytics (O'Reilly Media, Inc., 2010) y coautor de Performance Marketing with Google Analytics (Wiley, 2010).Cuenta con un título en Ingeniería Mecánica y Aeroespacial por parte del Instituto Politécnico Worcester.</abstract>
+	</speaker>
+	<speaker>
+		<name>Enrique Quevedo</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_1.jpg</image>
+		<abstract>Enrique Quevedo es especialista de métricas	web	para	Google	en Latinoamérica y desde julio de 2007 se encarga de la evangelización, difusión y soporte de las herramientas de medición de Google. Lidera el programa de certificación de consultores autorizados de Google Analytics y es editor de Central de Conversiones, el blog oficial de Google en español para las herramientas de medición. Antes de formar parte de Google, trabajó como gerente de Medios Electrónicos en El Financiero, donde desarrolló la presencia digital del periódico en Web y dispositivos móviles. Siendo ingeniero en Sistemas Computacionales por el Tecnológico de Monterrey, ha estado relacionado con la industria del internet desde 1995, cuando se inició en el arte de la creación de sitios Web. Enrique es también un usuario entusiasta de las APIs de Google, mismas que integra en cualquier sitio que tome desprevenido: Maps, Earth, YouTube, Apps, Picasa, FeedBurner, Friend Connect, Gadgets, Custom Search Engine, Webmaster Tools y Analytics... más lo que se acumule en la semana.</abstract>
+	</speaker>
+	<speaker>
+		<name>Juliana Sawaia</name>
+		<image>http://estoesgoogle.com/images/conf/conf_48.jpg</image>
+		<abstract>Egresada de Comunicación Social por la Fundación Getúli Vargas (FGV), con especialización en Marketing, Juliana Sawaia ha trabajado durante 16 años en los campos de la investigación cualitativa y cuantitativa. Cuenta con una amplia experiencia en el mercado, en medios de comunicación y de opinión, con especial énfasis en software de marketing de segmentación, trabajando en importantes institutos de investigación brasileños, como Datafolha e IBOPE. Durante tres años dirigió el área de marketing de IBOPE Media y actualmente es la gerente de Consumer Insight, sobresaliendo en áreas como marketing, etnografía, medios de comunicación conductuales y sociales, y análisis de Medios Generados por el Consumidor (MGC). Fue responsable de coordinar e implementar el programa de capacitación "Clase Media" en el país, y se vinculó ampliamente con las acciones de comunicación de la compañía. Durante los últimos tres años, ha sido profesora titular de Inteligencia de Mercado en un curso de posgrado de la ESPM (Escuela de Publicidad y Marketing) en Sao Paulo.</abstract>
+	</speaker>
+	<speaker>
+		<name>Flavia Verginelli</name>
+		<image>http://estoesgoogle.com/images/conf/conf_35.jpg</image>
+	</speaker>
+	<speaker>
+		<name>José Luis Ortega</name>
+		<company>Danone</company>
+	</speaker>
+	<speaker>
+		<name>Google The Zoo Creative Director</name>
+	</speaker>
+	<speaker>
+		<name>Jorge Ruiz</name>
+	</speaker>
+	<speaker>
+		<name>María Mañon</name>
+	</speaker>
+	<speaker>
+		<name>Fabiola Pérez</name>
+	</speaker>
+	<speaker>
+		<name>Carlos Fernández</name>
+	</speaker>
+	<speaker>
+		<name>Claudia Marín</name>
+	</speaker>
+	<speaker>
+		<name>Juan Carlos Morales</name>
+	</speaker>
+	<speaker>
+		<name>Romina Rodríguez</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_30.jpg</image>
+		<abstract>Romina se desempeña como estratega de cuentas para Google México, especializandose en la optimización y mejora de performance de las cuentas. Su foco está en los verticales de Turismo y Retail.</abstract>
+	</speaker>
+	<speaker>
+		<name>Nicolás Garber</name>
+		<company>AdWords</company>
+		<image>http://estoesgoogle.com/images/conf/conf_29.jpg</image>
+		<abstract>Nicolás trabaja como analista y consultor de clientes de AdWords, con foco en performance y retorno sobre la inversión. Con gran experiencia dentro del mercado mexicano, trabaja con los clientes de Google, asesorandolos en el desarrollo de su estrategia de Marketing Online.</abstract>
+	</speaker>
+	<speaker>
+		<name>Matías Sulzberger</name>
+		<company>AdWords</company>
+		<image>http://estoesgoogle.com/images/conf/conf_31.jpg</image>
+		<abstract>Matías trabaja en el desarrollo de clientes nuevos en AdWords. Asesora a clientes nuevos desde el momento cero, con foco en la educación, performance, y desarrollo de una estrategia online integral y adaptada a los objetivos publicitarios de la compañía.</abstract>
+	</speaker>
+	<speaker>
+		<name>Nicolás Maurette</name>
+		<company>AdWords</company>
+		<image>http://estoesgoogle.com/images/conf/conf_32.jpg</image>
+		<abstract>Nicolás trabaja como analista y consultor de clientes de AdWords, con foco en performance y retorno sobre la inversión. Luego de trabajar con agencias digitales en América Latina, ingresó al mercado mexicano, especializandose en desarrollo de cuentas con alto potencial de crecimiento.</abstract>
+	</speaker>
+	<speaker>
+		<name>Sebastián Hiernaux</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_3.jpg</image>
+		<abstract>Sebastián Hiernaux, egresado del Instituto Tecnológico Autónomo de México, forma parte del equipo de soluciones empresariales de Google Enterprise como experto en herramientas de Cómputo en la Nube para la empresa, el gobierno y la academia. A lo largo de su carrera profesional ha ejercido diversos puestos relacionados con la gestión de proyectos de implementación de sistemas computacionales, tanto en gobierno (Banco de México), como en empresas privadas (JPMorgan, Accenture, Reuters). Su principal enfoque consiste en mostrar, al sector educativo y a las empresas, el valor agregado de soluciones relacionadas con Cloud Computing y Software as a Service (SaaS) como nuevo paradigma de un mundo globalizado e interconectado.</abstract>
+	</speaker>
+	<speaker>
+		<name>David Cifuentes</name>
+		<company>Eforcers</company>
+		<image>http://estoesgoogle.com/images/conf/conf_33.jpg</image>
+		<abstract>David Cifuentes, líder de tecnología en Eforcers, con más de 4 años de experiencia profesional con tecnologías empresariales de Google, certificado Google Apps Certified Deployment Specialist ha liderado varias de las implementaciones más importantes y complejas de Google Apps en Colombia. Ingeniero de Sistemas y Magister de la Universidad de los Andes. Ha participado en eventos como el Google Dev Fest 2010 en México D.F y Campus Party en Bogotá. Co-fundador del GTUG Colombia (grupo de usuarios de tecnologías Google). Interés en desarrollo de aplicaciones sobre plataforma computación en la nube como Google App Engine, Google Apps Script y Google Apps Marketplace.</abstract>
+	</speaker>
+	<speaker>
+		<name>Campbell Foster</name>
+		<company>Google Inc.</company>
+		<image>http://estoesgoogle.com/images/conf/conf_28.jpg</image>
+		<abstract>Campbell Foster es el director de Marketing de Google Chrome For Business, y encabeza los esfuerzos para impulsar la adopción de Chrome entre compañías, escuelas y agencias gubernamentales. Antes de unirse al equipo de Chrome, Campbell se desempeñó como gerente industrial de Marketing dentro del equipo de Medios de Comunicación y Plataformas de Google, y fungió como director de Marketing dentro del equipo de gestión para DoubleClick Ad Exchange, guiando el negocio desde la planeación del pre-lanzamiento hasta la introducción en el mercado y las operaciones en curso. Antes de unirse a Google, construyó y dirigió el grupo de Marketing en SeamlessWeb, proveedor de servicios b-to-b y b-to-c, donde incrementó los ingresos de US $28MM a $ 128MM en tres años, situándose en la posición No.4 de las empresas del sector privado con más rápido crecimiento, en la lista publicada en 2006 por la revista Inc. Campbell obtuvo un MBA con honores de la NYU Stern School of Business y una licenciatura en Inglés y Ciencias Económicas por la Universidad de Cornell.</abstract>
+	</speaker>
 </speakers>

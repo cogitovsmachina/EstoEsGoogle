@@ -13,7 +13,7 @@
 		<room>1</room>
 		<track>Android</track>
 		<abstract>El crecimiento de Android en todo el mundo no está lejos de extraordinario y una parte fundamental de ello está en el gran ecosistema de desarrollo. En ésta sesión, presentaremos una perspectiva general de la plataforma, incluyendo la motivación para realizar aplicaciones móviles, un poco de historia y lo nuevo en las últimas versiones, así como una perspectiva general del SDK.</abstract>
-		<keywords>Android, SDK, Development, apps, mobile</keywords>
+		<keywords>android,SDK,development,app,mobile</keywords>
 	</session>
 		
 	<session>
@@ -26,7 +26,7 @@
 		<room>1</room>
 		<track>Android</track>
 		<abstract>¿Quieres hacer estupendos juegos para Android pero no eres un programador Java? Ésta plática es para tí, ya que Android soporta una serie de herramientas para construir aplicaciones en C/C++. En Diciembre 2010, se hicieron arreglos para hacer más fácil el desarrollo de juegos y la presentación cubrirá estos ajustes, lo nuevo en la plataforma y las mejores prácticas para construir y debuggear juegos con el NDK.</abstract>
-		<keywords>Android, Juegos, Development, apps, mobile, C, C++</keywords>
+		<keywords>android,juegos,development,app,mobile,C,C++</keywords>
 	</session>
 	
 	<session>
@@ -39,7 +39,7 @@
 		<room>1</room>
 		<track>Android</track>
 		<abstract>Sin importar que tan útil sea tu aplicación, a los usuarios no les gustan las aplicaciones lentas y que no responden: ¡El rendimiento es crucial! Ésta conferencia te presentará algunas técnicas para construir aplicaciones que sean fluídas, rápidas y fáciles de usar. También, aprenderás sobre las herramientas y técnicas que usamos para rastrear y reparar problemas de rendimiento.</abstract>
-		<keywords>Android, mobile, apps, usuario, rendimiento</keywords>
+		<keywords>android,mobile,app,usuario,rendimiento</keywords>
 	</session>
 	
 	<session>
@@ -52,7 +52,7 @@
 		<room>1</room>
 		<track>Android</track>
 		<abstract>Hay pocas cosas que a los desarrolladores les importan más que el Market de Android y, desde el Google IO 2010 hemos invertido gran cantidad de esfuerzos en expandirlo y mejorarlo. Ésta presentación cubre las novedades con un particular enfoque en donde los desarrolladores pueden tomar acción para mejorar el rendimiento de sus apps en el Market, así como las mejores prácticas de cobro In-App y la Librería de Verificación de Licencia.</abstract>
-		<keywords>Android, market, in-app, inapp, apps, mobile, licencia, cobro</keywords>
+		<keywords>android,market,in-app,app,mobile,licencia,cobro</keywords>
 	</session>
 	
 	<session>
@@ -65,7 +65,7 @@
 		<room>1</room>
 		<track>Android</track>
 		<abstract>En este laboratorio, el equipo Android te llevará a través de los pasos que necesitas para escribir tu primera aplicación Android, empezando por los básicos: instalar el ambiente, layouts, views, manejo de eventos, Activities e Intents. Al final de este laboratorio, tendrás una aplicación Android funcional que muestre una interfaz de usuario, lea entrada del usuario, mantenga datos a través de ejecuciones  e interactúe con otras aplicaciones.</abstract>
-		<keywords>Android, Intents, layouts, views, taller, activity, apps, mobile</keywords>
+		<keywords>android,taller,app,mobile</keywords>
 	</session>
 	
 	<session>
@@ -78,7 +78,7 @@
 		<room>1</room>
 		<track>Android</track>
 		<abstract>¿Qué hace la diferencia entre una buena y una excelente app de Android? Ahora que sabes como escribir código, este laboratorio te mostrará las mejores prácticas que debes adoptar para asegurarte que tu app provee una placentera experiencia de usuario, que incluye: ser responsiva, tener una apariencia profesional y correr bien en modo paisaje y retrato así como en diferentes tamaños de pantalla.</abstract>
-		<keywords>Android, usuario, retrato, paisaje, pantallas, apps, mobile</keywords>
+		<keywords>android,usuario,pantalla,app,mobile</keywords>
 	</session>
 	
 		<!-- Track 2 -->
@@ -93,7 +93,7 @@
 		<room>2</room>
 		<track>HTML y Mobile Web</track>
 		<abstract>No habrá HTML6 y la nueva era del desarrollo HTML está integrada por la continua innovación de desarrolladores y exploradores Web. Desde gráficos 3D hasta generadores de Audio, te mostraremos las maneras estándar de usar estas impresionantes y tan esperadas características.</abstract>
-		<keywords>Web, HTML5, Development, HTML</keywords>
+		<keywords>web,HTML5,development,html</keywords>
 	</session>
 	
 	<session>
@@ -105,6 +105,7 @@
 		
 		<room>2</room>
 		<track>HTML y Mobile Web</track>
+		<keywords>web,HTML5,development,html</keywords>
 	</session>
 	
 	<session>
@@ -546,7 +547,7 @@
 		<date>Wednesday August 10</date>
 		<time>7:00pm-7:50pm</time>
 		
-		<room>4</room>
+		<room>3</room>
 		<track>Usuarios</track>
 	</session>
 	
@@ -558,7 +559,7 @@
 		<date>Wednesday August 10</date>
 		<time>6:00pm-6:50pm</time>
 		
-		<room>1</room>
+		<room>4</room>
 		<track>Usuarios</track>
 	</session>
 	<session>
@@ -571,18 +572,259 @@
 		<room>4</room>
 		<track>Usuarios</track>
 	</session>
-	<!-- 
-	<session>
-		<title></title>
-		<speakers></speakers>
-		
-		<date></date>
-		<time></time>
-		
-		<room></room>
-		<track></track>
-		<abstract></abstract>
-		<keywords></keywords>
-	</session> -->
+	
 	<!-- Empresas -->
+		<!-- Track 1 -->
+	<session>
+		<title>E-Commerce en México</title>
+		<speakers>Mauricio Braverman</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>1</room>
+		<track>Respuesta Directa</track>
+	</session>
+	<session>
+		<title>Innovaciones En Google Search</title>
+		<speakers>John Farrell</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>1</room>
+		<track>Respuesta Directa</track>
+	</session>
+	<session>
+		<title>La información al alcance de tus dedos: Buscadores y plataformas móviles</title>
+		<speakers>Peter Fernández</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>12:00pm-12:50pm</time>
+		
+		<room>1</room>
+		<track>Respuesta Directa</track>
+	</session>
+	
+	<session>
+		<title>Ponente invitado: GM</title>
+		<speakers>General Motors</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>1</room>
+		<track>Respuesta Directa</track>
+	</session>
+	<session>
+		<title>Analytics</title>
+		<speakers>Justin Cutroni</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>1</room>
+		<track>Respuesta Directa</track>
+	</session>
+	<session>
+		<title>Panel de Analytics</title>
+		<speakers>Enrique Quevedo</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>4:00pm-4:50pm</time>
+		
+		<room>1</room>
+		<track>Respuesta Directa</track>
+	</session>
+	
+		<!-- Track 2 -->
+	<session>
+		<title>Panorama del Mercado: Internet extiende el alcance</title>
+		<speakers>Juliana Sawaia</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>2</room>
+		<track>Gerentes de Marca</track>
+	</session>
+	<session>
+		<title>Generando Awareness: Porqué Display</title>
+		<speakers>Flavia Verginelli</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>2</room>
+		<track>Gerentes de Marca</track>
+	</session>
+	<session>
+		<title>Casos de Éxito Mexicano</title>
+		<speakers>José Luis Ortega</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>12:00pm-12:50pm</time>
+		
+		<room>2</room>
+		<track>Gerentes de Marca</track>
+	</session>
+	
+	<session>
+		<title>Generando Engagement: Creative Canvas</title>
+		<speakers>Google The Zoo Creative Director</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>2</room>
+		<track>Gerentes de Marca</track>
+	</session>
+	<session>
+		<title>Bringing It All Together: Caso Corona Music</title>
+		<speakers>Jorge Ruiz,María Mañón,Fabiola Pérez,Carlos Fernández,Claudia Marín,Juan Carlos Morales</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>2</room>
+		<track>Gerentes de Marca</track>
+	</session>
+	<session>
+		<title>Posicionamiento De Marca En Plataformas Móviles</title>
+		<speakers>Peter Fernández</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>4:00pm-4:50pm</time>
+		
+		<room>2</room>
+		<track>Gerentes de Marca</track>
+	</session>
+	
+		<!-- Track 3 -->
+	<session>
+		<title>Google Places y la revolución social</title>
+		<speakers>Alex Rodríguez Torres</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>3</room>
+		<track>Soluciones Google: Como empezar</track>
+	</session>
+	<session>
+		<title>Plataformas sociales: El Proyecto Google+</title>
+		<speakers>Gopi Kallayil</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>3</room>
+		<track>Soluciones Google: Como empezar</track>
+	</session>
+	<session>
+		<title>Tus Primeros Pasos En AdWords</title>
+		<speakers>Nicolás Garber</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>12:00pm-12:50pm</time>
+		
+		<room>3</room>
+		<track>Soluciones Google: Como empezar</track>
+	</session>
+	
+	<session>
+		<title>Estrategias De Optimización En La Red De Búsqueda</title>
+		<speakers>Romina Rodríguez</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>3</room>
+		<track>Soluciones Google: Como empezar</track>
+	</session>
+	<session>
+		<title>Analizando Los Resultados De Tu Campaña</title>
+		<speakers>Matías Sulzberger</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>3</room>
+		<track>Soluciones Google: Como empezar</track>
+	</session>
+	<session>
+		<title>Oportunidades en Display</title>
+		<speakers>Nicolás Maurette</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>4:00pm-4:50pm</time>
+		
+		<room>3</room>
+		<track>Soluciones Google: Como empezar</track>
+	</session>
+	
+		<!-- Track 4 -->
+	<session>
+		<title>Visualización Geográfica En Los Negocios y el Gobierno</title>
+		<speakers>Miguel Monreal</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>10:00am-10:50am</time>
+		
+		<room>4</room>
+		<track>Soluciones Google para empresas</track>
+	</session>
+	<session>
+		<title>Google Apps y La Experiencia Completa En La Web 1a. Parte</title>
+		<speakers>Jorge Molina</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>11:00am-11:50am</time>
+		
+		<room>4</room>
+		<track>Soluciones Google para empresas</track>
+		<abstract>¿Por qué La Nube, Por qué Google?</abstract>
+	</session>
+	<session>
+		<title>Google Apps y La Experiencia Completa En La Web 2a. Parte</title>
+		<speakers>Sebastián Hiernaux</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>12:00pm-12:50pm</time>
+		
+		<room>4</room>
+		<track>Soluciones Google para empresas</track>
+		<abstract>Un Día En La Vida De Un Usuario De Google Apps</abstract>
+	</session>
+	
+	<session>
+		<title>Aplicaciones De Terceros Y El Google Apps Marketplace</title>
+		<speakers>David Cifuentes</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>2:00pm-2:50pm</time>
+		
+		<room>4</room>
+		<track>Soluciones Google para empresas</track>
+	</session>
+	<session>
+		<title>Enterprise Search: El Valor De Encontrar Informacióin En Tu Empresa</title>
+		<speakers>Miguel Monreal</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>3:00pm-3:50pm</time>
+		
+		<room>4</room>
+		<track>Soluciones Google para empresas</track>
+	</session>
+	<session>
+		<title>Chrome y Tu Negocio</title>
+		<speakers>Campbell Foster</speakers>
+		
+		<date>Thursday August 11</date>
+		<time>4:00pm-4:50pm</time>
+		
+		<room>4</room>
+		<track>Soluciones Google para empresas</track>
+	</session>
 </sessions>
