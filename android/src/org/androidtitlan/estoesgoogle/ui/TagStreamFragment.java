@@ -84,6 +84,7 @@ public class TagStreamFragment extends Fragment {
             public void run() {
                 mWebView.getSettings().setJavaScriptEnabled(true);
                 mWebView.getSettings().setJavaScriptCanOpenWindowsAutomatically(false);
+                mWebView.getSettings().setUserAgentString("Mozilla/5.0 (iPhone; U; CPU like Mac OS X; en) AppleWebKit/420+ (KHTML, like Gecko) Version/3.0 Mobile/1A543a Safari/419.3");
                     mWebView.loadUrl(
                     		"http://mobile.twitter.com/searches?q=%23EstoEsGoogle");
             }
@@ -100,26 +101,26 @@ public class TagStreamFragment extends Fragment {
         @Override
         public void onPageStarted(WebView view, String url, Bitmap favicon) {
             super.onPageStarted(view, url, favicon);
-            mLoadingSpinner.setVisibility(View.VISIBLE);
-            mWebView.setVisibility(View.INVISIBLE);
+//            mLoadingSpinner.setVisibility(View.VISIBLE);
+//            mWebView.setVisibility(View.INVISIBLE);
         }
 
-        @Override
-        public void onPageFinished(WebView view, String url) {
-            super.onPageFinished(view, url);
-            mLoadingSpinner.setVisibility(View.GONE);
-            mWebView.setVisibility(View.VISIBLE);
-        }
-
-        @Override
-        public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            if (url.startsWith("javascript")) {
-                return false;
-            }
-
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-            startActivity(intent);
-            return true;
-        }
+//        @Override
+//        public void onPageFinished(WebView view, String url) {
+//            super.onPageFinished(view, url);
+//            mLoadingSpinner.setVisibility(View.GONE);
+//            mWebView.setVisibility(View.VISIBLE);
+//        }
+//
+//        @Override
+//        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+//            if (url.startsWith("javascript")) {
+//                return false;
+//            }
+//
+//            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+//            startActivity(intent);
+//            return true;
+//        }
     };
 }
