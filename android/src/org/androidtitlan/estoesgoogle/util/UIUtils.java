@@ -212,7 +212,7 @@ public class UIUtils {
 
     public static Class getMapActivityClass(Context context) {
         if (UIUtils.isHoneycombTablet(context)) {
-            return MapMultiPaneActivity.class;
+            return MapActivity.class;
         }
 
         return MapActivity.class;
