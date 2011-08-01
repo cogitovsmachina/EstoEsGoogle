@@ -58,12 +58,12 @@ public class UIUtils {
      * Time zone to use when formatting all session times. To always use the
      * phone local time, use {@link TimeZone#getDefault()}.
      */
-    public static final TimeZone CONFERENCE_TIME_ZONE = TimeZone.getTimeZone("America/Los_Angeles");
+    public static final TimeZone CONFERENCE_TIME_ZONE = TimeZone.getTimeZone("America/Mexico_City");
 
     public static final long CONFERENCE_START_MILLIS = ParserUtils.parseTime(
-            "2011-08-09T09:00:00.000-07:00");
+            "2011-08-09T09:00:00.000-05:00");
     public static final long CONFERENCE_END_MILLIS = ParserUtils.parseTime(
-            "2011-08-11T17:30:00.000-07:00");
+            "2011-08-11T18:30:00.000-05:00");
 
     public static final Uri CONFERENCE_URL = Uri.parse("http://estoesgoogle.com/");
 

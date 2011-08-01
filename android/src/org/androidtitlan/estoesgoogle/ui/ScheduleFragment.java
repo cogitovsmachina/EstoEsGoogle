@@ -79,9 +79,9 @@ public class ScheduleFragment extends Fragment implements
     private static final int TIME_FLAGS = DateUtils.FORMAT_SHOW_DATE
             | DateUtils.FORMAT_SHOW_WEEKDAY | DateUtils.FORMAT_ABBREV_WEEKDAY;
     
-    private static final long LUNES = ParserUtils.parseTime("2011-08-09T00:00:00.000-07:00");
-    private static final long MARTES = ParserUtils.parseTime("2011-08-10T00:00:00.000-07:00");
-    private static final long MIERCOLES = ParserUtils.parseTime("2011-08-11T00:00:00.000-07:00");
+    private static final long LUNES = ParserUtils.parseTime("2011-08-09T00:00:00.000-05:00");
+    private static final long MARTES = ParserUtils.parseTime("2011-08-10T00:00:00.000-05:00");
+    private static final long MIERCOLES = ParserUtils.parseTime("2011-08-11T00:00:00.000-05:00");
 
     private static final int DISABLED_BLOCK_ALPHA = 100;
 
