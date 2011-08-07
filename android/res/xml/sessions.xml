@@ -344,17 +344,19 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>1</room>
 		<track>Gobierno</track>
 		<keywords>gobierno</keywords>
+		<abstract>¿Cómo suma la tecnología al servicio de la Transparencia y el Libre Acceso a la Información Pública? Open Data es la filosofía y práctica que persigue que determinados datos estén disponibles de forma libre a todo el mundo, sin restricciones de copyright, patente u otros mecanismos de control.</abstract>
 	</session>
 	
 	<session>
-		<title>TBC</title>
-		<speakers>TBC</speakers>
+		<title>Internet, democracia y organización social</title>
+		<speakers>Manuel Tamez</speakers>
 		
 		<date>Wednesday August 10</date>
 		<time>11:00am-11:50am</time>
 		
 		<room>1</room>
 		<track>Gobierno</track>
+		<abstract>Las nuevas tecnologías de la información y la comunicación pueden ayudar a tener una sociedad más democrática donde exista una mayor participación, una extensa capacidad de acción frente al poder, mayor y mejor debate y deliberación y más transparencia y rendición de cuentas.</abstract>
 	</session>
 	
 		<!-- Track 2 -->
@@ -369,6 +371,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>2</room>
 		<track>Gobierno</track>
 		<keywords>gobierno,app</keywords>
+		<abstract>El programa de Modernización “Zapopan Ciudad Digital” comprende la incorporación del uso de la tecnología para transformar la gestión municipal y servir mejor a sus habitantes. Incluye la unificación de todos los sistemas de información del municipio en una sola plataforma tecnológica que permite simplificar operaciones; la renovación de la infraestructura de telecomunicaciones y equipo de cómputo, así como el desarrollo de una nueva cultura organizacional basada en la eficiencia y mejora constante de los servicios a los ciudadanos.</abstract>
 	</session>
 	
 	<session>
@@ -381,6 +384,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>2</room>
 		<track>Gobierno</track>
 		<keywords>gobierno,GEO,mapa,maps</keywords>
+		<abstract>Saca provecho al sistema de información capaz de integrar, almacenar, editar, analizar, compartir y mostrar la información geográficamente referenciada.</abstract>
 	</session>
 	
 		<!-- Track 3 -->
@@ -395,6 +399,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>3</room>
 		<track>Gobierno</track>
 		<keywords>gobierno,web</keywords>
+		<abstract>Los internautas han modificado sus hábitos y consumo de medios, ello impone un nuevo reto para la campañas políticas que buscan generar impacto en la ciudadanía. Conoce cómo las herramientas de Google pueden ayuadarte a alcanzar este objetivo.</abstract>
 	</session>
 	
 	<session>
@@ -407,6 +412,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>3</room>
 		<track>Gobierno</track>
 		<keywords>web,gobierno,social</keywords>
+		<abstract>Las nuevas tecnologías de la información y la comunicación pueden ayudar a tener una sociedad más democrática donde exista una mayor participación, una extensa capacidad de acción frente al poder, mayor y mejor debate y deliberación y más transparencia y rendición de cuentas.</abstract>
 	</session>
 	
 		<!-- Track 4 -->
@@ -422,6 +428,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<track>Gobierno</track>
 		<abstract>Maps, Earth, APIs y Street View</abstract>
 		<keywords>gobierno,GEO,maps,mapa,soluciones,earth,API,street view</keywords>
+		<abstract>La información geográfica del mundo al alcance de tus dedos, conoce a profundidad cómo puedes llegar a cualquier parte del mundo de una manera fácil a través de la tecnología.</abstract>
 	</session>
 	
 	<session>
@@ -434,6 +441,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>4</room>
 		<track>Gobierno</track>
 		<keywords>gobierno,México</keywords>
+		<abstract>El uso de plataformas digitales permite alcanzar nuevas audiencias y difundir el mensaje de toda organización sin limitantes geográficas, culturales, etc. Ven y conoce como en Instituto Nacional de Antropología e Historia a incorporado distintas herramientas en línea para difundir sus labores y compartir con el mundo la cultura e historia de México.</abstract>
 	</session>
 	
 	
@@ -448,6 +456,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>1</room>
 		<track>ONG's y Educativas</track>
 		<keywords>ONG,social,México</keywords>
+		<abstract>Momento único para México en donde escucharás de las voces más activas en la sociedad mexicana y a nivel mundial en un llamado a favor de la paz con ayuda del activismo digital. ¡No te lo puedes perder!</abstract>
 	</session>
 		<!-- Track 1 -->
 	<session>
@@ -460,6 +469,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>1</room>
 		<track>ONG's y Educativas</track>
 		<keywords>ONG,web,adwords</keywords>
+		<abstract>Un gran porcentaje de los cibernautas en México acuden a un buscador para encontrar aquello que necesitan. Descubre como AdWords puede ayudarte a realizar campañas publicitarias dentro del buscador de Google y así poder entrar en contacto con tu público meta.</abstract>
 	</session>
 	<session>
 		<title>Google Grants</title>
@@ -471,6 +481,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>1</room>
 		<track>ONG's y Educativas</track>
 		<keywords>ONG</keywords>
+		<abstract>Google Grants es un programa exclusivo de donaciones que concede publicidad gratuita en AdWords a entidades de beneficiencia seleccionadas. El programa brinda apoyo a entidades que comparten nuestra filosofía de servicio a la comunidad en áreas tan diversas como la ciencia y la tecnología, la educación, la salud pública mundial, el medio ambiente, la defensa de la juventud y las artes.</abstract>
 	</session>
 		<!-- Track 2 -->
 	<session>
@@ -483,6 +494,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>2</room>
 		<track>ONG's y Educativas</track>
 		<keywords>ONG,fusion tables</keywords>
+		<abstract>Se trata de una herramienta que nos permite subir datos en formato de hoja de cálculo o CSV, con el objetivo de realizar un tratamiento de los mismos, presentarlos en mapas o gráficos, modificarlos en bloque, entre otros.</abstract>
 	</session>
 	<session>
 		<title>Google Earth and Sketchup</title>
@@ -494,6 +506,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>2</room>
 		<track>ONG's y Educativas</track>
 		<keywords>ONG,earth</keywords>
+		<abstract>Modelado en 3D para todos. Crea modelos de todo lo que puedas imaginar. Redecora tu sala, invéntate un mueble nuevo. Crea un modelo de tu ciudad para Google Earth. No hay límites a lo que puedes crear...</abstract>
 	</session>
 		<!-- Track 3 -->
 	<session>
@@ -506,6 +519,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>3</room>
 		<track>ONG's y Educativas</track>
 		<keywords>EDU,youtube,web</keywords>
+		<abstract>YouTube en la educación Las nuevas tecnologías han cambiado irreversiblemente la educación. Los pizarrones electrónicos han acabado con los gises, las calificaciones llegan por SMS, las clases son por correo electrónico y los alumnos ya no hacen cola para inscribirse o hacer cualquier trámite administrativo, les basta con acceder a la página web de su facultad...</abstract>
 	</session>
 	<session>
 		<title>Dándole voz a tu causa con YouTube</title>
@@ -517,6 +531,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>3</room>
 		<track>ONG's y Educativas</track>
 		<keywords>social,ONG,youtube,web</keywords>
+		<abstract>Sube y comparte de una forma sencilla tus videos donde grabaste las actividades que realizas en tu organización, en los que todos podrán ver cómo llevar acabo tu causa. Comparte tus experiencias de una forma sencilla, aquí sabrás cómo hacerlo.</abstract>
 	</session>
 		<!-- Track 4 -->
 	<session>
@@ -529,6 +544,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>4</room>
 		<track>ONG's y Educativas</track>
 		<keywords>social,web,app</keywords>
+		<abstract>Google Apps es un servicio de Google para uso de dominios de diversos productos ofrecidos por la red Google. Este servicio representa muchas aplicaciones para Internet con funcionamiento similar a los tradicionales programas para escritorio, incluido Gmail, Google Agenda, Talk, Docs y Sites. Conoce todo acerca de estas herramientas.</abstract>
 	</session>
 	<session>
 		<title>10 Tácticas Para Transformar La Información</title>
@@ -539,6 +555,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		
 		<room>4</room>
 		<track>ONG's y Educativas</track>
+		<abstract>Ven a conocer y reflexionar sobre como transformar la información en acción en el marco de la acción humanitaria utilizando las herramientas que tienes a tu alcance de una forma gratuita y sencilla.</abstract>
 	</session>
 	
 	<!-- Usuarios -->
@@ -553,6 +570,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>1</room>
 		<track>Usuarios</track>
 		<keywords>búsqueda,usuario</keywords>
+		<abstract>La aventura de buscar información comienza con tu navegador, así en esta charla conoceremos más sobre Google Chrome y el buscador de Google, descubriendo en ese recorrido consejos prácticos para realizar búsquedas más efectivas, rápidas y seguras.</abstract>
 	</session>
 	<session>
 		<title>Desarrollar proyectos y tareas en colaboración</title>
@@ -564,6 +582,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>1</room>
 		<track>Usuarios</track>
 		<keywords>usuario</keywords>
+		<abstract>Un clavado a la nube, la oportunidad ideal para conocer más sobre Google Apps y cómo poder realizar trabajos en colaboración con otras personas, sacándole el máximo provecho a todas esas herramientas que tienes a tu disposición desde el momento en que creaste una cuenta en GMail.</abstract>
 	</session>
 	
 		<!-- Track 2 -->
@@ -577,6 +596,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>2</room>
 		<track>Usuarios</track>
 		<keywords>usuario,places,social</keywords>
+		<abstract>Con Google Places podemos crear la ficha de información de tu organización que será integrada a Google Maps. De esta forma cuando seas buscado podrán obtener más información a cerca de ti, te encontrarán en forma local en Google Maps, como: ubicación, horario laboral, actividad a la que te dedicas, palabras clave que describan tu actividad, e incluso fotos de las instalaciones, productos (todo de manera optativa).</abstract>
 	</session>
 	<session>
 		<title>El Proyecto Google+</title>
@@ -588,6 +608,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>2</room>
 		<track>Usuarios</track>
 		<keywords>usuario,social,web</keywords>
+		<abstract>La comunicación es una de las necesidades básicas del ser humano. Hoy en día, las personas se comunican, cada vez más, a través de la red. En Google, queremos darle un toque más humano al software, que no pierda la espontaneidad, que sea mejor y, para eso, queremos incluirte a ti, tus intereses y relaciones. De esta manera comienza el Proyecto Google+.</abstract>
 	</session>
 	
 		<!-- Track 3 -->
@@ -601,6 +622,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>3</room>
 		<track>Usuarios</track>
 		<keywords>usuario,youtube,social</keywords>
+		<abstract>Crea y comparte videos más allá de entretener, más allá de solo ver, en YouTube también puedes aprender.</abstract>
 	</session>
 	<session>
 		<title>Generando valor a los creadores de contenido: Programa de Socios</title>
@@ -612,6 +634,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>3</room>
 		<track>Usuarios</track>
 		<keywords>usuario,youtube,social</keywords>
+		<abstract>Este programa abre a la comunidad en general este modelo y cualquier persona que considere que tiene contenido relevante puede dar su material y luego de un proceso de revisión puede ser un socio que monetizará su creatividad, aprende más cómo lograrlo.</abstract>
 	</session>
 	
 		<!-- Track 4 -->
@@ -625,6 +648,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>4</room>
 		<track>Usuarios</track>
 		<keywords>usuario,chrome,padres,web</keywords>
+		<abstract>Procurar que tu navegación en la web se realice en modo seguro es una labor prioritaria para Google. Nuestro equipo de Ingeniería dedica una gran cantidad de tiempo a desarrollar herramientas y programas con este fin. En esta sesión repasaremos algunas de las principales herramientas que tienes a tu disposición.</abstract>
 	</session>
 	<session>
 		<title>Las Mujeres e Internet</title>
@@ -636,6 +660,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 		<room>4</room>
 		<track>Usuarios</track>
 		<keywords>usuario,web,mujeres</keywords>
+		<abstract>La revolución femenina se ha dado en todos los ambitos, un grupo de mujeres con iniciativa buscan sacar provecho de la tecnología en su vida diaria, eres una de ellas o quieres serlo? Ven averiguar cómo.</abstract>
 	</session>
 	
 	<!-- Empresas -->
