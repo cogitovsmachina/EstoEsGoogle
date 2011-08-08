@@ -25,6 +25,8 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.SpannableString;
+import android.text.method.LinkMovementMethod;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -95,6 +97,7 @@ public class ActivityHelper {
      */
     
     public static void showAboutMessage(final Activity activity) {
+            
         AlertDialog.Builder about = new AlertDialog.Builder(activity)
                 .setTitle(R.string.about_title)
                 .setIcon(android.R.drawable.ic_dialog_info)
@@ -106,6 +109,8 @@ public class ActivityHelper {
                                 }
                             });
         about.show();
+     // Make the textview clickable. Must be called after show()   
+
     }
 
 	public boolean onKeyDown(int keyCode, KeyEvent event) {

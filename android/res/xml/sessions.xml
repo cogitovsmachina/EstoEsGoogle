@@ -668,6 +668,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>E-Commerce en México</title>
 		<speakers>Mauricio Braverman</speakers>
+		<abstract>Grandes oportunidades de negocios se abren a través del comercio electrónico. Conoce los paradigmas y como resolverlos.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>10:00am-10:50am</time>
@@ -679,6 +680,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Innovaciones En Google Search</title>
 		<speakers>John Farrell</speakers>
+		<abstract>Seguimos innovando, realiza búsquedas con todo lo que Google tiene para facilitar el encontrar lo que buscas en la gran red.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>11:00am-11:50am</time>
@@ -690,7 +692,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>La información al alcance de tus dedos: Buscadores y plataformas móviles</title>
 		<speakers>Peter Fernández</speakers>
-		
+		<abstract>Aquí encontrarás las aplicaciones más sencillas para tu móvil que te acompañan en todo momento.</abstract>
 		<date>Thursday August 11</date>
 		<time>12:00pm-12:50pm</time>
 		
@@ -702,7 +704,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Ponente invitado: GM</title>
 		<speakers>General Motors</speakers>
-		
+		<abstract>Escucharemos la gran experiencia vivida con GM en manos de Diane Duckworth, Gerente de CRM, Digital and Social Marketing de GM México.</abstract>
 		<date>Thursday August 11</date>
 		<time>2:00pm-2:50pm</time>
 		
@@ -713,6 +715,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Analytics</title>
 		<speakers>Justin Cutroni</speakers>
+		<abstract>Google Analytics es una solución de analítica web para empresas que proporciona información muy valiosa sobre el tráfico del sitio web y la eficacia del plan de marketing. Ahora, gracias a funciones potentes, flexibles y fáciles de usar, podrá ver y analizar el tráfico desde una perspectiva totalmente distinta. Google Analytics le ayudará a diseñar anuncios más orientados, a mejorar sus iniciativas de marketing y a crear sitios web que generen más conversiones.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>3:00pm-3:50pm</time>
@@ -724,6 +727,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Panel de Analytics</title>
 		<speakers>Enrique Quevedo</speakers>
+		<abstract>Vive los casos de expertos que han tenido la experiencia de tener Analytics en sus sitios. Casos de éxito.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>4:00pm-4:50pm</time>
@@ -737,6 +741,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Panorama del Mercado: Internet extiende el alcance</title>
 		<speakers>Juliana Sawaia</speakers>
+		<abstract>IBOPE AGB México es el grupo líder en métrica y generación de conocimiento sobre audiencias de medios de comunicación en México, con más de 20 años de experiencia y reconocido prestigio. Esta firma pertenece a la red IBOPE Internacional - AGB Nielsen Media Research con presencia en más de 40 países. Conoce de fuente fidedigna el panorama del mercado en Internet.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>10:00am-10:50am</time>
@@ -748,6 +753,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Generando Awareness: Porqué Display</title>
 		<speakers>Flavia Verginelli</speakers>
+		<abstract>Tendencias de mercado y usuarios, generando conocimiento y lealtad de marca en línea.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>11:00am-11:50am</time>
@@ -759,6 +765,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Casos de Éxito Mexicano</title>
 		<speakers>José Luis Ortega</speakers>
+		<abstract>Danone, Nissan y IUSACELL comparten su experiencia al utilizar las soluciones de display que Google ofrece.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>12:00pm-12:50pm</time>
@@ -771,6 +778,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Generando Engagement: Creative Canvas</title>
 		<speakers>Google The Zoo Creative Director</speakers>
+		<abstract>El futuro de la publicidad en el ámbito digital.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>2:00pm-2:50pm</time>
@@ -782,6 +790,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Bringing It All Together: Caso Corona Music</title>
 		<speakers>Jorge Ruiz,María Mañón,Fabiola Pérez,Carlos Fernández,Claudia Marín,Juan Carlos Morales</speakers>
+		<abstract>Vive la experiencia, directamente de un caso de éxito de una plataforma de contenidos digitales.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>3:00pm-3:50pm</time>
@@ -793,6 +802,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Posicionamiento De Marca En Plataformas Móviles</title>
 		<speakers>Peter Fernández</speakers>
+		<abstract>Posicionamiento de marca en plataformas móviles.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>4:00pm-4:50pm</time>
@@ -806,28 +816,31 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Google Places y la revolución social</title>
 		<speakers>Alex Rodríguez Torres</speakers>
+		<abstract>Con Google Places podemos crear la ficha de información de tu organización que será integrada a Google Maps. De esta forma cuando seas buscado pordran obtener informacion acerca de ti, te encontrarán en forma local en Google Maps, como: dirección (domicilio), horario laboral, actividad a la que que se dedican, palabras clave que describan tu actividad, e incluso fotos de las instalaciones, productos o del escaparate.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>10:00am-10:50am</time>
 		
 		<room>3</room>
 		<track>Soluciones Google: Como empezar</track>
-		<keywords>soluciones,places,social</keywords>
+		<keywords>soluciones,places,social,geolocalizacion</keywords>
 	</session>
 	<session>
 		<title>Plataformas sociales: El Proyecto Google+</title>
 		<speakers>Gopi Kallayil</speakers>
+		<abstract>La comunicación es una de las necesidades básicas del ser humano. Hoy en día, las personas se comunican, cada vez más, a través de la red. En Google, queremos darle un toque más humano al software, que no pierda la espontaneidad, que sea mejor y, para eso, queremos incluirte a ti, tus intereses y relaciones. De esta manera comienza el Proyecto Google+</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>11:00am-11:50am</time>
 		
 		<room>3</room>
 		<track>Soluciones Google: Como empezar</track>
-		<keywords>soluciones,social</keywords>
+		<keywords>soluciones,social,google+</keywords>
 	</session>
 	<session>
 		<title>Tus Primeros Pasos En AdWords</title>
 		<speakers>Nicolás Garber</speakers>
+		<abstract>Un gran porcentaje de los cibernautas en México acuden a un buscador para encontrar aquello que necesitan. Descubre como AdWords puede ayudarte a realizar campañas publicitarias dentro del buscador de Google y así poder entrar en contacto con tu público meta de forma sencilla.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>12:00pm-12:50pm</time>
@@ -840,6 +853,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Estrategias De Optimización En La Red De Búsqueda</title>
 		<speakers>Romina Rodríguez</speakers>
+		<abstract>La aventura de buscar información comienza con tu navegador.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>2:00pm-2:50pm</time>
@@ -851,6 +865,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Analizando Los Resultados De Tu Campaña</title>
 		<speakers>Matías Sulzberger</speakers>
+		<abstract>Conoce funciones potentes, flexibles y fáciles de usar, podrá ver y analizar el tráfico desde una perspectiva totalmente distinta. Google Analytics le ayudará a diseñar anuncios más orientados, a mejorar sus iniciativas de marketing y a crear sitios web que generen más conversiones.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>3:00pm-3:50pm</time>
@@ -862,6 +877,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Oportunidades en Display</title>
 		<speakers>Nicolás Maurette</speakers>
+		<abstract>Tendencias de mercado y usuarios, generando conocimiento y lealtad de marca en línea.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>4:00pm-4:50pm</time>
@@ -875,6 +891,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Visualización Geográfica En Los Negocios y el Gobierno</title>
 		<speakers>Miguel Monreal</speakers>
+		<abstract>El uso de plataformas digitales permite alcanzar nuevas audiencias y difundir el mensaje de toda organización sin limitantes geográficas, culturales, etc. Conoce la forma más sencilla de lograrlo.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>10:00am-10:50am</time>
@@ -886,31 +903,32 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Google Apps y La Experiencia Completa En La Web 1a. Parte</title>
 		<speakers>Jorge Molina</speakers>
+		<abstract>Algunas de las razones de la nube: Porque tienes acceso a las aplicaciones desde cualquier dispositivo conectado a Internet, Porque son muy fáciles de utilizar, Porque son herramientas ideales para la comunicación y el trabajo en equipo, Porque supone una reducción de costos...conoce más del por qué.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>11:00am-11:50am</time>
 		
 		<room>4</room>
 		<track>Soluciones Google para empresas</track>
-		<abstract>¿Por qué La Nube, Por qué Google?</abstract>
 		<keywords>soluciones,empresas,web,nube</keywords>
 	</session>
 	<session>
 		<title>Google Apps y La Experiencia Completa En La Web 2a. Parte</title>
 		<speakers>Sebastián Hiernaux</speakers>
+		<abstract>Expositores compartirán contigo la experiencia que han tenido al ser usuarios de Google Apps, vive la experiencia.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>12:00pm-12:50pm</time>
 		
 		<room>4</room>
 		<track>Soluciones Google para empresas</track>
-		<abstract>Un Día En La Vida De Un Usuario De Google Apps</abstract>
 		<keywords>soluciones,empresas,app,web</keywords>
 	</session>
 	
 	<session>
 		<title>Aplicaciones De Terceros Y El Google Apps Marketplace</title>
 		<speakers>David Cifuentes</speakers>
+		<abstract>Google Apps Marketplace es importante: cualquier desarrollador podrá crear su aplicación integrable con Google Apps y podrá entrar en la tienda de aplicaciones en la nube de Google, de modo que cualquier usuario y/o empresa de Google Apps podrá ver la aplicación de un desarrollador perfectamente integrada en su Gmail, o en su Google Calendar.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>2:00pm-2:50pm</time>
@@ -922,6 +940,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Enterprise Search: El Valor De Encontrar Informacióin En Tu Empresa</title>
 		<speakers>Miguel Monreal</speakers>
+		<abstract>La búsqueda empresarial es la práctica de hacer que el contenido de múltiples fuentes de tipo empresarial, como bases de datos e intranets, encuentren a un público definido.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>3:00pm-3:50pm</time>
@@ -933,6 +952,7 @@ En ésta sesión se analizará un segmento conceptual metodológico donde se pro
 	<session>
 		<title>Chrome y Tu Negocio</title>
 		<speakers>Campbell Foster</speakers>
+		<abstract>Google Chrome es un navegador web desarrollado por Google y compilado con base en componentes de código abierto como el motor de renderizado de WebKit y su estructura de desarrollo de aplicaciones.</abstract>
 		
 		<date>Thursday August 11</date>
 		<time>4:00pm-4:50pm</time>

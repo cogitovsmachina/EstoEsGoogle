@@ -119,7 +119,7 @@
 
     <string name="permission_write">Modify Google I/O schedule data</string>
 
-    <string name="toast_now_not_visible">Presiona este botón durante el evento para mostrar los eventos del momento.</string>
+    <string name="toast_now_not_visible">Presiona este botón durante Esto Es Google para mostrar las sesiones del momento.</string>
 
     <!-- Notes integration -->
     <string name="notes_catch_powered_by">Notes es desarrollado por <a href="http://www.catch.com/">Catch.com</a>.</string>
